@@ -1,0 +1,24 @@
+Architectures: iphoneos-arm
+Date: Mon, 01 Jun 2020 17:09:17 +0000
+Label: Procursus
+Origin: Procursus
+MD5Sum:
+ 7d6ec00cb528a737e75789bb08f95360            88430 Packages
+ a3a41ce089d4e5c8c503d9a24efce7a3            28300 Packages.xz
+ 08e319d48b1c72944b4aed43a0f1b030            28928 Packages.zst
+ 22727febef9493c841d3f029a38ea70e              101 Release
+SHA1:
+ da39af6680aed6f94cd300da725550f66773554d            88430 Packages
+ f01a6508e19dbff387834ab9010f65bdecd77d3b            28300 Packages.xz
+ fe2ce643cb0a126913a126dced7694bba96769bc            28928 Packages.zst
+ ecbedd6056bbab1d677e2e24e0b442ff35912ac2              101 Release
+SHA256:
+ a792134cf288a7a2dfbbcf0df12a3e9a13da6bea54cef3c239ed53244459a0df            88430 Packages
+ 7504f42291a096a0dc46e7784c60e406efea3929ad44c3e879ba5417773eafaa            28300 Packages.xz
+ ecdfe421321fefe2f97e854390e512d6bbd55c1aaaff9a3279e6790cd09fe4df            28928 Packages.zst
+ 487f5e1064ee6c64fbf306972a08b218b7c994d3264258eef114c71e327d12f7              101 Release
+SHA512:
+ 7001f9166856988f00d1cdf71e26d2627363313357ec3b28f2113a73e617efb41da3dda2c8660759104d4632825bad863bc923b2cc13b42bf9900ac177d93980            88430 Packages
+ 1614f08324664659be855923096fc82775da95a8fc5d513aaa3b39066a1dc7cbeed6f85c72ff07fe697ed05a73a2f52e728662bbae63ce4e043defc338bcddd4            28300 Packages.xz
+ c7aadb2d58e06eeae3c4801a5c0475233f5107c7159b7a7e5c63cc05a80c0bc7b9fc5be49dbc22b9a634f273ae163bb67a99684009ba11a556b4edda1f56d7f0            28928 Packages.zst
+ 3265b3ee2f5bab74f1e9d1685c1ea58a8a1ebc636f5d45f4d0a7981742541c4634dc36d9a5daff49f190360aa7ba52846e32fb55ee909d9747bc10d804b45d18              101 Release

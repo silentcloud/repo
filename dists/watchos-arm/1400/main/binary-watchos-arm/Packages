@@ -1,0 +1,1859 @@
+Package: adv-cmds
+Architecture: watchos-arm
+Version: 174.0.1
+Multi-Arch: foreign
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1192
+Depends: ncurses
+Filename: pool/main/watchos-arm/1400/adv-cmds_174.0.1_watchos-arm.deb
+Size: 68132
+MD5sum: 4531b085907e31ab57c6ac4fc250ba34
+SHA1: 75c68352cf82aabfb3701930f450a9f02dd1ceee
+SHA256: 6ad6086dcbc3eba8b83254032bcb5552456b0b97b577a190b9eaae319ae3b4d5
+SHA512: c69e223fdc38bc8985e62223b35303e97b9ad034e0bd3cdcafe86112539f346497474db9a57ca99dfa96cd8d0204fdde04cf99a7431c4b1d33b7b2c11f805f6b
+Description: cap_mkdb, finger, last, locale, lsvfs, tabs
+
+Package: apt-dev
+Architecture: watchos-arm
+Version: 2.1.1
+Priority: standard
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1176
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt (=2.1.1)
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
+Replaces: libapt-pkg-dev
+Filename: pool/main/watchos-arm/1400/apt-dev_2.1.1_watchos-arm.deb
+Size: 93976
+MD5sum: 1f979b3169d315c5fff8db277111a6ff
+SHA1: 8f962aba96d2a77f298ce58ffbe91d21db123f4c
+SHA256: 6b34cb126bcd646c0ef8110e4c10c0b47df179229f1c2028c518431ec0848baf
+SHA512: c2480d626a289a3b1d29568daac17cbc90b9af572535982aa0df61627dee77a6c6a431db4c3d701bdbfaf874c1be59b292fc78e0976d7ecc73221250073900f2
+Description: Advanced Packaging Tool (APT) Development Files
+Name: APT (Devel)
+
+Package: apt-utils
+Architecture: watchos-arm
+Version: 2.1.1
+Priority: standard
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1064
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt (=2.1.1), berkeleydb
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
+Filename: pool/main/watchos-arm/1400/apt-utils_2.1.1_watchos-arm.deb
+Size: 110396
+MD5sum: 24025134bd9df7ed5cb233b5cd55c812
+SHA1: 00d8eed265e2b029ba315fb94b9f9c218fbd120e
+SHA256: dc1bab71f8006a292dd8b8e44fea7f551b115686d1c6cfa1ca5b4eacf615dcec
+SHA512: a147fec4fe1f487dd9ea4547800b0af4b3a3568d150fa0892e6f2cdf584de2290ceb20dcd790e50f24e78a318f925eb5a48374c2c8ede170d5ba8162ed7534ef
+Description: Advanced Packaging Tool (APT) Extra Utilities
+Name: APT (Utilities)
+
+Package: apt
+Architecture: watchos-arm
+Version: 2.1.1
+Priority: required
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 6312
+Provides: apt1.8 (=2.1.1), apt-lib (=2.1.1), libapt (=2.1.1), apt-key (=2.1.1)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gnupg, libgcrypt, dpkg (>= 1.19.0), lz4, xz-utils, zstd
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<2.0.0), libapt (<<2.0.0)
+Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
+Filename: pool/main/watchos-arm/1400/apt_2.1.1_watchos-arm.deb
+Size: 832412
+MD5sum: d92e052400d8247de5fdaeb6549d1211
+SHA1: 903684b5e64088da3d76bc457ed558edb74e352a
+SHA256: b64499dd9e3721509ffc25a11b7999d935c5ad340c47a4bea209f28658aae18e
+SHA512: 63448f055fb0baa456c513ef6661c11b1985de5b1ff09557727d967b9a7e694a48d5c06cb4d299423931f299a36733e885ae97b18854f4ffb10389a044f886e6
+Description: Advanced Packaging Tool (APT)
+Name: APT
+
+Package: base
+Architecture: watchos-arm
+Version: 1-5
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Filename: pool/main/watchos-arm/1400/base_1-5_watchos-arm.deb
+Size: 1704
+MD5sum: 7cb5a81335cb274d03173b708ccebfee
+SHA1: bb34f1d50a98fa79b12ecc84f243de8c08584097
+SHA256: 1b9648c2e79c22a58c378c9cab845e04ffa21c840ec4068cb62524a6daed9469
+SHA512: 222d257ea22f0ab5ede879c0f89b8011243928f208ba4ab081f1b0b205f1a8793699144db09269360058899e0f745db1a4bcea2eee3f56fb3742034d93f1f711
+Description: underlying system directory structure
+Tag: purpose::backend, role::hacker
+Name: Base Structure
+
+Package: bash
+Architecture: watchos-arm
+Version: 5.0.17
+Priority: optional
+Section: Terminal_Support
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5048
+Pre-Depends: readline (>= 8.0), profile.d (>= 0-5)
+Depends: grep, ncurses, readline, sed
+Filename: pool/main/watchos-arm/1400/bash_5.0.17_watchos-arm.deb
+Size: 414000
+MD5sum: 138619cfdfc387499a028a25f3714e1f
+SHA1: 544e1093b7f019a81a305ace2add8914beb738ab
+SHA256: 2d43cd1137718e5bce08f22525aceccbd06fc406fb776ab53c3b1dbf67576e86
+SHA512: a6f144e4a394d4dc8da50a4d9ce73e5db15976685ef5589a383665f00712ba8e2142c8f5fc588cbd14f85b0affccc78a861a76026a3f52daa9a134d9661f4ae9
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox
+Name: Bourne-Again SHell
+
+Package: basic-cmds
+Architecture: watchos-arm
+Version: 55
+Multi-Arch: foreign
+Priority: important
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 416
+Filename: pool/main/watchos-arm/1400/basic-cmds_55_watchos-arm.deb
+Size: 11116
+MD5sum: 5dff1ce4b8e359cdd0792d0b56a070c7
+SHA1: b51be61fe5bc30ecd310ae37f5f058087a20225d
+SHA256: 4ccdf3b3dd8d977dfc9009299e5f8ba8ac1086a7004c972e16f668fe363a81df
+SHA512: be567d5a78c85219fc5abee5147ea1958db6c684bceac5891a479a65dd52260fc93644d9435696545d85f27f7aaf8741f3350774a31b8f7d8b5a644345db7485
+Description: msg, uudecode, uuencode, write
+Tag: purpose::console, role::hacker
+
+Package: berkeleydb
+Architecture: watchos-arm
+Version: 18.1.32
+Priority: standard
+Section: Data_Storage
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 4848
+Depends: gettext, libssl1.1
+Filename: pool/main/watchos-arm/1400/berkeleydb_18.1.32_watchos-arm.deb
+Size: 743208
+MD5sum: 49ece84ccb3dbfee29729b33e7e040a9
+SHA1: 5e5e6bd71f2e2724dd1bd032e2be7d8ee70b9f28
+SHA256: fc24a5eb9ac3b168201cd6aa95d3e74e884c252b545ecde34fb444434bb457ee
+SHA512: bdd28e442baffcf0f1fd41ed6cc359140f3d7446b9ef6a81724e7a48cf5f25ccf2fbbb1933a2d94c91899285481c7ae49977e1323f46ed46534bc4493a11d528
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Oracle's embeddable database engine
+Name: Berkeley DB
+
+Package: bootstrap-cmds
+Architecture: watchos-arm
+Version: 116
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 512
+Filename: pool/main/watchos-arm/1400/bootstrap-cmds_116_watchos-arm.deb
+Size: 73332
+MD5sum: e908b694f84147135f63ebebbe3a0250
+SHA1: 9d96f08a4842a1411573f0b5310aa12ef15ab1a4
+SHA256: 8b91c27fc24e82dcc2e0f1b4ea1b3c5a779eec2ecc7fd37b115045189791ce31
+SHA512: ae855b1dec66ffaaa916cd72ba909a09e071f142b62f5537e31358c9381ebb72eef0ed30df6a81131ffa02975608bd85df1ed2a7a3243a9fc178b0e6a2dadd0c
+Description: Mach interface and stub generator
+Tag: purpose::console, role::developer
+Name: Bootstrap Commands
+
+Package: bzip2
+Architecture: watchos-arm
+Version: 1.0.8
+Priority: important
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 768
+Filename: pool/main/watchos-arm/1400/bzip2_1.0.8_watchos-arm.deb
+Size: 43576
+MD5sum: 029c5c4b1fa7f6b6f1524a3c3ab444fd
+SHA1: c355a5afe76385a90a2476b8540d32569a0f1fda
+SHA256: 470bbfabfaf1081d03d73a4f400cc2f25759baae52ba86c1a2e684237f168bb6
+SHA512: 7a121bcba46c07cc4aa643d4cee0d9e81bb9c54daa81e4ecd5054adfd2f063fb868783c299e063088842e58a63d87e4e0dc715d73bc1e1daee86f5402d08e845
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
+
+Package: ca-certificates
+Architecture: all
+Version: 0.0.3
+Multi-Arch: foreign
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 448
+Provides: org.thebigboss.cacerts
+Depends: firmware (>= 2.0)
+Conflicts: org.thebigboss.cacerts, openssl (<< 1.0.2r)
+Replaces: org.thebigboss.cacerts
+Filename: pool/main/watchos-arm/1400/ca-certificates_0.0.3_watchos-arm.deb
+Size: 121948
+MD5sum: 63f63064801e93bcec605c29d3a43470
+SHA1: b773bb309340370a55e56e6994c6f34fc3f4906f
+SHA256: 7cbfc4fa79fe187dff7ecb96026ee253213b5704105ed376f852369384ab183f
+SHA512: a18468b4e98dc43e37c75814b829425b816fd20a64a8813d31fd857328c069f1faa5104abb2ffc5e3fdbb0092fe9f082bca80003f76d9f19a250eb9fafbb4442
+Description: CA certs for curl, wget, git.
+Name: CA Certs
+
+Package: coreutils
+Architecture: watchos-arm
+Version: 8.32
+Priority: standard
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 44496
+Provides: md5sum, sha1sum, coreutils-bin (=8.32), dirname, kill, mktemp, su
+Depends: bash, profile.d, gettext
+Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 118-5)
+Filename: pool/main/watchos-arm/1400/coreutils_8.32_watchos-arm.deb
+Size: 2429320
+MD5sum: 63e0afa990ea51b72be15b9c045f816f
+SHA1: 55d8451dd82b2b870a6bf3adde52b43ed785bccf
+SHA256: 3bf27e6ff52407084d0ab0e503a3cec6c6b301a66963c5ecd846bec79b40fe74
+SHA512: 9e90fc58c320cb44b110e9948d536bdf6ee0f4725a72334268433524ddfac2f338e9fcc7e8074e2fe97e1635c68446dc008591f2d93273ef181b5d8812e8ec88
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
+
+Package: curl
+Architecture: watchos-arm
+Version: 7.69.1
+Priority: standard
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 6288
+Depends: libnghttp2-14, libssh2, libssl1.1, libidn2
+Filename: pool/main/watchos-arm/1400/curl_7.69.1_watchos-arm.deb
+Size: 563768
+MD5sum: 8833b37e2e36c84b67db3641a32b7724
+SHA1: 328718bd8f52d691550205df8952b371abfe1977
+SHA256: 288751610c91c4e436d684af6201331b2fedfe647666647e3febfa2cfaa19dde
+SHA512: 190ac7ec49ecb11bbbd06e538c35689f380f5856ec1d32a4c39564ba4c680839d24617d36528a5c36866be4d0cf62e7ebb8159b7a30dc65ad0035ab9d56eac18
+Homepage: http://curl.haxx.se/
+Description: flexible multi-protocol file transfers
+Tag: purpose::console, role::hacker
+Name: cURL
+
+Package: darwintools
+Architecture: watchos-arm
+Version: 1.2
+Priority: required
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 208
+Depends: apt (>= 2.0.2), system-cmds, uikittools (>= 2.0.0)
+Filename: pool/main/watchos-arm/1400/darwintools_1.2_watchos-arm.deb
+Size: 9800
+MD5sum: f774221e970d12e84fd4ee7f37064812
+SHA1: be1fb35ee010dca93992dc43e5a4121278e2a355
+SHA256: 16eaceacea381d766204b44b668722b236543195446503dc1eef28e084e594b6
+SHA512: e9c59345255980037f6ccb7dd11fe95615c158b8429118aec665612458a9e865236101dbd1b460a2e42d666e79b07046f8477be4cb9091d7f61beb28ed200983
+Description: sw_vers, firmware(.sh)
+Name: Darwin Tools
+
+Package: debianutils
+Architecture: watchos-arm
+Version: 4.9.1
+Priority: required
+Essential: yes
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 112
+Filename: pool/main/watchos-arm/1400/debianutils_4.9.1_watchos-arm.deb
+Size: 7404
+MD5sum: 0840b55f43e86c5cc81445b407ef4e9f
+SHA1: 424ff37eba57039313c4ba49c321058b48a7af6a
+SHA256: c8e7937ff3f6acea67181385424a276bd8621e0006f32a0ea36b608f1cab76a1
+SHA512: 6689744c06a0a7e5070274dd981a71f1b1ea082b357a0bd896092477f95f6f1c09251bd644c7bad173fa809b19a341582738e69bc0fbce7332d934fb7f11d6f1
+Description: pretty much just run-parts. yep? run-parts
+Name: Debian Utilities
+
+Package: developer-cmds
+Architecture: watchos-arm
+Version: 66
+Multi-Arch: foreign
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 432
+Filename: pool/main/watchos-arm/1400/developer-cmds_66_watchos-arm.deb
+Size: 43224
+MD5sum: 05a209258ad9b5acb94023d54aa88939
+SHA1: 804e371f7c14167081efcad8e3e284252d75cc3a
+SHA256: 12577f6c8060e700fbb20ecf666616ebd9c977b5032885105fe2ebc352128851
+SHA512: 58d224026e32de711d4e7e22a35c45b7277e21b059ee7e5628146e3690fa69aa764f1e8f1471fcbec01513f1483d1aa05a74916ef52356e9a7369e45df210864
+Description: ctags, rpcgen, unifdef
+Tag: purpose::console, role::developer
+
+Package: diffutils
+Architecture: watchos-arm
+Version: 3.7
+Multi-Arch: foreign
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3032
+Depends: gettext
+Filename: pool/main/watchos-arm/1400/diffutils_3.7_watchos-arm.deb
+Size: 272412
+MD5sum: a3a2a6c42fb95ffd64ffdd6de2ab9a78
+SHA1: 2ebb5147da839f46db0650c4a3a59357e4d6a591
+SHA256: 451e7adc7fc30e8c9107f3f182630a6155aae0be5e1c804f4ec2a84ee99799ad
+SHA512: 79eb49fd15eef3ce20abfb1b375866b8f3ea5f95e8a2942c207398317c08e5bd4832933bee2080d1b78f352326b2176c24c6db36d6cf06580ca38c5591c9459e
+Homepage: http://www.gnu.org/software/diffutils/
+Description: compare two files for differences
+Name: Diff Utilities
+
+Package: diskdev-cmds
+Architecture: watchos-arm
+Version: 593.230.1
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1728
+Filename: pool/main/watchos-arm/1400/diskdev-cmds_593.230.1_watchos-arm.deb
+Size: 54204
+MD5sum: 6f7d5b90a7d7c6ef4a5c78ac36a44c8b
+SHA1: f9ff971a6fc26e596c7157d72a902c8061d3836a
+SHA256: e6234948d8c6cc8f56118884e2cfd5c860a71467a991b79432eec3440151bf85
+SHA512: ea55a4c3259a366cd11e4f48727a1bc747577cbd44935c1ca86e51f44c8a28bdfb4add177df17424e83f274f5ab90edd2ba09e87ea4fbb836bc6975c2b33d3a7
+Description: mount, quota, fsck, fstyp, fdisk, tunefs
+Tag: purpose::console, role::sysadmn
+
+Package: dpkg-dev
+Architecture: watchos-arm
+Version: 1.20.0
+Priority: optional
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2016
+Depends: dpkg, perl
+Replaces: dpkg-perl
+Filename: pool/main/watchos-arm/1400/dpkg-dev_1.20.0_watchos-arm.deb
+Size: 158264
+MD5sum: 56d616da952a1b9e8c55ce6a376277e8
+SHA1: fbb54e70e9dd1abefe870b947b7166561832440d
+SHA256: 4bf5c8776a66ed19435c4d50daac41842c39cf389143511c91672495179c6668
+SHA512: 1da819d641e2e66aeca11daf876171484093cce262c7027f009d98a4e6765bc8b7d03434c4244e3b21f5c2682da65608ff8719f01fc15181150745e508847ceb
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages.
+Name: Debian Packager (Devel)
+
+Package: dpkg
+Architecture: watchos-arm
+Version: 1.20.0
+Priority: required
+Essential: yes
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2392
+Pre-Depends: tar (>= 1.23)
+Depends: bash, coreutils, diffutils, tar, xz-utils, bzip2, gzip, gettext, zstd
+Filename: pool/main/watchos-arm/1400/dpkg_1.20.0_watchos-arm.deb
+Size: 242416
+MD5sum: 726affcbfc9d32084e3fe4d1e7e6781e
+SHA1: 43838e8fa2e4f7929da9df72a8faef53bae0c01b
+SHA256: d79107a0883b9535cef77aec70507988a2f90fb036b0e9b89a21c96acfaadb99
+SHA512: 1529ee2780a1c1c8be9ee078566b4dfc788d403a38b23061a63452553147a19d63c1c0f94873d7c90be2edfac94f727ea6d2d45e2a8ca5640c69407b75d719c0
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
+
+Package: essential
+Architecture: watchos-arm
+Version: 0-3
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Pre-Depends: bootstrap | dpkg (>= 1.19.0)
+Depends: cydia | org.coolstar.sileo | xyz.willy.zebra | me.apptapp.installer
+Filename: pool/main/watchos-arm/1400/essential_0-3_watchos-arm.deb
+Size: 892
+MD5sum: e45d23152f4eb873220cd827d37e9af6
+SHA1: b437d098535d55c019764bebb15fe16bb462fe34
+SHA256: 7f3bc6121a1a6ba15f514c3fc5c199cc6bd1d6be59462510a3c91aa1ce54b253
+SHA512: 924b44c49b4984ab9989998de7bc259a9f64f3ccd3ab145989919c432e03caaec770a0dac528321df3ccbe20a8ddbd923018a4a0f0fb2d641e91ff2d8fd002f1
+Description: contains nothing, represents everything
+Tag: cydia::essential, role::goddess
+Depiction: http://cydia.saurik.com/info/essential/
+Name: Essential
+
+Package: fakeroot
+Architecture: watchos-arm
+Version: 1.24
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 504
+Depends: shell-cmds (>= 118-8)
+Filename: pool/main/watchos-arm/1400/fakeroot_1.24_watchos-arm.deb
+Size: 49172
+MD5sum: 9b4979e2bff7440153c07d9212981f82
+SHA1: 1d653bc27a6c6220c199c712d244f2323e372255
+SHA256: 19426855c0796d93ba713270b45e788932fc8ebf6bb4ada8075952fe66edddac
+SHA512: 44abf7afd9bb0716dcdbb4d2ba12a0c5096365041e921a92c494fcb661ab64b79d683e0047a6c59c2385da20e33ebc2844d231e06e86fbbdbedb957e82bcc354
+Description: tool for simulating superuser privileges
+Tag: purpose::console, role::developer
+
+Package: file-cmds
+Architecture: watchos-arm
+Version: 272.250.1
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 752
+Filename: pool/main/watchos-arm/1400/file-cmds_272.250.1_watchos-arm.deb
+Size: 62700
+MD5sum: c50799e61d3dc2a90083a6a2b73601ec
+SHA1: cb8d6c8acb303283f21e3dd6bc961aa4073c107e
+SHA256: bd9a887045012f98043cc8ee2d60d09264686f1e13a2746edfe40331be693007
+SHA512: e647598f77e4f73c3f7bd51b62b552db42cf92733e6df5ec6617b6feec197dcb80b6afcfc1336e958948d686203e6d1762e2221ca0a70c76ffd8c3fe9860d0ac
+Description: chflags, compress, ipcrm, ipcs, pax
+Tag: purpose::console, role::hacker
+
+Package: file
+Architecture: watchos-arm
+Version: 5.38
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 12056
+Depends: xz-utils
+Filename: pool/main/watchos-arm/1400/file_5.38_watchos-arm.deb
+Size: 335868
+MD5sum: 8c10f6c6dad8436b7e3da0764d15bf8c
+SHA1: cf0301afe955a77e024bc71d09df6a0a2ad449ce
+SHA256: a19b95f1c996bfe1f6f8dbd30e44044e4b29c870c60d50679575fff3e895046d
+SHA512: 39e97a82a0fdb6cf6ae6f7c46d406bb735acac450084ecb2f0b1f5731ac935b52df3d36af640391bd6d79efe7374d1ece04f1012c2ab0e03e6f13b3aa7bd0159
+Description: guesses the type of a file from contents
+Tag: purpose::console, role::hacker
+
+Package: findutils
+Architecture: watchos-arm
+Version: 4.7.0
+Multi-Arch: foreign
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3856
+Depends: bash, sed, shell-cmds, gettext
+Filename: pool/main/watchos-arm/1400/findutils_4.7.0_watchos-arm.deb
+Size: 377544
+MD5sum: 1ba442a9d9b9f9307fcc818d7272aecd
+SHA1: bc0e917f972b43d12f4996f951dbd96c0c0b9d0b
+SHA256: 1d00fc7f0dd4b5fedb79b53e89783200870f47ad7bb0aae0d55f8cd0de195081
+SHA512: c9f28219ce2d65d83a48fd259ac346e8fbe8aa4b9d87d5c4e76144707d1746862c4f1268c0904159a1ca6165b6b0915704b1d6f728913e022373c9c00dbd0e95
+Homepage: http://www.gnu.org/software/findutils/
+Description: indexes and searches filesystems
+Name: Find Utilities
+
+Package: firmware-sbin
+Architecture: all
+Version: 0-1
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Pre-Depends: firmware (>= 11.0)
+Replaces: system-cmds (<= 433.4-11), diskdev-cmds (<= 421.7-3)
+Filename: pool/main/watchos-arm/1400/firmware-sbin_0-1_watchos-arm.deb
+Size: 2324
+MD5sum: 1560f159be9d9e12d1f359e9481f62e1
+SHA1: 9e2186d0b2c7dc2cabafb4650458a9a3bd68f3f1
+SHA256: e7776f27e0504b76521ca2494f432a69c4f2519f3d9fef2cd2432ad52477cf62
+SHA512: e24ed53e7d098c641029c11809bac64eb3aec48871d73c503f1a8bde0ae9d2544d1ac19ca44990db9e5dd28dc04303cc5d197219f339c65176749b896086d386
+Description: represents Telesphoreo / iPhoneOS conflicts
+Name: iPhone Firmware (/sbin)
+
+Package: gawk
+Architecture: watchos-arm
+Version: 5.1.0
+Multi-Arch: foreign
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5576
+Filename: pool/main/watchos-arm/1400/gawk_5.1.0_watchos-arm.deb
+Size: 503676
+MD5sum: ffdd478a722fe68bec9f43d518564447
+SHA1: e4b0211bbb5f065eb9c8acb7c541d3d5abe5e4c3
+SHA256: e35b3f8eab2ea426504775afcc97fc33c4a6802052ba51e4924168586a61478a
+SHA512: a14f4f7276805053586bce52d1ffcfc99f0b8cf6661144a6fc12412d24410604a2e5d04a243bbc75722f9500976c6a5c46626ac7ea432ad11b557a10a9cc28b9
+Homepage: http://www.gnu.org/software/gawk/
+Description: GNU's heavy-weight implementation of awk
+Tag: purpose::console, role::hacker
+Name: Gawk
+
+Package: gettext
+Architecture: watchos-arm
+Version: 0.20.2
+Priority: optional
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 15768
+Depends: ncurses, gettext
+Filename: pool/main/watchos-arm/1400/gettext_0.20.2_watchos-arm.deb
+Size: 1593776
+MD5sum: becd05615da92c7326770517d4ac0bf9
+SHA1: 0392dfab1b617a1601cd38b2ba185ed7c7128d2b
+SHA256: 14f48b454732aa0a741f39eba125a6517ef984bbee6fde4b9e6bdad848ab787a
+SHA512: 0facbd7685f336056dec30501b41a088950f4524c989f9968217007854e3ebe83a1d90064aa94470343c52c76cdd96a5d1dd269ddaf938ccfd057fdb66802d1e
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+
+Package: git
+Architecture: watchos-arm
+Version: 2.26.1
+Priority: optional
+Section: Data_Storage
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 58776
+Depends: curl, libssl1.1, gettext, libpcre2, libidn2
+Filename: pool/main/watchos-arm/1400/git_2.26.1_watchos-arm.deb
+Size: 3956296
+MD5sum: 445c5f866efff6886c325ba4a08c1890
+SHA1: 313f1098f530c6e83fd2b19948c5605995863249
+SHA256: 19a529a94527a830db4c5c216d9fccfd4ce570d9058c359024fd30dd265b7af9
+SHA512: c37c43bcd3f3bf29bd100dbbf8de410fdc6ffd7b97d943b5b4f0e38b06d0b8cd41aeba4d584310115e4a090c58463121944283f88c607ad6ca58ee53e4072de2
+Description: fast content-addressable filesystem
+Tag: purpose::console, role::hacker
+Name: Git
+
+Package: gnupg
+Architecture: watchos-arm
+Version: 2.2.20
+Priority: required
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 18608
+Provides: gnupg2 (=2.2.20)
+Depends: libgcrypt, libassuan, libksba, npth, libgpg-error, gettext
+Conflicts: gnupg2
+Replaces: gnupg2
+Filename: pool/main/watchos-arm/1400/gnupg_2.2.20_watchos-arm.deb
+Size: 1862872
+MD5sum: cf5107343873ef79e1e1bcfa109acda3
+SHA1: 3ad0dc2224b075de079685a0f45d96d74518ff80
+SHA256: d47af6edba32efb2568ec38d52be8041411b4e5e692b480ebf0b1b691610509b
+SHA512: 93b9a495c21a7255376286ab191c867ef0e1c90fc4c1aea7b90438ebcaf3bd883eccd0a62421728890af9d4396521b121f6b56a860a7ba292ea9b220e2fbf283
+Description: GNU privacy guard - a free PGP replacement
+Name: GnuPG
+
+Package: gnutls
+Architecture: watchos-arm
+Version: 3.6.13
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 7448
+Depends: libgcrypt, gettext (>=0.20.0), libgmp10, libidn2, libunistring, nettle, p11-kit, readline
+Filename: pool/main/watchos-arm/1400/gnutls_3.6.13_watchos-arm.deb
+Size: 1005280
+MD5sum: cae6a205afc76051f5c3f8f95ba45ef3
+SHA1: 220ceee10b0aedd66b77eca5e98a31fea22111e8
+SHA256: 8bc7ef89149ae91e3d6ad0f229ade3b0fac5b69daec5577ad7ccc0cfa9eb30e1
+SHA512: be036dae4fd7ea3b82dcf7c342051623b3b041577c8bcf6bf450de513bbcd2d61229fe0121da970cf9bec52cdc30646f11f71aee1f4015c863b4f8f3235a1159
+Homepage: http://www.gnu.org/software/gnutls/
+Description: free sofware alternative to OpenSSL
+Name: GnuTLS
+
+Package: grep
+Architecture: watchos-arm
+Version: 3.4
+Multi-Arch: foreign
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 544
+Depends: libpcre
+Filename: pool/main/watchos-arm/1400/grep_3.4_watchos-arm.deb
+Size: 115240
+MD5sum: 55c4276abe6474ced2a6d3db7360c893
+SHA1: 373b31a4fc258bb6756ce252c8ea7d9bce366a66
+SHA256: 21bc8f4e0219c9a4db8ea3625e4b56e96060cc1447b9141aee801245631ca963
+SHA512: 47c651b141fe15ac0bfc68da335d998b6528f6d3b50a7f8d70ddacd44f8e54903f921ad235c940e79ea5e6490bc99c0404ca1bc914be2dd356e82fabc2c4753d
+Homepage: http://www.gnu.org/software/grep/
+Description: searches files for regular expressions
+
+Package: groff
+Architecture: watchos-arm
+Version: 1.22.4
+Multi-Arch: foreign
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 22528
+Filename: pool/main/watchos-arm/1400/groff_1.22.4_watchos-arm.deb
+Size: 1755464
+MD5sum: b087adf5e140661859415ccc1b3a81b3
+SHA1: 1a9fa0aac2fb9facb3cc4b16512c5f85bacc057a
+SHA256: 01b573e6a891aa27b2ed4e6588d54c5d7fd5f6394038f917db7fc3c3cb731151
+SHA512: b24745f839a3f286f159c0272ccc90ed160f44897197664263c7d2b131ab8ecc5d21c4c6b254d2cf5e642ad4181df24665b78bbadae44d6f5c554fac3ced09ce
+Homepage: https://www.gnu.org/software/groff/
+Description: GNU troff text-formatting system
+
+Package: gzip
+Architecture: watchos-arm
+Version: 1.10
+Multi-Arch: foreign
+Priority: required
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 568
+Filename: pool/main/watchos-arm/1400/gzip_1.10_watchos-arm.deb
+Size: 69940
+MD5sum: fa02f40ffe86d73fb7df78b492e01379
+SHA1: 98a5a6138701caff281e7356b522f8071baf6898
+SHA256: 88ebd913d97efe0cb4896d8c2c1928762fb28d8da3b24b0de60493138522f216
+SHA512: 6e3af79f6cb13cdfd25423bc485554b64557d1974a9b51933d391bba77b481244b2c7ba2777ac6d59d5564d5fa35ff104f101ed6fa258a73b7f662e59c8cf28a
+Homepage: http://www.gzip.org/
+Description: the standard Unix compression algorithm
+
+Package: htop
+Architecture: watchos-arm
+Version: 2.2.0
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 320
+Depends: ncurses (>= 6.0)
+Filename: pool/main/watchos-arm/1400/htop_2.2.0_watchos-arm.deb
+Size: 53704
+MD5sum: 91988069c8bb89a1d06348deb5fcee88
+SHA1: ddc4b60d1fdeb005e335247d61b5b03b8a992b2f
+SHA256: 34cb560ea448526e0b308f5f35a06212a5f2440dc73103f4f651eee61e8f20d9
+SHA512: 907a97ccac3277ba990b8d43a324cae61a32e3a44ad76cfeb57da877d5d0fd1535752a8b898648d906642cfadea8af6e8f23eb066868bb63bc4f6e72f5718dad
+Description: An interactive process viewer for Unix systems.
+Tag: purpose::console, role::hacker
+
+Package: inetutils
+Architecture: watchos-arm
+Version: 1.9.4
+Priority: standard
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3744
+Provides: hostname, ping, telnet
+Depends: ncurses, readline
+Filename: pool/main/watchos-arm/1400/inetutils_1.9.4_watchos-arm.deb
+Size: 283564
+MD5sum: 44cdf44db35024386c273277fef6deab
+SHA1: 3550cd24aeac71ad1ca59b597051317e8b956edd
+SHA256: 8fb775f86a9c2179021c696f6585a0907760d33056d5dee54f6a74cdfc25d3a3
+SHA512: 8289230f907130d66e52502b8b6c640b131fd02747ea3429e8311fa6efc2afff519522e0d3268e13ecec18d99d1c4a7b2e443bf7ae805589c6c55e780f2a40c4
+Homepage: http://www.gnu.org/software/inetutils/
+Description: ftp, inetd, ping, rlogin, telnet, tftp
+Tag: purpose::console, role::hacker
+
+Package: iokittools
+Architecture: watchos-arm
+Version: 91
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 208
+Depends: ncurses
+Filename: pool/main/watchos-arm/1400/iokittools_91_watchos-arm.deb
+Size: 4884
+MD5sum: 4747ab5c8a764d8fc4601691c533aa5f
+SHA1: 87fd9d6ad8be4217b4435bbbfad4027a576c9dbf
+SHA256: bf7a9b6c03ec33b64c2edf3deb175cbbe9909eb49d11b175c07e28f661c7a0e0
+SHA512: 7b3419d3160ae90a1e7c6afc47c1a5a6391540903b19dcdaae6ffe05d547591fd7e4aa3a81c4af0a4db2b6e8791dc8a8753593ccbac2549f7583e1e117cc0dfa
+Description: ioalloccount, ioclasscount
+Tag: purpose::console, role::hacker
+Name: IOKit Tools
+
+Package: procursus-keyring
+Architecture: watchos-arm
+Version: 2020.05.09
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 8
+Filename: pool/main/watchos-arm/1400/keyring_2020.05.09_watchos-arm.deb
+Size: 3432
+MD5sum: 9fcb0dd67c15e59b1536465f9b37e5ae
+SHA1: 34ae47dda3ac96fbf70034aacd9ad172ec549b39
+SHA256: 771fce103066e493082977aace467483cae9bb0968135affdfa22c140933d058
+SHA512: f35943f0abb19f81f5ce4d21a8195cbe450731186b81c5526cf8aa36d0014d3176d21a173431a7de539894d4d078e66ae3939878a452d3663599b3ffa38171a0
+Description: GnuPG keys for stock *OS repositories.
+Tag: purpose::backend, role::hacker
+Name: Procursus APT Keyring
+
+Package: launchctl
+Architecture: watchos-arm
+Version: 23-2
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 328
+Filename: pool/main/watchos-arm/1400/launchctl_23-2_watchos-arm.deb
+Size: 34588
+MD5sum: 9e53eff324de14a359188292e05aa73b
+SHA1: 346e9c59d9768cb44480bd892c0f739aaff7d1a3
+SHA256: 92d5b97cf43d1b4a8cbae68edb6e4e06a345f982eda157d617d8c92a687e359e
+SHA512: c9f6c41c6bfb16f8621302b09429a4e733a65f802ca53f839ae5f69e295c0486a5ae65c5b1829b2a341392685de44bad8942f4af35ada0fbf6775a425b748f2a
+Description: Tells launchd what to do
+Name: Launch Daemon Controller
+
+Package: less
+Architecture: watchos-arm
+Version: 530
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 728
+Provides: more
+Depends: ncurses, libpcre
+Replaces: system-cmds (<= 433.4-11)
+Filename: pool/main/watchos-arm/1400/less_530_watchos-arm.deb
+Size: 100052
+MD5sum: b1fe5b289c3231abf64c27b590aded18
+SHA1: da4a129c9256361b3a92b769e977a615cff9ca24
+SHA256: 3e60f34136f5c9cd3b474c18ac0d5ed2e870c3eb91271f851f8469f0ff1f3913
+SHA512: 87566308ef00272b6bda2feeaae206e4f3f09504443b7fa956b767441254d43db532a718b8d514bac1abff3e5c0b4f373e16c8aed3e5690bf513e03614193566
+Description: provides less information than more does
+
+Package: libassuan
+Architecture: watchos-arm
+Version: 2.5.3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 312
+Depends: libgpg-error
+Filename: pool/main/watchos-arm/1400/libassuan_2.5.3_watchos-arm.deb
+Size: 37276
+MD5sum: 93bc0df15d5147d7135ec58842851188
+SHA1: 5a2d759616eced0b02d12e542acd844550a9bac9
+SHA256: 9f7d5e909a6835ddc8e22159fa7982dff03837d2176733664da38e3c96dfc251
+SHA512: 74452081f027f4be0c39313e12efe89e0288431c59bc2918daec899d7886723d31a8454ae39696a925e1a898f8580b8ba1f4bbe93f3bcb5e4f654797ccd3088e
+Description: GnuPG's inter-process communication
+Name: Assuan
+
+Package: libevent
+Architecture: watchos-arm
+Version: 2.1.11
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2744
+Depends: libssl1.1
+Filename: pool/main/watchos-arm/1400/libevent_2.1.11_watchos-arm.deb
+Size: 241060
+MD5sum: fed9e982dc35d8afd2145d1d702541ac
+SHA1: b226816ad3668e45703c4380fa4f47ac143771ac
+SHA256: 6aff3474f911f7562b13dde0ee670c8af1cfb8225459684533b1e92cfa80268d
+SHA512: 3ea13309a03d2bed47891281ca164f15f6388b3ae1b2d056fa232addb7269ef46d4eebb0a338f485f9e6bb3de85b8d46b54bb1f5905511be6bed426bc6b77a2e
+Homepage: http://libevent.org/
+Description: provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached
+Tag: purpose::library, role::developer
+
+Package: libffi
+Architecture: watchos-arm
+Version: 3.3
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 320
+Filename: pool/main/watchos-arm/1400/libffi_3.3_watchos-arm.deb
+Size: 14168
+MD5sum: 215c7201c8d2fe848e6367b2c4887032
+SHA1: 0e65d190400a295465fba265372db7d85ba944e6
+SHA256: c4c8fc29a570086040ea7fdd202425431ec17f21bb3074762d2b3c16ad93254b
+SHA512: aea74e2e96ed25e5172700ac61e733eaac419653c704b811ccd385d46f6ee086497ad92c9c37ce82acdb1db2dd174591599b523a3d7b21fa484d32fa6c4d24ff
+Description: dynamic generation of function calls
+Tag: purpose::library, role::developer
+
+Package: libgcrypt
+Architecture: watchos-arm
+Version: 1.8.5
+Multi-Arch: foreign
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2048
+Provides: gcrypt (=1.8.5)
+Depends: libgpg-error
+Conflicts: gcrypt (<< 1.8.5)
+Replaces: gcrypt
+Filename: pool/main/watchos-arm/1400/libgcrypt_1.8.5_watchos-arm.deb
+Size: 398400
+MD5sum: 53e50e756fd16f86f2b1c89266f7cd06
+SHA1: f910270a8f53b7e576eab1c7af4b372afedf8bcd
+SHA256: f55b11ff5db1f327c3a1c54a940cf6f77554ce490aef232aca9192c7669c71e0
+SHA512: db8112d50a44d1fcf10f7c49a8b2929ff8eefe222d9d4873d8484f5e5412f8a0944361d41c55973f1d30911d954300e68449b8e162e875fc14b8fd96dfb92281
+Description: LGPL cryptographic algorithm library
+Name: GNU Cryptography
+
+Package: libgdbm
+Architecture: watchos-arm
+Version: 1.18.1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1240
+Depends: readline (>= 8.0), gettext
+Filename: pool/main/watchos-arm/1400/libgdbm_1.18.1_watchos-arm.deb
+Size: 112260
+MD5sum: 1d84cf1a981ff321bf86dcfe8c10a91d
+SHA1: d037d2faa6fc9ccdd22b441948d02bfc81384c1f
+SHA256: 44ed5f25c77b3df8063f50080309ef6e0cd829b323374894bf04993a6280923e
+SHA512: 167c19ff1771209b79b77f633a694859ac947e328d5d343bc1cbf0edf34985d9264a6fd2852d8d615d976f882a09fd5018e6d99691b2f000dfae3804caaa10e9
+Homepage: https://www.gnu.org.ua/software/gdbm
+Description: GNU dbm (or GDBM, for short) is a library of database functions that use extensible hashing and work similar to the standard UNIX dbm. These routines are provided to a programmer needing to create and manipulate a hashed database.
+Tag: purpose::library, role::developer
+
+Package: libgmp10
+Architecture: watchos-arm
+Version: 6.2.0
+Multi-Arch: foreign
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1008
+Filename: pool/main/watchos-arm/1400/libgmp10_6.2.0_watchos-arm.deb
+Size: 221508
+MD5sum: 0d7224fd383630969455488ef48af615
+SHA1: 1aabe24795bec48c41426b560d5780070b5ef5c9
+SHA256: 290f3df0b95ff6a8f245823039db3beedfaa58272ede4d421f77e7e9e87f981b
+SHA512: 9dd8da31afa669fff34576141dbc6e361b72380d46ccd5d5710ee5ff078f5c414ecb08efeb970e934cd7389779210da8aad8c3e26670619afc3127547647b688
+Homepage: https://gmplib.org/
+Description: GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers. There is no practical limit to the precision except the ones implied by the available memory in the machine GMP runs on. GMP has a rich set of functions, and the functions have a regular interface.
+Name: GNU Multiple Precision Arithmetic Library
+
+Package: libgpg-error
+Architecture: watchos-arm
+Version: 1.37
+Multi-Arch: foreign
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1064
+Filename: pool/main/watchos-arm/1400/libgpg-error_1.37_watchos-arm.deb
+Size: 94688
+MD5sum: 7365e4071abb0ee23c382505022affef
+SHA1: 39721f52f63f5b3ff0d777f502a41fb07d4518c0
+SHA256: 788cfd4898bf08e4c15bece304db9623cbbcfe68c781278e7d3b714551ab400e
+SHA512: 63c59339a93dde80f2fcabf410e7216467f3d90108ef1e7097ce49ad9025b8e5e194992e5e018a97425c367fa8015f79546ab9ab19ed072a48d75b267432e6f6
+Description: GnuPG's error management library
+Name: GnuPG Errors
+
+Package: libidn2
+Architecture: watchos-arm
+Version: 2.3.0
+Multi-Arch: foreign
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1296
+Filename: pool/main/watchos-arm/1400/libidn2_2.3.0_watchos-arm.deb
+Size: 93732
+MD5sum: 23b2e1f5bf4a2d407742037988207972
+SHA1: 72929a91a5a5d7fa3ac854ad71125c52406c9fec
+SHA256: c4578571164b68268ab0aed90c53786c7f2d775c21540a814646d7ea3f73ac09
+SHA512: 6296c8bbad03bcfad3b58e7230a8372202f08c29aa14e1c2ae72197dca7c59bb697962c09bf0b335d82e0f02f99f544db7085748e6ffc03da6e04e7fd6330876
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Libidn2 is an implementation of the IDNA2008 + TR46 specifications
+Requires: gettext
+
+Package: libksba
+Architecture: watchos-arm
+Version: 1.3.5
+Multi-Arch: foreign
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 560
+Depends: libgpg-error
+Filename: pool/main/watchos-arm/1400/libksba_1.3.5_watchos-arm.deb
+Size: 89800
+MD5sum: 278415eadfc57e0a0d8833e18802fa39
+SHA1: bd7785c0eb6133613506c9f0239530b84e71029d
+SHA256: 6988bd8008dccfce4d9b797fa4b0332ca9da49517d085417c382b2b5444758bd
+SHA512: dd79b58af260a9e31aa2d9b4246e2f7e05f1af11cd70a159dc8730036664d75970355365fed3aaeffb99ab963e46a69373c8420202ca03ce3b04e8606352971c
+Description: GnuPG's certification management library
+Name: KSBA
+
+Package: libnghttp2-14
+Architecture: watchos-arm
+Version: 1.40.0
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 360
+Provides: nghttp2, libnghttp2
+Conflicts: nghttp2, libnghttp2
+Replaces: nghttp2, libnghttp2
+Filename: pool/main/watchos-arm/1400/libnghttp2-14_1.40.0_watchos-arm.deb
+Size: 53660
+MD5sum: 82039b9a4d99e0a5f613bfe037f13b35
+SHA1: 4eb893e9cad30c27eb380037ddc0ee0eac11e54b
+SHA256: d94f6d38fc9007cfdf81c50a087791d531d2ea2bc02ea5471c2a56fae6d5a4da
+SHA512: 927719c1626cab882d2b5141cec7aaaccabe7c4d9104c5d338c7ebcdc999e151d2b8145953a65a92bea1b772993cc061ff93e1dcdff04a42a17f32bf93b813ae
+Homepage: https://nghttp2.org/
+Description: library implementing HTTP/2 protocol (shared library)
+Tag: purpose::library, role::developera
+
+Package: libnghttp2-dev
+Architecture: watchos-arm
+Version: 1.40.0
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 392
+Depends: libnghttp2-14 (=1.40.0)
+Filename: pool/main/watchos-arm/1400/libnghttp2-dev_1.40.0_watchos-arm.deb
+Size: 32088
+MD5sum: 69ecc34a642258e132f7262c2804c384
+SHA1: 0e9414b852b12b9bd30502ed6f103be9b2f7701e
+SHA256: 0f5c1958ccad1af8179830843e4cb60a3311d0630778c24f5ae0cc9cd74f8445
+SHA512: 5081746cf70bbdac4bf6ba0e95916a035c6664626615ae9c087023b2df9a177593a621c75be9d13fcbe4aa9497954d0b8917bedc52b2a8adcd14f67dd460c3a0
+Homepage: https://nghttp2.org/
+Description: library implementing HTTP/2 protocol (development files)
+Tag: purpose::library, role::developer
+
+Package: libpcre2
+Architecture: watchos-arm
+Version: 10.34
+Multi-Arch: foreign
+Priority: required
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5856
+Provides: pcre2 (=10.34)
+Conflicts: pcre2
+Replaces: pcre2
+Filename: pool/main/watchos-arm/1400/libpcre2_10.34_watchos-arm.deb
+Size: 622156
+MD5sum: d2f6a6266301e319c0b59198c9299ef3
+SHA1: 88f1afc0f2445cd3fb09ca372cd798d77edae1c4
+SHA256: edbac49dee127ae49a62c57154ba12e698613f244fe96af26dd3fd7191a40250
+SHA512: 93db4174377ca0dd58106a041858e27dda1764b62c538064b9f486d1720dbcd0394d227a9e47b9287597c36f0ab16d1522dddedbceb96b76c4bc28142d8363a7
+Description: Perl-compatible regular expressions
+Tag: purpose::library, role::developer
+
+Package: libpcre
+Architecture: watchos-arm
+Version: 8.44
+Multi-Arch: foreign
+Priority: required
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5064
+Provides: pcre (=8.44)
+Conflicts: pcre
+Replaces: pcre
+Filename: pool/main/watchos-arm/1400/libpcre_8.44_watchos-arm.deb
+Size: 544108
+MD5sum: c47cda09166b402c8d5032161cd239e1
+SHA1: 6576680853e2fd40ac9ee8c006e2f58ebb52f32f
+SHA256: 5cf386720dd91268f1d29f7bde3cfb81b94899c36b7e0b9b29c6fb3bc2f7976d
+SHA512: 3b6b3ab297170233229f94b23d92004002c63bc4a639ca1e7ac5fc7c3f983c6bc742b7ac9d594d6a7507e58a3e2a2de81274e02eb26becbff80ab5bbbf24de86
+Description: Perl-compatible regular expressions
+Tag: purpose::library, role::developer
+
+Package: libpipeline
+Architecture: watchos-arm
+Version: 1.5.2
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 288
+Filename: pool/main/watchos-arm/1400/libpipeline_1.5.2_watchos-arm.deb
+Size: 33360
+MD5sum: 7275fcbb26d9da15349f7a3d4b3b3f46
+SHA1: bac1fa8245afb4e8762533b86ac79d8287f0b0e7
+SHA256: 9295ef9576b2470895e779beecc0efcadad714d7e16e27750d65a932b9897451
+SHA512: 6dbc99172858c15759e2d3ad7ff61f4fe739f0a30b73a5fe4a793b250ab6cd207454dda351052e8c37b213b364bd6f447f44d938ca724b601f47e7136d9585a6
+Homepage: http://savannah.nongnu.org/projects/libpipeline
+Description: Library for manipulating pipelines of subprocesses
+Tag: purpose::library, role::developer
+
+Package: libpng16
+Architecture: watchos-arm
+Version: 1.6.37
+Multi-Arch: foreign
+Priority: optional
+Section: Multimedia
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: pool/main/watchos-arm/1400/libpng16_1.6.37_watchos-arm.deb
+Size: 200604
+MD5sum: c3ee4f129acf7adaa95debc54787a3ef
+SHA1: 7443352b7b425589f33a8376a60294afd1b58469
+SHA256: 300b59e7d6a4b5d7e115e3912eebbcd34760ec93e4cbf0fdede627b39c2f2b48
+SHA512: bd56232143e5d835528f29e69984d1582a22c02e28d804f9911ceac5eac9187ffa67e6e24f16975157cc26571fd3259c7954b6aed715789241297a8a175b506c
+Description: library for manipulating PNG files
+Tag: purpose::library, role::developerInstalled-Size: 1560
+
+Package: libssh2
+Architecture: watchos-arm
+Version: 1.9.0
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2016
+Depends: libssl1.1
+Filename: pool/main/watchos-arm/1400/libssh2_1.9.0_watchos-arm.deb
+Size: 131560
+MD5sum: 0a7016532656c316118ec49eda1b4d32
+SHA1: 2bffac964cb0a94fac261daffe4f847f8c6557f2
+SHA256: a5c493aa560b78cdbf874ddad3079e388bb161e8a55b649602e4d7667b340682
+SHA512: fd7d57b4f36299fee09d1061d59e3f2863340688ae8f12819f65bd46bf122fb7d746d4369f998ee08001aa16e9b90b7d6150349156c2c8b536844d94f6dc48e8
+Homepage: https://www.libssh2.org/
+Description: a client-side C library implementing the SSH2 protocol
+Tag: purpose::library, role::developer
+
+Package: libssl-dev
+Architecture: watchos-arm
+Version: 1.1.1g
+Priority: standard
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 24
+Depends: libssl1.1 (= 1.1.1g)
+Filename: pool/main/watchos-arm/1400/libssl-dev_1.1.1g_watchos-arm.deb
+Size: 1324
+MD5sum: 87d3aa3f5a79620210a0b6f1bbbc0223
+SHA1: 0c4e4f224d59cb4009e6bfc49bb412c8127c2fa6
+SHA256: f5c08921b5ce76453da7c5a91a20fe18e42ab4a9868fd63844ec3c968dbad910
+SHA512: 7059d03dd66b7149d6bf8520a4e021de8f3fb23036ee86a945cd96e029cfb8db1dee218b299432c6d4e2e7cb4c1924ca93900a30d220a6822036881f552661c8
+Description: OpenSSL Libraries for version 1.1 (development)
+Tag: purpose::library, role::developer
+Name: OpenSSL 1.1.x Libraries (Devel)
+
+Package: libssl1.1
+Architecture: watchos-arm
+Version: 1.1.1g
+Priority: standard
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 4856
+Provides: libressl
+Depends: ca-certificates
+Conflicts: libressl
+Replaces: libressl
+Filename: pool/main/watchos-arm/1400/libssl1.1_1.1.1g_watchos-arm.deb
+Size: 1121704
+MD5sum: 4695855358cfa152c9a69d72347869a6
+SHA1: a6722a70e12a71dc9659b52caae4d9ab4606f6b4
+SHA256: 2f8f40531602a24fdb42c0a2ad54dc33e9ed5de213c6fdda4e11c4d3ad7f727a
+SHA512: 30a35cdbf8e8fa464c03e85b611374df5f4e3f49b1ea1ca8bbb8e0a7ef67b38014bac7a6652f6688c58c697c298d555e231839fcb98c2a39753669f7117bd2e1
+Description: OpenSSL Libraries for version 1.1.x
+Tag: purpose::library, role::developer
+Name: OpenSSL 1.1.x Libraries
+
+Package: libtasn1
+Architecture: watchos-arm
+Version: 4.16.0
+Multi-Arch: foreign
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 928
+Filename: pool/main/watchos-arm/1400/libtasn1_4.16.0_watchos-arm.deb
+Size: 52912
+MD5sum: c2e167ee785f693bee0a67f7f320cecd
+SHA1: f04be3bfc90222c7d4f3259d7e37139f2cbcdea6
+SHA256: b0f580c3775050c495103afef99170eb67126e0b190f94e08343f9d2d81104f5
+SHA512: cf4c370600bb2302c75f140c748b15fe309643428f749aaf0b4b0510041b1ff3b6f9eea27a87b77a22982e988d9690589fc4d1b69d360760ff94cc4c0f2fb91d
+Homepage: https://www.gnu.org/software/libtasn1
+Description: Libtasn1 is the ASN.1 library used by GnuTLS, p11-kit and some other packages
+
+Package: libunistring
+Architecture: watchos-arm
+Version: 0.9.10
+Multi-Arch: foreign
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3528
+Filename: pool/main/watchos-arm/1400/libunistring_0.9.10_watchos-arm.deb
+Size: 425620
+MD5sum: b1d5d144ac253ecde270bf6c1ed7cd51
+SHA1: 4fd7d6848ea3b4486979caffdb1d43b599261eed
+SHA256: 3a7d7178c3ba0877d508c3c7a8bdf2356458d36ff1a1fddcc75304102e3da1b4
+SHA512: 03c032e0714ff48b1d825d8a6326acde91325fddaf55babafe0b032b30f89bab0d201479acc1b2803e758559557f8f02569ffd82200224e65ab5e147592541fc
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Unicode string library for C
+
+Package: libutf8proc
+Architecture: watchos-arm
+Version: 2.5.0
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 752
+Filename: pool/main/watchos-arm/1400/libutf8proc_2.5.0_watchos-arm.deb
+Size: 52112
+MD5sum: 3270f1d9bffd3c8b14fac0137926696a
+SHA1: e828fca394be9792cc7700618bf31df929b3cdac
+SHA256: f75563f3314dfb5e2f8d135173a65b4a96a75cde749a36e604c7528b4ec93a09
+SHA512: 5935d11fb85b42baef5e07b5368270ebf4aab34a38a7ff21fd8a547b61ee5923ba3ca8efa1cd060100ce81d61b82572f6be6689ac0f24e9523a4ce574ad24b1f
+Homepage: http://juliastrings.github.io/utf8proc/
+Description: a small, clean C library that provides Unicode normalization, case-folding, and other operations for data in the UTF-8 encoding
+Tag: purpose::library, role::developer
+
+Package: lsof
+Architecture: watchos-arm
+Version: 62
+Multi-Arch: foreign
+Priority: standard
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 504
+Depends: ncurses
+Filename: pool/main/watchos-arm/1400/lsof_62_watchos-arm.deb
+Size: 79376
+MD5sum: 36d72da0a0673e36c158937d3b9e838a
+SHA1: 47cd11f3ca4cc1e04b93ac0a719f54f6c6ae1be1
+SHA256: ec2f84a171f6e76302e0ac110737221699935cf148fe996d32a9c97c1f2dc10e
+SHA512: d76809a4e2f2ff65eeec46f02b50d7b2e2ff0e68081f273db0d8d771750ef77cc128d73361fda69f7124338a910d88547bed0695c1ca13e00a266b5afcb49a99
+Description: shows what files programs have open
+Tag: purpose::console, role::developer
+
+Package: lz4
+Architecture: watchos-arm
+Version: 1.9.2
+Multi-Arch: foreign
+Priority: important
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 896
+Filename: pool/main/watchos-arm/1400/lz4_1.9.2_watchos-arm.deb
+Size: 103048
+MD5sum: e8f5f63d4e181987daff08a9ce9780c6
+SHA1: 68439a15102b0778a49bd1684295900e259766fa
+SHA256: deff6cc67b32aca28c24ce967541c0526ec6b82f149a5263f93bb0d4cd077a2a
+SHA512: 7065b8486b5d494c9a1bea07a17dd31b68decf0471889b18d56920d2020e82c75c58eab459db753cf1855ce07d5bcf5654c92d9a2d0bf5e0e571b66a55293b62
+Homepage: http://tukaani.org/lzma/
+Description: Extremely Fast Compression algorithm
+Name: LZ4
+
+Package: make
+Architecture: watchos-arm
+Version: 4.3
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2832
+Depends: gettext
+Filename: pool/main/watchos-arm/1400/make_4.3_watchos-arm.deb
+Size: 269716
+MD5sum: 3ac9acbc5e4648b1ec9372ffffe3ee73
+SHA1: fba6d4373ebf5cfe5d5c67b65a1d02ae2f2c6302
+SHA256: c805d8127995ebce54c53d376a2d37e0b18d1bf3b6ad8aac08619ce1db2283c2
+SHA512: 4ddf040e674e01f335d46fdf1c8c316ccdea015b5d2c1e2e86cb28ff1d2fa1b77fdf760b2a256afc1f7b8a49001e9ef952e06571d3316d64ba69ba052b57bd7d
+Description: dependency-based build environments
+Tag: purpose::console, role::hacker
+Name: Make
+
+Package: man-db
+Architecture: watchos-arm
+Version: 2.9.1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 4160
+Depends: libgdbm, libpipeline, groff, less, gettext
+Filename: pool/main/watchos-arm/1400/man-db_2.9.1_watchos-arm.deb
+Size: 358820
+MD5sum: 6b028172c100b72bd305c78e6bd91194
+SHA1: 7dc265a036a1f3da4125e8e428effee41713a4ab
+SHA256: 4838d7c3232e97432f46c5eaf3af7a66fd0668a91e0b4249c47d686504fafa2e
+SHA512: 3d170966d9ac903fb61517030ec7258fed06dd021ec23a30c54952311afb12218302f133cb83b61b97647b1d9e6bea1958b31b0032b77848c026e153cb8c8191
+Homepage: https://nongnu.org/man-db/
+Description: tools for reading manual pages
+Tag: purpose::library, role::developer
+
+Package: nano
+Architecture: watchos-arm
+Version: 4.9.2
+Priority: standard
+Section: Text_Editors
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 4560
+Depends: ncurses, gettext
+Filename: pool/main/watchos-arm/1400/nano_4.9.2_watchos-arm.deb
+Size: 461504
+MD5sum: c2dd6096642aecf9fb15519fb9a11e50
+SHA1: 1cb48af0ae003234f88abb429dd60b52ecb7a88f
+SHA256: 5cf099c61e22a1390c0e1e3c72cf948e5f7bd0121d77b9ba202897e3c73858e5
+SHA512: 8ba85cea53b7be276452ec851fff0b4686f02a3fdc6cd7dba17edabc67ed7adda82b0aef554f159dbe1580f9cd557e16431e996cda221d8d7cc97264feefe1fe
+Description: completely free, modern clone of Pico
+
+Package: ncurses
+Architecture: watchos-arm
+Version: 6.2
+Priority: required
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 7760
+Depends: coreutils
+Filename: pool/main/watchos-arm/1400/ncurses_6.2_watchos-arm.deb
+Size: 507860
+MD5sum: e6dd5109abec3e418dd56c8628c96db4
+SHA1: 4e93422a2deb7dada060fd18dca81f3bce4269f4
+SHA256: 0b4c167b8226415d0ab320e85af33d42cc4db10b091d9b0ca3b764c430550a0a
+SHA512: 8398959d83a732fd0604b00447643d03ebbb8452f57468acd0b69fb8401fdcf830ea84aa2429853c397ddc6981b91a0e92ac26032824ccf00dd3451426f6d45e
+Description: feature-complete terminal library
+Name: New Curses
+
+Package: neofetch
+Architecture: watchos-arm
+Version: 7.0.0
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 656
+Depends: bash (>= 5.0), gawk
+Conflicts: com.matdev.neofetch-ios
+Replaces: com.matdev.neofetch-ios
+Filename: pool/main/watchos-arm/1400/neofetch_7.0.0_watchos-arm.deb
+Size: 73548
+MD5sum: bf511804163cb7a883a4a592319ae3cd
+SHA1: 5b51508e3abf75236a8495a89c53caec584bbb94
+SHA256: 03f9a0b4195208ab432c34b4f5b6adb9a97a5f5653cbb8ac4dbc31237c96c1ed
+SHA512: 54915ee2fe0fba73a790c5521150f4ca817c40bb64293df8d56e9a1d8d61cb075ca5510da7911dbabda858e07aad3b30da0b5680d070e7cf2e082229c2ebc944
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows System Information with Distribution Logo
+ Neoftech is a cross-platform and easy-to-use system information
+ command line script that collects your system information
+ and display it on the terminal next to an image, it could be your
+ distributions logo or any ascii art of your choice.
+Author: Dylan Araps <dylan.araps@gmail.com>
+
+Package: nettle
+Architecture: watchos-arm
+Version: 3.5.1
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2464
+Depends: libgmp10
+Filename: pool/main/watchos-arm/1400/nettle_3.5.1_watchos-arm.deb
+Size: 294132
+MD5sum: 7cbd02e26e87177d2f14bb1d58a9395b
+SHA1: 6555289b6588fdd7f519ac9af9b08a4f0ec85ae1
+SHA256: dcfd08989cafecc8aa0d8d4e7607a0dcd4c8221046ce6d6e9d10439bae35efdc
+SHA512: cfd3435958263a5f16c0bbbfd2a9e1ebcdb397669b073accf8f2efe0f272efbbe25d3911f4553c1bd19d41af2faf05685a068b0bdb16d00d96b37a1c842804a1
+Homepage: https://gmplib.org/
+Description: Nettle is a cryptographic library
+Name: Nettle
+
+Package: network-cmds
+Architecture: watchos-arm
+Version: 596
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2048
+Depends: firmware (>= 9.0) | rtadvd
+Filename: pool/main/watchos-arm/1400/network-cmds_596_watchos-arm.deb
+Size: 171532
+MD5sum: cb699b69838f2edca136860cc8a8a912
+SHA1: cc99e5483a5dc1429ea632e5c1387c2c0c27373c
+SHA256: b3a44223fc6df9aead78d3a1194e92c7517d78a996de42cfaae9fcfac8d07091
+SHA512: df55f900db76a8c5f65e7395c383d3ed415c9379a13e73edfe0b4b250b78fae1b90548d87800c9af3ff061635493d5c2dfe9fee55d03ef2148cdbeae860d9486
+Description: arp, ndp, traceroute, mnc, mtest, traceroute6, ifconfig, ip6addrctl, netstat, ping6, route, rtsol
+Tag: purpose::console, role::hacker
+Name: Network Commands
+
+Package: npth
+Architecture: watchos-arm
+Version: 1.6
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 184
+Conflicts: gnupth
+Filename: pool/main/watchos-arm/1400/npth_1.6_watchos-arm.deb
+Size: 11272
+MD5sum: f1053c3edaeaa8eaa6191248ae96f9b5
+SHA1: 7d300b63ae03b987092d23f9f2a21e129ca3b5c4
+SHA256: 28cbb05a09940c2b262426c6cc8af3a8e29cdc0626efad7f4ea659e67b5b5c03
+SHA512: 5a56117ed97a7549cd3a68edc47f11454fcc7c13a4951e0c3f00b4d4d7f474b4b0ad1fc333d755ed4770b68b32916c0e0c2d4fa036b081bc60eaf8fef6dee88f
+Description: portable threading library used by X
+Name: New GNU Portable Threads
+
+Package: openssh
+Architecture: watchos-arm
+Version: 8.2
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 9632
+Depends: libssl1.1
+Filename: pool/main/watchos-arm/1400/openssh_8.2_watchos-arm.deb
+Size: 661128
+MD5sum: f096d10fb90c0cb48d8f0051b0102f0e
+SHA1: 0414038f95295c1aca01d74acef3683295a49cba
+SHA256: a6165e3003cf71d6d61f75316e1d4d46091799d6f29854f649a9d92e444bfd67
+SHA512: 006f48674b53ef155812fc5ee89006e9210dea1fa5489cbcf1e993cb39acd5f40c1b0c9c5d7d23c2ab98a0220c605c9553da6549d40850c5984cc9bd628f110c
+Description: secure remote access between machines
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH
+
+Package: openssl
+Architecture: watchos-arm
+Version: 1.1.1g
+Priority: standard
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1248
+Depends: libssl1.1 (= 1.1.1g)
+Filename: pool/main/watchos-arm/1400/openssl_1.1.1g_watchos-arm.deb
+Size: 222404
+MD5sum: b59ee6d30f8503a420d0a365a3613723
+SHA1: 4b5c170eb7e548b6e751b67f12d4e50998d64572
+SHA256: e75d41e84b18dd58efa9aab4cb8ccf30bf3452f8f6309f3f6aded08e89d91ae5
+SHA512: d9919613429ab922ba6e2504805f5fb25256d89896ba56b8a90da76364d414cdb000b23c2378c6c6ffff41ad8765477778310b3e56adef552d69e2945d865182
+Description: OpenSSL tools
+Tag: purpose::library, role::developer
+Name: OpenSSL
+
+Package: p11-kit
+Architecture: watchos-arm
+Version: 0.23.20
+Multi-Arch: foreign
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 8032
+Depends: libtasn1, gettext
+Filename: pool/main/watchos-arm/1400/p11-kit_0.23.20_watchos-arm.deb
+Size: 508180
+MD5sum: 939d8572e7a10ed885101a2be2746e4b
+SHA1: 6209eec03297cfacce19a871bb027fbf80054b60
+SHA256: 90c2be2c6de3249a361afcc2da9a8d8f9ab886339b5f64f9a40150d9e23e80d3
+SHA512: d62e880f7386bbe459ab1275fa1fa72bb0830b7b2c3c4ffbb1a5e60487c00d1dc386feefde3fc2a8ba32911f6ddf50dd9bb037ed793f2460011c03cb4678fa59
+Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
+Description: p11-glue utilities
+
+Package: p7zip
+Architecture: watchos-arm
+Version: 16.02+dfsg-7
+Multi-Arch: foreign
+Priority: optional
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 8480
+Filename: pool/main/watchos-arm/1400/p7zip_16.02+dfsg-7_watchos-arm.deb
+Size: 1077924
+MD5sum: cd5e7c7278fc38f6b421f452f1605789
+SHA1: 9d97a0ceba8460c0404717c999d3c0635a534c41
+SHA256: 9112235c05f97a885c78bb82b944baf35439d22cbb2711bccc4af854ecdcede2
+SHA512: a30613f7d385ae5a35f4790a4583aff5f34b47d34faeef32cb9a0b07cf483f6da83ae2ff8b8eaa0bba6f61e57a5b3bb45790ef9a879409c234e6e2547a5489bf
+Description: claims to be a good compressor
+Tag: purpose::console, role::hacker
+Name: 7-zip (POSIX)
+
+Package: patch
+Architecture: watchos-arm
+Version: 2.7.6
+Multi-Arch: foreign
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Filename: pool/main/watchos-arm/1400/patch_2.7.6_watchos-arm.deb
+Size: 103364
+MD5sum: 139126f10cb75c93ebfc68497d262ae7
+SHA1: 85f0f33872bc97fcaf4e09dc1210fa3edf17da47
+SHA256: 693f6ffb077ee9d3d00933126799f6b2ee9c287126ffa954966a59a312909803
+SHA512: 775df494651af222b88e50ed0687263387761e3ec41cfa5b37cc1cbb4bfaf41e8a9284455ba73785939c5d7509e5177d4ba23caad68a7ab9333ed6ab2925cc49
+Description: merge a difference onto a file
+Tag: purpose::console, role::hackerInstalled-Size: 488
+
+Package: perl
+Architecture: watchos-arm
+Version: 5.30.2
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 94840
+Filename: pool/main/watchos-arm/1400/perl_5.30.2_watchos-arm.deb
+Size: 7518672
+MD5sum: 0481962a25c725e69db677d6c6321082
+SHA1: 970cf47bae621265f27f86b0ae9fa8956aaefd3c
+SHA256: 13a3635f65457317947fa9ecdf0ff0e3dd2cadcb9b3096f75d5af943b7abf6be
+SHA512: e7e11f2baca54a7110c3d745e86ddf2f9d8d6f327a99fd29597ba2c68097a723234f4e3925a714f1f4bd7d04999eae9055dd11f52e23c0c8e3fa826d2d61d125
+Description: awesome combination of sed and awk
+Name: Perl
+
+Package: pincrush
+Architecture: watchos-arm
+Version: 0.9.2
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 112
+Depends: libpng16
+Filename: pool/main/watchos-arm/1400/pincrush_0.9.2_watchos-arm.deb
+Size: 7112
+MD5sum: 9a7a3c31a7e8dbce8d4ed7d32c0694ab
+SHA1: 2c411fd1dae7c8f4a1f7bf718c8a0a68413a175a
+SHA256: 0e05e3458ea465202f38923e8f835f0dbe082ec9af8a1c56574ba4274c471792
+SHA512: 2a0678cfb8b89eec796c5fc882f9a56241919e869ff57f7bdc44ec6c9aee464434be7d98ef8c2f468581ca0004301129bab19b3147f8f11a16fbbf2ffe128271
+Homepage: http://howett.net/pincrush
+Description: optimize PNGs just like Apple does
+ pincrush is an open, cross-platform alternative to Apple's proprietary PNG mangler, to optimize PNGs for display on iPhoneOS devices.
+Tag: purpose::console, role::hacker
+Author: Dustin Howett <dustin@howett.net>
+Name: pincrush
+
+Package: profile.d
+Architecture: watchos-arm
+Version: 0-5
+Priority: standard
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 24
+Pre-Depends: system-cmds (>=805.220.1)
+Depends: zsh
+Filename: pool/main/watchos-arm/1400/profile.d_0-5_watchos-arm.deb
+Size: 1364
+MD5sum: 806c37a19568eccfdf6b926f9b41eb73
+SHA1: 5d7bedeafe4c9d412688a70b903f70310bb2189e
+SHA256: 7f965c867d8596f258574b5b937db754eb635ec64e567bf0bec493d1d401b0fe
+SHA512: f8ba09b9b3edd3b477350a8d4c4562bbce8abde378e5bdb16ff8894f2a5bc4476b1c559c0b73d797d8dff21aa6a16e92d90c843878955753c04d2a6fdd2ef69a
+Description: makes packaging for /etc/profile reasonable
+Name: Profile Directory
+
+Package: python3.8
+Architecture: watchos-arm
+Version: 3.8.2
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 107080
+Depends: ncurses (>= 6.0), readline (>= 8.0), libssl1.1, libffi, xz-utils, libgdbm, gettext
+Filename: pool/main/watchos-arm/1400/python3.8_3.8.2_watchos-arm.deb
+Size: 9807604
+MD5sum: 578907e3b804883aa965a14c20b3710d
+SHA1: 3b4e717150d742de20796a962aa883c28e795486
+SHA256: c3f43393d8120b286fada8498fb8901a1daade041127c44d4986a9d3e2436749
+SHA512: d23870692ec26ba4aa3b6f76e252e9c03de68f7d9ed263acaa1426c080be33a5e6f24474aa631516428320b02cdb8d471318b9ffe20c7231180e9dc965468675
+Description: Interpreted, interactive, object-oriendted programming language.
+Tag: purpose::console, role::hacker
+Name: Python 3.8
+
+Package: python3
+Architecture: watchos-arm
+Version: 3.8.2
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: python3.8
+Filename: pool/main/watchos-arm/1400/python3_3.8.2_watchos-arm.deb
+Size: 812
+MD5sum: 7e63a78eebf45cc1eb6626e796dc024b
+SHA1: 984e6ea7b01cfac592f6bd876229f864d5f51058
+SHA256: 5ca708948137400a26e55803b8b96e83d7c026ed1d03aa2742c78345948bb4a1
+SHA512: 9851d49f64f46f6e9ec52bc60fa01de41a882cc982fd04ecfb5bb5b9469d810f9b40090aaa54f1e4c90af8fb75aa8d7f2d3fb43b85dab0a8ead424de98be6a19
+Description: Interpreted, interactive, object-oriendted programming language.
+Tag: purpose::console, role::hacker
+Name: Python 3
+
+Package: readline
+Architecture: watchos-arm
+Version: 8.0.4
+Priority: required
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1216
+Depends: ncurses
+Filename: pool/main/watchos-arm/1400/readline_8.0.4_watchos-arm.deb
+Size: 169412
+MD5sum: d954ff8ddde01c3f8963e8f13b0408d5
+SHA1: 4f78e10443531811111e934da0f8516c21728c54
+SHA256: 3307453b41de7aa838c063dae45b8311c799a3f0bcb7810f1a1d1d0677595d0a
+SHA512: 2fbe1eb3ce7b25a9b8383ddaa3de9b78301c1957ca411bb1338c8abf2a9eb2ceabbda5eff269d943b22a18ab9e2485394d5681330b80adf5b501c0dc2ec3a179
+Description: command-line history management
+
+Package: rsync
+Architecture: watchos-arm
+Version: 3.1.3
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1384
+Filename: pool/main/watchos-arm/1400/rsync_3.1.3_watchos-arm.deb
+Size: 274492
+MD5sum: 7dbef4e06b1d4ace715037986c1a3cf1
+SHA1: 68571d71ba72ce6bf8f100b25b25528ec2dfe34c
+SHA256: a8ace788b6490acc2b5702d96fd3d963860d22a6f8d13e3b06c79498803fc836
+SHA512: f9f94fb9872d2311bdbea4d80783af352f0f4edd9e67c36f256f1be0a6136e755b5432da9260ce33e4136b733649bd0d8c0164e6940dae2989903994301aca68
+Homepage: http://www.samba.org/rsync/
+Description: synchronize files between computers
+Tag: purpose::console, role::hacker
+
+Package: sed
+Architecture: watchos-arm
+Version: 4.8
+Multi-Arch: foreign
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1560
+Depends: gettext
+Filename: pool/main/watchos-arm/1400/sed_4.8_watchos-arm.deb
+Size: 172768
+MD5sum: ca3da674fa854eafac8501156ff7c137
+SHA1: 9b8ccc055606c46da9721f1bb69b07a9b8a3a131
+SHA256: 9e039878a03705d37a93caf528224a853cfaaea8825eb250ef56aac5c5b1d45a
+SHA512: 931fdf75ac04d689e7360eb666a9e7447896458aa6bdfc075b927e1945632274cc1ea89bb115354932dee27ac2afb9bc92d7d466d0edae812026242afd8df07e
+Homepage: http://www.gnu.org/software/sed/
+Description: edits streams of text using patterns
+
+Package: shell-cmds
+Architecture: watchos-arm
+Version: 207.40.1
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 840
+Provides: killall, which
+Filename: pool/main/watchos-arm/1400/shell-cmds_207.40.1_watchos-arm.deb
+Size: 23056
+MD5sum: 36879f47e76ea262439cd86648b9d86c
+SHA1: 20531af2ec393f21a6a77ada41fc276a0110e1e1
+SHA256: 060f117c8d085e1d9779ce725d5f1e03236248d8f691eff21541a601dfbfd5e6
+SHA512: a5c94528f3bcb211592ad28b184a839b2028b6464bb70cb7194f2df7db788926e1d3551c58cddd10017cbe0541a51b42d729f39b38c1558d90b414948679e10e
+Description: killall, renice, script, time, which, getopt, what, hexdump
+Tag: purpose::console, role::hacker
+
+Package: socat
+Architecture: watchos-arm
+Version: 1.7.3.4
+Priority: optional
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1168
+Depends: libssl1.1, readline
+Filename: pool/main/watchos-arm/1400/socat_1.7.3.4_watchos-arm.deb
+Size: 149688
+MD5sum: 926ee26d96bf07d808b9e6a7106550a5
+SHA1: 456fe31335be5fa23c73975f7a71d33767c93739
+SHA256: f123baa16b238c8b7ad26f8fc1f426c55f098e0b763cf915d29ffb1f6c4c9cd0
+SHA512: ff8bd361e57987161b3d9ebfa6a2e40e86211428cf59ca6f330144598194759a6e19cc6a842b33f4dde37f382a61655788d6f66b509f0d7ec082983cfc584031
+Homepage: http://www.dest-unreach.org/socat/
+Description: "netcat++" (post-increment, not pre-)
+Tag: purpose::console, role::hacker
+Name: SOcket CAT
+
+Package: sudo
+Architecture: watchos-arm
+Version: 1.8.31p1
+Priority: required
+Essential: yes
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 7224
+Depends: gettext
+Filename: pool/main/watchos-arm/1400/sudo_1.8.31p1_watchos-arm.deb
+Size: 658928
+MD5sum: 1c57fbe546c38568eaa080cdc7268cfc
+SHA1: 5ba968f40a7138b9f4e4ad7cfe0a7d0ba38bf9cc
+SHA256: 498fdf80eb0f5f12437dbf06e998c244f8dd238c8c4ccade411d508b45268171
+SHA512: 12b69ca866f0eb416e186971a6d6166cacb35f60b635433cecc0b794f43802f987b86cc18341f72b254ced919867b3075a4e0fbf8c745e4a2d49aca9c198d44a
+Description: temporarily assume root priviledges
+Tag: purpose::console, role::hacker
+Name: Sudo
+
+Package: system-cmds
+Architecture: watchos-arm
+Version: 854.40.2
+Priority: required
+Essential: yes
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3080
+Provides: login, passwd, reboot
+Depends: firmware-sbin
+Filename: pool/main/watchos-arm/1400/system-cmds_854.40.2_watchos-arm.deb
+Size: 84880
+MD5sum: 8c3519d3b3f14701ef10178157e9a237
+SHA1: 138b3272390c7f0ec6d1a8f56e94a8ec63899fe7
+SHA256: b299568ca806d104f7818c516de2e7f79e7be3c6c9bfd41a68def2f8ed1000eb
+SHA512: 3e09074e31238cc148d2b85bbad295edca801d0156aa1fb5e12da46c3fe49595c50fa9aa3cb18c4c412a864a45ddd8c1382ee85e79debfef9a965ee186814e64
+Description: iostat, login, passwd, sync, sysctl
+
+Package: tar
+Architecture: watchos-arm
+Version: 1.32
+Priority: required
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 968
+Depends: bzip2, gzip, xz-utils, zstd
+Filename: pool/main/watchos-arm/1400/tar_1.32_watchos-arm.deb
+Size: 224832
+MD5sum: 57b9189438d4b3938a3e8ecefcd49aa5
+SHA1: dbeee73f079b443717da1dcfa59bb6f8bada764b
+SHA256: f688cf399dc12f887faff8a0798642a9b529a1adbe9241bf37f81ab9739ab6e6
+SHA512: b2763e3f48038478139cca17c5aefc32ec05ca5b887ef9db333b9054f189b639ab43638b96798e504a6e2f3aede5638adc9a1ab0fb7e8030dd715cc3b4a2be04
+Homepage: http://www.gnu.org/software/tar/
+Description: tool for making tape archives
+Name: Tape Archive
+
+Package: tmux
+Architecture: watchos-arm
+Version: 3.0a
+Priority: important
+Section: Terminal_Support
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1256
+Depends: libevent, libutf8proc, ncurses
+Filename: pool/main/watchos-arm/1400/tmux_3.0a_watchos-arm.deb
+Size: 249228
+MD5sum: cf657de4d7e8b9ab6a5aeff416b77d56
+SHA1: 055566439898096a97593eec6a7215aa02955a0b
+SHA256: 40da5e7d26b99ffa55752aa1bd295fef2f92cbe5fbef6661c5fb0a93cb659a13
+SHA512: b21b815f6a2cba5b8921660b46d94e4c025afcf987dd2e301c0c8b3ef93a6094510a799f26c51e7a2e827a44183cb07be63deab9c002d673a52e562361b3c345
+Description: multiplexes a terminal into many
+Tag: purpose::console, role::hacker
+
+Package: top
+Architecture: watchos-arm
+Version: 125
+Multi-Arch: foreign
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 240
+Depends: ncurses
+Filename: pool/main/watchos-arm/1400/top_125_watchos-arm.deb
+Size: 36200
+MD5sum: 275069703ef0d572fdba7f9eb6f0b8f1
+SHA1: 125f566956789b588a84345633cda0b870bebce9
+SHA256: 4359cdf5acbfae1ece4c8c37277bc558855bfae91529dee42ca09fc4997a782f
+SHA512: cc4c09f8c18e7257db382023aa8d9ea4c8409b88057ea0caf7171464d41ba366f127a62d4aec547d0b07cf498299f038bb89b69b48dcbc9a141451cf027366c6
+Description: at-a-glance process watching tool
+Tag: purpose::console, role::hacker
+
+Package: uikittools
+Architecture: watchos-arm
+Version: 2.0.2
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 864
+Depends: coreutils, findutils
+Conflicts: cydia-gui (<= 1.1.30-3), org.coolstar.sileo (<= 0.8b9)
+Filename: pool/main/watchos-arm/1400/uikittools_2.0.2_watchos-arm.deb
+Size: 19852
+MD5sum: a8fcdcc87466b72a7073ea070a644cc8
+SHA1: cd2de67dcc3e0748dc4b6b3e474621b08a359d6c
+SHA256: f565d1029bc35bc1fc782a50d403cf0ca47e105f52348b42e78810789569a5f4
+SHA512: ddd9ac76089383fc67387fb3bed7e980afbf4d87237e871106b53a975e360b4285c660355c10b9b640910cf304c411e6e33f4ba400bad5cf0c5f0a8b50f81ba9
+Description: Command line access for UIKit/LaunchServices/CoreServices
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: UIKit Tools
+Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=uikittools
+
+Package: unrar
+Architecture: watchos-arm
+Version: 5.9.2
+Multi-Arch: foreign
+Priority: optional
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1096
+Filename: pool/main/watchos-arm/1400/unrar_5.9.2_watchos-arm.deb
+Size: 159796
+MD5sum: b2ad4a1e9ad11aa39b94f1cb2919641e
+SHA1: 750d96213bff4930a3aa799b84d4cad8b29440fe
+SHA256: 6f53cb01ccd3bc5b6cb4b1bc951626a20a3d98d858d1c12122573c345137aea6
+SHA512: 03615fa063dcd9a2ab384125c59d78f45ff3087ab0afe35e35fb97110ee7b8b166bb29e50e16284b15c0ede990ba9826ade17bc8c33b24ac054ed4b0d281d802
+Homepage: http://www.rarlab.com/rar_add.htm
+Description: de-compresses files in rar format
+Tag: purpose::console, role::hacker
+
+Package: unzip
+Architecture: watchos-arm
+Version: 6.0-25
+Priority: important
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1240
+Filename: pool/main/watchos-arm/1400/unzip_6.0-25_watchos-arm.deb
+Size: 117336
+MD5sum: e0d12978afa24c84b2e2cf8922f4bf25
+SHA1: 546a43efa96ed0738c51888c507049c9b392680f
+SHA256: 2a88da89052b35fdc567cbc1604c061a0905eee30ad085871897f8a245c139d3
+SHA512: 1657fc667f9fde67c2a103b00b12fd3e2802dd80d5f6abeeef613cde00a223cbeebdf29ab8b9905ab6a9376283d446fabd3f3991529e417547da75a0d0feae44
+Description: de-compesses files in zip format
+Tag: purpose::console, role::hacker
+
+Package: uuid
+Architecture: watchos-arm
+Version: 1.6.2
+Priority: important
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 432
+Filename: pool/main/watchos-arm/1400/uuid_1.6.2_watchos-arm.deb
+Size: 36072
+MD5sum: 1d2f2150d453ab06cc1c261a1e8e52ee
+SHA1: ff8d597992ece41c8d764492ac3603620ce4f757
+SHA256: 94427f6f62a706e9651ca06e388e751c369cf84ed1e2154abf1e61ac9e330fc7
+SHA512: 4397eeaf4249b795858c34eed7578bbba6c2e2be7e98c04361791970a26e32ac4ecf23e3029b1806630a35c8a2ee87a7523657467588fd6cb947c1fa17fa0d20
+Description: universally unique identifiers
+Tag: purpose::library, purpose::console, role::developer
+Name: UUID Generator
+
+Package: vim
+Architecture: watchos-arm
+Version: 8.2.0700
+Priority: standard
+Section: Text_Editors
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 73136
+Depends: ncurses, xxd, gettext
+Filename: pool/main/watchos-arm/1400/vim_8.2.0700_watchos-arm.deb
+Size: 6960664
+MD5sum: 0a43e88ad3b5e8cb9ce2822ca3b275c3
+SHA1: 29f568dfb7ab2bf79c4cfc81d7ea25c76a8b2ce0
+SHA256: eec2f44641e3e49902743cc58ab8cbcf95299ed43ac96220dba6f62ce9489d4d
+SHA512: eec497effc094abcc49019794f0f5d9fdf67543b4f341a151b97b9a55a5aeed16c1680da38c11330b352a3e1b60d7fae344d2cb5920f0a9453dc1916bba3c12a
+Description: the best syntax highlighter, ever
+Tag: purpose::console, role::hacker
+Name: Vi IMproved
+
+Package: wget2
+Architecture: watchos-arm
+Version: 1.99.2
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2664
+Depends: libssl1.1, libpcre2, gettext, xz-utils, libnghttp2, libidn2, gettext, zstd
+Filename: pool/main/watchos-arm/1400/wget2_1.99.2_watchos-arm.deb
+Size: 281384
+MD5sum: 83b47c9dd7ae2e7895c888d6be13677f
+SHA1: f37bae364909cefd40491542d4bb3754964af21b
+SHA256: 5d24aaa978dc8740af6297998914f6693f396690d1bb09a318fc9628e301c3a9
+SHA512: b8672c1ceb299ebc736cfa2af0c21b63587db49319e363da048f7422d56f07f440ba0461b7ced94b8049a4d6a09cfb71b8c4a889bc37059e854d74ea2afd17e8
+Description: simple HTTP file transfer client, but there's 2
+Tag: purpose::console, role::hacker
+
+Package: wget
+Architecture: watchos-arm
+Version: 1.20.3
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5976
+Depends: libssl1.1, libpcre2, gettext, libunistring
+Filename: pool/main/watchos-arm/1400/wget_1.20.3_watchos-arm.deb
+Size: 577940
+MD5sum: e66668e0d1a08fc5da1c46223ace6284
+SHA1: 10ef49ab70c6d2269a86acb6f8ca40d2c44bca24
+SHA256: 083fc4a7385338dd0e763ba7e1519bbbde7a3fe9374cc46673fc1158848661b6
+SHA512: 7d58b207b41b780b053417604314811c3b2db383cb712ed09e59ee9e71d965952875979a39225e6e3e00efc5621f34bb5d87a54e50f27e613c01d49b24024402
+Description: simple HTTP file transfer client
+Tag: purpose::console, role::hacker
+
+Package: xxd
+Architecture: watchos-arm
+Version: 8.2.0700
+Priority: standard
+Section: Text_Editors
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 232
+Depends: gettext
+Filename: pool/main/watchos-arm/1400/xxd_8.2.0700_watchos-arm.deb
+Size: 24240
+MD5sum: 0b183a7355ed206ea4d2b754470854de
+SHA1: c99dc1805f876758368fed80593f16a7815b238c
+SHA256: b8f8ec07a6f95b235e686b288b6176652595839517c5b99dc93491e72c2bf442
+SHA512: 6d700b93f65933f559d73a4136552eb9000d019b1eb06e01126193c8313f26b4d5951d5b357a6604f3a53572f20692ef770ce08eb60282bf21836f84ccb1e9d0
+Description: tool to make (or reverse) a hex dump
+
+Package: xz-utils
+Architecture: watchos-arm
+Version: 5.2.5
+Priority: important
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2696
+Provides: xz (=5.2.5), lzma (=5.2.5)
+Depends: grep, sed
+Replaces: xz, lzma
+Filename: pool/main/watchos-arm/1400/xz-utils_5.2.5_watchos-arm.deb
+Size: 271752
+MD5sum: 8b2ef7632831d1f0211bf2e2756b3208
+SHA1: f89e50a52a05c5b5ca22092f3e47c28c2463c4ad
+SHA256: f3a528d295add4f0de5c92554a0f235c36d19a7441744b53824dc34e19f16321
+SHA512: 826e3d3498bc3b34e92fbe2de70aef00c814acbda9c02bf9c06c69d9ad460edc59f70f9f4b8df610c4a7144665347bd89dabaca5cb97b6df98a363d433e6ddbb
+Homepage: https://tukaani.org/xz/
+Description: slower, but better, compression algorithm
+Name: XZ Utils
+
+Package: zip
+Architecture: watchos-arm
+Version: 3.0-11
+Multi-Arch: foreign
+Priority: important
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1056
+Filename: pool/main/watchos-arm/1400/zip_3.0-11_watchos-arm.deb
+Size: 112492
+MD5sum: 7b4027958c78c8cf3777bccc7b455987
+SHA1: eae542e07e0d837d769c8b171981c4b0bfe1f085
+SHA256: aa3c7d117a236b73db08e9a379a5ca01a65a37894278cf7f1d0fb22340d507e3
+SHA512: d1df02447a12f193b4519ba5b8f9dab8fea32f11873ff6fa82c2ff7c37c32c6c5b2007daf456aa1d28999f9a58c15f9328765a49a371e946165b5e8f24f00023
+Description: standard Windows compression tool
+Tag: purpose::console, role::hacker
+
+Package: zsh
+Architecture: watchos-arm
+Version: 5.8
+Priority: required
+Section: Terminal_Support
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 19696
+Depends: ncurses, libpcre
+Filename: pool/main/watchos-arm/1400/zsh_5.8_watchos-arm.deb
+Size: 1863936
+MD5sum: 2e3783dfb264b2d0dc54e30fab34c9cd
+SHA1: fa7d153e0f8bec4650b515becdeee4dc2878433c
+SHA256: 2a7d13caf1d169c4c2c560e2cc2c9786fd7e7cab7d9b7ebb3dd2603c69fdd34f
+SHA512: 32da6e0a1324cc8b25a038bbe74f56ff6053b776d94e2bad790cdd88169429892d373c4e3e5104fc4f714627036246d2d325741c7e231b4bc9c0008e96e9ce79
+Description: a shell with interactive features
+Name: Z Shell
+
+Package: zstd
+Architecture: watchos-arm
+Version: 1.4.4
+Priority: standard
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 4120
+Depends: lz4, xz-utils
+Filename: pool/main/watchos-arm/1400/zstd_1.4.4_watchos-arm.deb
+Size: 404312
+MD5sum: eedef429785baa8b1fe2c80f40832f2d
+SHA1: b5f72619ee0eeee86ce9882cfe27a335a76ee3c1
+SHA256: 9dc7e5ee91c0b9b6908cf3438676caeb2de64a8289475aa97af6571d925a6a5b
+SHA512: 566eb51b274e5d16a7845afb33fada9f02e1296bd3e1d04d4d565166f57137c93317adfc417930230c0edf851cfa7ad5b7dd9fb60e2184e77b0378023697c6f1
+Description: Modern compression algorithm by Facebook.
+Name: Zstandard
+
