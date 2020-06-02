@@ -2356,12 +2356,13 @@ Package: xz
 Architecture: iphoneos-arm
 Version: 1:0
 Maintainer: Hayden Seay
+Pre-Depends: xz-utils (>= 5.2.5)
 Filename: pool/main/iphoneos-arm64/1500/xz_1:0_iphoneos-arm.deb
-Size: 708
-MD5sum: 83812d99eb579b4498dba497a7f3d143
-SHA1: 4c68063521e51092eb94db0361cd122ec2aec19f
-SHA256: b73acce3ac5a59da41dc1bce46d320c40a3fb2ab50440cd04f314f41456e5734
-SHA512: 385fd2ac18ae510a68f0be933663e4ef02f449c8ba9d5b3ecb7b8350cd7c1e4e39ed91d0dd444750ce9e1ee18b68b88c6bad1aceace65272d79a613cf5669749
+Size: 736
+MD5sum: a7b24db274ec16deb7da00965428e5f0
+SHA1: abc0d5d598d0a1f6e9c9e7bfc429eed8b0e92c5c
+SHA256: a4107ee4f6ff58e327fc1f33a712f063c79652c1598100416b4f383834625ac6
+SHA512: 0b0c6c5d24cba88c43af3db7883e6f58df391967d9420204036cd656f766b4650dd6886635e33548aac9525ae125a69c6889f6c33a05e29097081097f67ae660
 Description: Dummy package to help migration from other bootstraps. Safe to remove.
 
 Package: zip
