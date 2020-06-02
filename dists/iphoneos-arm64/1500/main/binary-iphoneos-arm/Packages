@@ -35,6 +35,18 @@ SHA512: 8c516c6a17ffd6a527e8a1c8cba6489337310c11dee8301aea1c209566bcbe6e6f547060
 Description: Advanced Packaging Tool (APT) Development Files
 Name: APT (Devel)
 
+Package: apt-lib
+Architecture: iphoneos-arm
+Version: 1:0
+Maintainer: Hayden Seay
+Filename: pool/main/iphoneos-arm64/1500/apt-lib_1:0_iphoneos-arm.deb
+Size: 712
+MD5sum: 68a9b07efe604a4162ce83c60c0bcd12
+SHA1: 02339fc3764116cdb21c7209783b60f42a2e0bc9
+SHA256: 81afe1129ccc6a27c1042efe046f5ed57cc4cdb5d43bd94fece3446a04d9e395
+SHA512: f2d2804861f7be8d86a4e3da907137dffa22688bed9de0919e2719ebcad102ac615a00917289bd507d3cca36abb346384cf2a17a33e74cc9c1e4a7b7b302dee9
+Description: Dummy package to help migration from other bootstraps. Safe to remove.
+
 Package: apt-utils
 Architecture: iphoneos-arm
 Version: 2.1.1
@@ -594,6 +606,18 @@ Description: GNU's heavy-weight implementation of awk
 Tag: purpose::console, role::hacker
 Name: Gawk
 
+Package: gcrypt
+Architecture: iphoneos-arm
+Version: 1:0
+Maintainer: Hayden Seay
+Filename: pool/main/iphoneos-arm64/1500/gcrypt_1:0_iphoneos-arm.deb
+Size: 708
+MD5sum: e760c358c76ba543fe1934b6c9135a8d
+SHA1: 0cd4aa960bd82f754b85062e142effaade146061
+SHA256: 139f13a2df419170f4e15a4f87d2b9e0b2df5d4e60b2d2ae406ecfa21770f0c4
+SHA512: 32ddb248e8a1567a6f4559ad2f44d056d3cb3c8502d8a520c445628d8680678e0311c9e1e30ebeba071f40a14e705771fb512d318903bfc2de9a137c6640800d
+Description: Dummy package to help migration from other bootstraps. Safe to remove.
+
 Package: gettext-locale
 Architecture: iphoneos-arm
 Version: 0.20.2
@@ -881,6 +905,30 @@ SHA1: 4061636b2189d0099dcaffacc454e17242f3be95
 SHA256: 15b2c780e1ef0811af0521f21ba006da580bee8cb752f68e4196a9cf55d3e3fd
 SHA512: 2942692fba2229561ac623c8bdd2a24467cdc007063efb0a79c6cb972986a518d46b1c4d6f69942f7bad22d936b7b92953e16f567df8f3267dfb8b88a39b60e9
 Description: provides less information than more does
+
+Package: libapt-pkg5.0
+Architecture: iphoneos-arm
+Version: 1:0
+Maintainer: Hayden Seay
+Filename: pool/main/iphoneos-arm64/1500/libapt-pkg5.0_1:0_iphoneos-arm.deb
+Size: 716
+MD5sum: 523e170ab5079e05ca9c450935b92a72
+SHA1: c75e8977e8672a577b764e3d079a98e7347760a8
+SHA256: bf75228c63867272ce898e952e0a3e0796543ef6b9e3dd4b50b06da471c1723d
+SHA512: 362d0552fee273c2d1956cbe2a17fcf9f5f7969e94c80807ef4911d00b6a852e41434ad0b6596f46b803c705e19c2374d4a0fdee35e3ef4355e371bb7c5a747d
+Description: Dummy package to help migration from other bootstraps. Safe to remove.
+
+Package: libapt
+Architecture: iphoneos-arm
+Version: 1:0
+Maintainer: Hayden Seay
+Filename: pool/main/iphoneos-arm64/1500/libapt_1:0_iphoneos-arm.deb
+Size: 712
+MD5sum: 14ff67a3ecc0368c6a37ec7242309435
+SHA1: 4fca65597a6b3378d1861da4dde40dce919ef4cf
+SHA256: 12a71cfd254432907ec8f07a7ce74283ea0eaab5629ecee598ac8f0061140017
+SHA512: 7a7e5d48347a980a24209d365fbf109bebc5e7cd1af9012922714074a47bb526cc0a4fc0c28e7126d54633e6c322a9e7750c816ef3d77a641041d6570cf7b2da
+Description: Dummy package to help migration from other bootstraps. Safe to remove.
 
 Package: libassuan
 Architecture: iphoneos-arm
@@ -1670,6 +1718,30 @@ SHA512: 8bfa80487e52ee4a3718aa35bcbb72566e23b412486e6087454dc12d83a3cec30f3f8e75
 Description: merge a difference onto a file
 Tag: purpose::console, role::hackerInstalled-Size: 520
 
+Package: pcre2
+Architecture: iphoneos-arm
+Version: 1:0
+Maintainer: Hayden Seay
+Filename: pool/main/iphoneos-arm64/1500/pcre2_1:0_iphoneos-arm.deb
+Size: 712
+MD5sum: 271b935fe852c6dd5ea4bcecb5ff8a0e
+SHA1: 56f359a89c3ba0e42fdc2c48625694e10d5bea1a
+SHA256: 75ab43fb192501ba18d09334f02c47e2eae76e075dbf249fab8a432bb8b915f2
+SHA512: 7378d8fb1b836bd48d7f344946a67a275e2f42e4679f7cdae948dc9d44d39434733afd9f208bd442c1cf5d2bf3b46fd0fc95b8d733a0b23b9a680d2b3cb3e8f1
+Description: Dummy package to help migration from other bootstraps. Safe to remove.
+
+Package: pcre
+Architecture: iphoneos-arm
+Version: 1:0
+Maintainer: Hayden Seay
+Filename: pool/main/iphoneos-arm64/1500/pcre_1:0_iphoneos-arm.deb
+Size: 708
+MD5sum: f11bc9e5fcd32e5d3b94d2ba3740714f
+SHA1: cbbf25b7b384f0c1b8a7e16e66a5247bacf10f34
+SHA256: 367d9b3c2cd3bc0c546a158ceb461f5249de315fa188bce7c66636f50254adcc
+SHA512: 7dd6b2c82e53ae2c87ba6a4b66099296019aecbf6b8346a1826899fb2d8bd3482739f98ec638832aeeaaf39345c313c374d094b4c43a67a333959daa4c30ce38
+Description: Dummy package to help migration from other bootstraps. Safe to remove.
+
 Package: perl
 Architecture: iphoneos-arm
 Version: 5.30.2
@@ -2219,6 +2291,18 @@ SHA512: d88f0132fedbb8ec63ba5dd681378a4a3426c86d52fa6bb1f5ebc6a48e02adc640025a88
 Homepage: https://tukaani.org/xz/
 Description: slower, but better, compression algorithm
 Name: XZ Utils
+
+Package: xz
+Architecture: iphoneos-arm
+Version: 1:0
+Maintainer: Hayden Seay
+Filename: pool/main/iphoneos-arm64/1500/xz_1:0_iphoneos-arm.deb
+Size: 708
+MD5sum: 83812d99eb579b4498dba497a7f3d143
+SHA1: 4c68063521e51092eb94db0361cd122ec2aec19f
+SHA256: b73acce3ac5a59da41dc1bce46d320c40a3fb2ab50440cd04f314f41456e5734
+SHA512: 385fd2ac18ae510a68f0be933663e4ef02f449c8ba9d5b3ecb7b8350cd7c1e4e39ed91d0dd444750ce9e1ee18b68b88c6bad1aceace65272d79a613cf5669749
+Description: Dummy package to help migration from other bootstraps. Safe to remove.
 
 Package: zip
 Architecture: iphoneos-arm
