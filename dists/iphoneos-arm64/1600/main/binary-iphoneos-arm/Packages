@@ -2386,6 +2386,23 @@ Tag: purpose::console, role::hacker
 
 Package: wget
 Architecture: iphoneos-arm
+Version: 1.20.3-1
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 676
+Depends: libssl1.1, libpcre2, gettext, libunistring, libidn2
+Filename: pool/main/iphoneos-arm64/1600/wget_1.20.3-1_iphoneos-arm.deb
+Size: 229508
+MD5sum: 7bbd62ce7d268f24086f618d32abc16d
+SHA1: 832d150a57d4a4e2ef9d54949ce0aa2a3f9b1cba
+SHA256: e1c969ac5a5dc895a64130d57498a02375e0ae268e512858d67b3eea95c8de9c
+SHA512: 0799d1ae4834c7a0523cbd63f900228695e98e60d393263419bd0dcedb65dfac9f9e31bfcc7319bd540196ba02a3728145be28c772b7870192dbcf50fa4a9423
+Description: simple HTTP file transfer client
+Tag: purpose::console, role::hacker
+
+Package: wget
+Architecture: iphoneos-arm
 Version: 1.20.3
 Priority: important
 Section: Networking
