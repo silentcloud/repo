@@ -860,6 +860,23 @@ Description: the standard Unix compression algorithm
 
 Package: htop
 Architecture: iphoneos-arm
+Version: 2.2.0-1
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 204
+Depends: ncurses (>= 6.0)
+Filename: pool/main/iphoneos-arm64/1600/htop_2.2.0-1_iphoneos-arm.deb
+Size: 53964
+MD5sum: f7c9dd4038a083825bd209f367291aec
+SHA1: 6a353f7956387ff85569493bcc3b02121fbdba99
+SHA256: d975964ca529ebbaa31bebca2561f76216f766d756764b1f0afe4899b40f4121
+SHA512: dcc0156c6a03a25c694567539bcdaf9ecc4f8f8069b3552c705287b7972e13b05b0d644caf0339d63542cdcff279df49f69977608a90e1743d1f23f50a46b187
+Description: An interactive process viewer for Unix systems.
+Tag: purpose::console, role::hacker
+
+Package: htop
+Architecture: iphoneos-arm
 Version: 2.2.0
 Priority: important
 Section: Administration
@@ -1136,6 +1153,24 @@ Name: GnuPG Errors
 
 Package: libidn2-locale
 Architecture: iphoneos-arm
+Version: 2.3.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: Locales
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 340
+Depends: libidn2 (= 2.3.0-1)
+Filename: pool/main/iphoneos-arm64/1600/libidn2-locale_2.3.0-1_iphoneos-arm.deb
+Size: 15388
+MD5sum: 31cc3d17182c9ab5f7eb6d795665ab65
+SHA1: c76dfbe1853d726636be32f30363b569b45e9fd1
+SHA256: dbf46ab2acfc53c087f0d326b6f3ecbd620d93087bc3f0de5e9fff4488b21a37
+SHA512: ce5a9772800c5a3af74ce5b606f5e888df70157febda40eff9184f448551b34ad6ef414e7ed1b22cd160b749729d1ab4602c0aece21a920a0636c790a801b2a5
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Locale files for libidn2.
+
+Package: libidn2-locale
+Architecture: iphoneos-arm
 Version: 2.3.0
 Multi-Arch: foreign
 Priority: optional
@@ -1151,6 +1186,24 @@ SHA512: 644ae951f7541f3e1a9da3abef705c9d71cd56487cbfaffc02f05f0b47668c59516504ab
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Locale files for libidn2.
 Requires: gettext, libunistring
+
+Package: libidn2
+Architecture: iphoneos-arm
+Version: 2.3.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 584
+Depends: gettext, libunistring
+Filename: pool/main/iphoneos-arm64/1600/libidn2_2.3.0-1_iphoneos-arm.deb
+Size: 81124
+MD5sum: 6faf34adacd168fd9f51e1ed40e91f85
+SHA1: 61d717696028cb80d424df912703503fd4d4bb54
+SHA256: a7436537fcfd9eb3bbf6cb8ea626179e2b3824ad4556e227253d7124d14d81a7
+SHA512: d6699495a4ff0339157f1d93c2a16d086c64a036ccf7b51beaa3435ff754250e2a9ea657f46fd6c0244ec1187c85991f3d4df1e95a45b9eab1b46ceafdd41efd
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Libidn2 is an implementation of the IDNA2008 + TR46 specifications
 
 Package: libidn2
 Architecture: iphoneos-arm
@@ -1833,6 +1886,24 @@ Description: optimize PNGs just like Apple does
 Tag: purpose::console, role::hacker
 Author: Dustin Howett <dustin@howett.net>
 Name: pincrush
+
+Package: plutil
+Architecture: iphoneos-arm
+Version: 0.2.2-1
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 164
+Provides: com.bingner.plutil (=0.2.2-1)
+Conflicts: com.ericasadun.utilities, com.bingner.plutil
+Filename: pool/main/iphoneos-arm64/1600/plutil_0.2.2-1_iphoneos-arm.deb
+Size: 29920
+MD5sum: 7255363331680cab4ddd93d340a0b574
+SHA1: dec2d23629b63a88d611d9a7d9ba41531e6e0f5f
+SHA256: 8206aa5221f38acdcfd4b78c06e5cde1aee682d9fcba8262c534391115a27077
+SHA512: bc10f67e9665195c2cd7928b898d6c58c06c31d87af3e2e954435e4991b92016c49df809ddd899d05bb6a5c1c7664fa04cea23bd823f86e4bbf3d3b3c50b944d
+Description: Utility for creating and editing Apple property list files.
+Tag: role::hacker
+Author: Samuel Bingner
 
 Package: plutil
 Architecture: iphoneos-arm
