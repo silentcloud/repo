@@ -1,24 +1,24 @@
 Architectures: iphoneos-arm
-Date: Wed, 03 Jun 2020 04:06:38 +0000
+Date: Wed, 03 Jun 2020 18:29:25 +0000
 Label: Procursus
 Origin: Procursus
 MD5Sum:
- 094e7f63e7faa46ea3ad3f487d02aec2            97292 Packages
- d772969bb1fa4deb0c8d67f73b570637            30528 Packages.xz
- 12dc7a874e617c44ba71dc6b99e39beb            31073 Packages.zst
- a338baa44ccc658aaf852ce3ff2d9b11              101 Release
+ dd8500d1ccf97de1ace6b0ad7afa5cc2            98158 Packages
+ 6d28b874234629dfcc588bdf2b1c47ad            30792 Packages.xz
+ ffa1ade79d883afd3c7d05f49dfc6670            31339 Packages.zst
+ 10e4608cbc2600184e8e6e3b35834c24              101 Release
 SHA1:
- a634afdef0cdf970ca3d21904b23b91b131edd4d            97292 Packages
- 6c100762cb3b19c762860ccdbac6991a68684141            30528 Packages.xz
- daa844bf4c9327ebdf0a380b191f2538bcb9fc68            31073 Packages.zst
- d443e798a6410877376eafafbb95687444bf283c              101 Release
+ efc87e57d782923eae9eafec8bb997ccff3a3c68            98158 Packages
+ 29ca2c3f08f87b82e0c34a813cd9ecca80370f03            30792 Packages.xz
+ c5156816c8edfd9c40751941ae29fc6e77e07942            31339 Packages.zst
+ 67d4b73fccf34ae90bc7ddf4ccce0a1f01e95879              101 Release
 SHA256:
- 3624188029116b7e5ac2dfd071996e7635e51bde54f8ec82475f929666def797            97292 Packages
- 0374decf36ae6aec63f43f8d55e6c1bc768ce69b86f68b5bc0c17628be5b018d            30528 Packages.xz
- 36d4f87ebb64acffc75bcf14ad357a3926047be34bacf0ddb7a312b5013d35bc            31073 Packages.zst
- 8c3ce01971d91199afa453dbd6429a9abf40067ca9f5a05b0390b3b306b1b4e5              101 Release
+ c0510e1137f69a9ad04233dd83b0d4638a26e5f65d4522c6adaa07b4336d6113            98158 Packages
+ 16789fa3e45a6235b63486da3f610c58481c7f9cfbbf461fd0de2899022d69bf            30792 Packages.xz
+ 2474226a1d766f72bf215ea78e9c511dba1b3b7736863a03f12846fc660a945f            31339 Packages.zst
+ 2177390942e703bfd583a5a0da79ee1c764ca0e10c974ada20cfc26ca45c1192              101 Release
 SHA512:
- d4ec8f25df986df545c1a1ff8e23525ae8a38985fbb8412d47e04fd5e8668bc95180d4da0347ab9d7ee3e393cf34b4a9908145ee074ea20e2a9d5c3d98540d53            97292 Packages
- 1b5fc0d0ae72b50d469186423676f7caf077f81cf00c467ce47d274c75c88d86ecc4272700703f1ebee14ff3856ce6f02744e3ff15040cebcea1a81af4e7e244            30528 Packages.xz
- cf3b667ef735044dd17ea34b4ee6c0e1c3e00fe3805b1a84d33e0bb242cdffaa712139d294b6b9b4d8c8d9e193df1c18586c0eb149bda3988a018ec5ecd41892            31073 Packages.zst
- eafb1a24c27c124f9f3e302c2e88a249ce0d49b6e0b17d7a7a6f0b61d748920684d57d3ec65a0c5b5600cb4804fbb236ae2b6f06bdf486e987836d4a2cb28ff9              101 Release
+ c8c7bcbd7d88a5f2deb465a54393144a344c6fe4ddb994423d09d574e3b894d616dadbf21d999848efffb8a759b5b0b5c767124101dbac54efe94eb8f8855dc5            98158 Packages
+ 68bb78e40ba9d78d2722e1713d579d9ebba549ae14f07c4e0874ca89c4efe2e946bc74581d01a3eab581ebf6e1fe0f6d6319723c4212065f06cdb83de18d940b            30792 Packages.xz
+ f7fb90bf4e9c0dfdc3c7f2b8d1343955be06c272a59b5efc940ac3db959ea381f0b1e12c602a6a27dbf90c7438b93e8548821d5766373351b1ee69655cf6663f            31339 Packages.zst
+ fe2039592573fc2910820b565c9d6d0f6d93555373ac22324adf2d2f63bf517f58597c9aa178be2f982b1b0c05af1ee605a839c60b9b0f4fc63828e0b575d832              101 Release

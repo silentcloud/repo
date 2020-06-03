@@ -329,6 +329,27 @@ Description: flexible multi-protocol file transfers
 Tag: purpose::console, role::hacker
 Name: cURL
 
+Package: cycript
+Architecture: iphoneos-arm
+Version: 0.9.594
+Priority: optional
+Section: Development
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: readline, adv-cmds, mobilesubstrate (>= 0.9.6300)
+Breaks: cydget (<< 0.9.4008)
+Filename: pool/main/iphoneos-arm64/1500/cycript_0.9.594_iphoneos-arm.deb
+Size: 1225008
+MD5sum: cb2d5d1a2806e5da8d2d80c767b0cd36
+SHA1: 1688b612736ae9e51b30230f4519a60865a1d6ba
+SHA256: d522870cf118466a27854ed0d3ead9fa1f102365016375e204c97d34a9408ca1
+SHA512: aca801ed3aa9fcfe0bf686f289982754329864177b1732a6dc1af4e061582343c4fa173c2b4be1bc4eccf556a34430a1402922f5b1d5c63fdcb0e774ffc0d9fd
+Description: runtime execution server and disassembler
+Tag: purpose::daemon, role::developer
+Name: Cycript
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cycript/
+
 Package: cydia
 Architecture: iphoneos-arm
 Version: 1.1.33
