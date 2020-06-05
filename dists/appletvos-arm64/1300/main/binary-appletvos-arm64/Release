@@ -1,24 +1,24 @@
 Architectures: appletvos-arm64
-Date: Wed, 03 Jun 2020 18:53:53 +0000
+Date: Fri, 05 Jun 2020 03:14:35 +0000
 Label: Procursus
 Origin: Procursus
 MD5Sum:
  661fd721273f32e2ff84e540eff78862            72613 Packages
  9c2eeaf6bf9f6442101e977a7538b3f3            23616 Packages.xz
  2302d39f6e1c295775559da9fb26db5f            24078 Packages.zst
- ff09da7fd47b9bcac4e542867483bf6b              104 Release
+ e9da73d3832daab53cbd4dd4d35521e6              104 Release
 SHA1:
  d54c166d81f09d2f609bf23cb0ff256800a63e60            72613 Packages
  de46e1feb299a45177953b91c943544b51760dbb            23616 Packages.xz
  0bdde73ed105a9b3c7f0972880de1d622c528293            24078 Packages.zst
- c0c1f73b9e4eeec278b63259e157f0f9dabfebee              104 Release
+ 8354d8f390df96431305f23461ba5fb02a18a72c              104 Release
 SHA256:
  f54b27d0f4f67f3f558ce8970344eaaaf5c72f06da8befbf0b6c72bc956bdf29            72613 Packages
  6c0636b5e050eec1ee6580dfc68dbff39f800eb3efaa9c93e149574a70b8042b            23616 Packages.xz
  6456310e6f5ae0704b5b7cb4769c53ba323fc320abdb09200e88c27de1afb29a            24078 Packages.zst
- 41a77c6bdcc738aa330dee2e965963fba1ce3bbb8cd1e38d486e0df35c06863b              104 Release
+ 4ef02da8ceaa7fa3511c317f5c02f7c2fa7bb2d458085a2537608a55e18977d5              104 Release
 SHA512:
  c4d79fe6166e054152a0e3f69a246e3b7e607a0a9f1c8b6c0272d99be496784cf5124d19be8847a06e53ff5a8eb9d24e55b988c8a6f3e8534d27fbea7468ba9d            72613 Packages
  df001e9335e420a68bf7cec32ff56d03c77bb54a7428ccb3570e53eb6891547e080b6043e018789feb7bae0d5cfaba7190a3fcc3a8bfc6301e6195134cd9bc3f            23616 Packages.xz
  a03334769347d71da4c9b568ad79ed7283d749e55c57cf07f56eaccad4a256e0c8f4ffb97bdc7b34b1b6a309b3e3e0070512147250c31789e12d9d1eab8b742e            24078 Packages.zst
- e5d3906fd6075384f3f8a466aee9d68b69f2027d371b09dff706e0f736198300f91c2c5dbb03b922e4fac4dd1ef79db485de9212cb85a5b69d8b0bb9a6d97a56              104 Release
+ 0f2ee4c76b4f4e785ce3593bd29554468021976235b3db61b6414887a065028a7a376c9be2660b73ae9b5fcc394d11d20802b4bf6292725a54a48b2f698388ad              104 Release

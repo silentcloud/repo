@@ -1653,6 +1653,22 @@ SHA256: c41d720506109f074076ce260fbce2b5a3cbdbbe4a95e10ef003ca3d731bcd61
 SHA512: 6e6306590bcd7068c6235c6c94c1b7472becdcceb777ba6adf76e73ec422c7dea33162f168c60a18e0b0fea0f21586871492f5ecb993eac321cc9345749a963d
 Description: Locale files for nano.
 
+Package: nano-locale
+Architecture: iphoneos-arm
+Version: 4.9.3
+Priority: optional
+Section: Locales
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2000
+Depends: nano (= 4.9.3)
+Filename: pool/main/iphoneos-arm64/1500/nano-locale_4.9.3_iphoneos-arm.deb
+Size: 271428
+MD5sum: 3a56f30d3028916f0d8716d0b36cbc18
+SHA1: a8b4a3c6621e0de7bb886368c28a6d25036cf162
+SHA256: a5e0e66c9c1f1243283bec470a58f03877892c3e88eed95d4204e8f32f23823b
+SHA512: db33cc499d51928eac5480af0f10f23381ff490114f2f0573e5ea5912a58cf878589ba13cc96ba83d76af75e60047c4ccce66aa1500c0c5b271002dc27b03220
+Description: Locale files for nano.
+
 Package: nano
 Architecture: iphoneos-arm
 Version: 4.9.2
@@ -1667,6 +1683,22 @@ MD5sum: b7cca5a656a9bd4d769a4392ed18babf
 SHA1: be8e9f8bc489177a98304f0d2dc9564956871988
 SHA256: 227cecf298e4c931675beb6d17521dc842234d0aec710b8aea37c22c5a813ce3
 SHA512: 76c83eba796f7f6dea8e551500bcfe0ab9b3d9c9314c38ceda817145ea8fe3214f852eb8460eccaf9fe1bfcfb6a777d109a7bf7e7e95f4b3518a1923e1b2df70
+Description: completely free, modern clone of Pico
+
+Package: nano
+Architecture: iphoneos-arm
+Version: 4.9.3
+Priority: standard
+Section: Text_Editors
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 692
+Depends: ncurses, gettext
+Filename: pool/main/iphoneos-arm64/1500/nano_4.9.3_iphoneos-arm.deb
+Size: 185380
+MD5sum: bd02b01d34f48d334c6256d8177b2cb5
+SHA1: 1ca4de2636d54c008749c322b8c4d418b5c1738c
+SHA256: a88e5197c7fdcab09de5f4ae5819bf5e389f47168dec9d575413be6d12ffea6a
+SHA512: a7e7a995c10f5f5c179234dc15e498e262427d2650ceac94321882bafb73bab139b58fad0359482b321416d228ff52e8c35d191a7649e8c72bacdfd121d0cf3e
 Description: completely free, modern clone of Pico
 
 Package: ncurses
@@ -1763,6 +1795,25 @@ SHA256: 455cd656ceda2995ac940788bfbe46b84e5948c82451a697275fa65f28d57a3e
 SHA512: 6e45b2a4d080f0889c300e2d3ec54d762b9f709d1436145a68852dbb2934a5b8efb7f1ae4691f2f6513cf144229af7a792ffb4e9e890a56dd89311a87d750c0b
 Description: portable threading library used by X
 Name: New GNU Portable Threads
+
+Package: openssh
+Architecture: iphoneos-arm
+Version: 8.2-1
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5412
+Depends: libssl1.1
+Conflicts: com.midnightchips.localhostssh
+Filename: pool/main/iphoneos-arm64/1500/openssh_8.2-1_iphoneos-arm.deb
+Size: 711820
+MD5sum: 3c99a1eac3b9055cbbdfeffc7a90855b
+SHA1: 7e2b78362a2a323616acf3a705001874b26b2d30
+SHA256: 96e91f597d5f28c378fc9da089c7b59183520791d2391c37e316374bfb3f9689
+SHA512: 51407889651b8d7e711da5fec8ce86c86d210f4fe729438a2b81a572e6a24c401d1d0daede4678475319c432e7f733412d8f08d6160fefdff71654aa63803f6c
+Description: secure remote access between machines
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH
 
 Package: openssh
 Architecture: iphoneos-arm
