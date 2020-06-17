@@ -272,6 +272,42 @@ SHA512: 72b84285eb0b10129907b451ed77c95577f86edae8eb0d9afc0094f3b6f5d36e761af2bd
 Description: CA certs for curl, wget, git.
 Name: CA Certs
 
+Package: clang-10
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libllvm10, libclang-cpp10, ld64, libclang-common-10-dev
+Filename: pool/main/iphoneos-arm64/1500/clang-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 42728
+MD5sum: b889739bafdc5a68623d3df37cf5f7d1
+SHA1: 3d2e752ec7b2cdca34fd1bdc9170edf59643ed67
+SHA256: 2ababf2e9e352e661dba642bc659353ffa69dfb2349f66698fa092212336d076
+SHA512: aead87a4335605dc1b9de8c2c7640b87385438e24a848d28f427ef88f471fec574e12a0665926ab50025616039a3c22e22488564d904b94b5f6f2b5580445f0b
+Homepage: https://www.llvm.org/
+Description: C, C++ and Objective-C compiler
+Tag: purpose::console, role::developerInstalled-Size: 400
+
+Package: clang
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Provides: c++-compiler, c-compiler, objc-compiler
+Depends: clang-10, libc++-dev
+Filename: pool/main/iphoneos-arm64/1500/clang_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 952
+MD5sum: d77ee016a9f55b6878559c0db2b1d104
+SHA1: 159122efc0764995c921f32ffada415efe6ab3c1
+SHA256: 6e974369ef5e365435b520596dd5df9735f541e2d4932126466ff058d8468328
+SHA512: 5f363a7cff509d5d07d15c118423edd72d953d7140bc1b9c51135e6cfc8ae58b668723ea87305e5449c26ac784d3f75b59364bdadf83af76a781bb06548112cc
+Homepage: https://www.llvm.org/
+Description: C, C++ and Objective-C compiler
+Tag: purpose::console, role::developer
+
 Package: coreutils-locale
 Architecture: iphoneos-arm
 Version: 8.32
@@ -409,6 +445,40 @@ SHA512: 142cbbaf30c72dfca3273b2cb6e62d2172b594f24f339ec91e9a36fe7d5e5d90775e795a
 Description: pretty much just run-parts. yep? run-parts
 Name: Debian Utilities
 
+Package: debugserver-10
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libllvm10, libclang-cpp10
+Filename: pool/main/iphoneos-arm64/1500/debugserver-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 192760
+MD5sum: e70271aa2310d26d97bbf4de4b6017a8
+SHA1: cbd8ff706f9c300e04e7661eac09cc84bb1ed573
+SHA256: fef899f1ec5814783e3f99f1c5a0704f2d6adb573b6f9a139e60e61a491bca0a
+SHA512: 1d416ad17bd5ef2846df5afe9e4a02978870a99ef434ba0fddced7034d739218c597689128a45bbc598f475f809b02f3c66fa97a7ab4b6b7cf0e36a84164b53e
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger (debugserver)
+Tag: purpose::console, role::developerInstalled-Size: 9648
+
+Package: debugserver
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: debugserver-10
+Filename: pool/main/iphoneos-arm64/1500/debugserver_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 924
+MD5sum: 1614f77a7b72c316d477af39ccb22309
+SHA1: 4d8782926280a11e84022e3465d93580c67bc9c8
+SHA256: c7ca66d39f9dba82b505ea6f07bc29449e3dd0caa924d57eb5d5ea9dc9206e4d
+SHA512: c92323343520c6e17f62031ff8bc624786d0fd7d524fd3fbe5407d1cf31e1ce43c5a673c7961123a211cd9fabb896444dc15268a2d6ae65250be336cfb68c962
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger (debugserver)
+Tag: purpose::console, role::developerInstalled-Size: 0
+
 Package: developer-cmds
 Architecture: iphoneos-arm
 Version: 66
@@ -520,6 +590,42 @@ SHA512: 6ca18082f86d8a0d1c93b490d3cd9b06200d8710a048dc44d17df735fc41576d172ac69f
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintainance tools from Debian
 Name: Debian Packager
+
+Package: dsymutil-10
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 768
+Depends: libllvm10
+Filename: pool/main/iphoneos-arm64/1500/dsymutil-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 114520
+MD5sum: 4ce4c48cdc28886d0e7225f42c41e3a1
+SHA1: 6795a936e952dce5f245037d58a8582157ef333c
+SHA256: d5c48f566efe61f92be97656183459f6fc8fb5fd24c573ced1218f95d1037684
+SHA512: 5f213cfd7dadbfdd61c566dea9faee9c4601c9eff7653af96c19e566274321e269f2b062a47f9966e96bee42d92d2ce08a97b9d99a3ed3d3ea6b65aacd6cfd81
+Homepage: https://www.llvm.org/
+Description: manipulate archived DWARF debug symbol files
+Tag: purpose::console, role::developer
+
+Package: dsymutil
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: dsymutil-10
+Filename: pool/main/iphoneos-arm64/1500/dsymutil_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 916
+MD5sum: 22dbffd7d5bc5c17daf1ba874c841429
+SHA1: 95f77edd77ab8f4a66424eb1f6274b5d49f04cf1
+SHA256: 7837e39ff523de0b548eecf14cb35daff28c993ecf3e78f8c7681c182e828373
+SHA512: d9c152d5415f6a9b1f3b64a64668da844aa801d1968325679c30a6c2f45f15d4d5af6897694608b2de6cacd7c28e1eed022a14ae6990c3dd13c4f9e9bf9da45d
+Homepage: https://www.llvm.org/
+Description: manipulate archived DWARF debug symbol files
+Tag: purpose::console, role::developer
 
 Package: essential
 Architecture: iphoneos-arm
@@ -967,6 +1073,26 @@ SHA512: ecaa8d8af9005a335c84786c064d016310fae5421956ed720e8cb3541817ad3cf64e8f4a
 Description: Tells launchd what to do
 Name: Launch Daemon Controller
 
+Package: ld64
+Architecture: iphoneos-arm
+Version: 530
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: org.coolstar.ld64
+Depends: uuid, xar, liblto10, libtapi
+Conflicts: org.coolstar.ld64
+Replaces: org.coolstar.ld64
+Filename: pool/main/iphoneos-arm64/1500/ld64_530_iphoneos-arm.deb
+Size: 677072
+MD5sum: c8fe9f5325d13c3a1b7855a18c6b938b
+SHA1: 7e12db0dd6d2bc028a6f99c43dd75f425ba1830a
+SHA256: af89da50c37d57bce85d82e0b61e74fa1c70cf41315ee81a4e24ae1e66c38760
+SHA512: a198024148fb65216efde82c282f1e5dc2d13c6785350ec06a892e62c15f1b5162157da189fb053d6a8ab97127d45973057d22c03adb5cab485e6540570dc2d0
+Homepage: https://www.llvm.org/
+Description: 64-bit iOS linker
+Tag: purpose::console, role::developerInstalled-Size: 7928
+
 Package: ldid
 Architecture: iphoneos-arm
 Version: 2.1.2
@@ -1045,6 +1171,71 @@ SHA256: 894866652c7f22d7d1e63184a3f6103d0d530d397aea31daf5f945e6222b2c7c
 SHA512: 1384d72ab3bdb2ab9558d7a3fa1b74d57b6bbbcfcb1e32add60a2f3f406175b179351d8e4e3ccf5d0857c8c3967f7947eb8871773559684a8dddd780297944e0
 Description: GnuPG's inter-process communication
 Name: Assuan
+
+Package: libc++-10-dev
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libllvm10
+Filename: pool/main/iphoneos-arm64/1500/libc++-10-dev_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 412576
+MD5sum: 770df65ea097458507361eaa32b01d5b
+SHA1: 3438a794eaf651ac4541b28086c64a370389b72d
+SHA256: e5684410850caace872547545f0d35df054d2bee403c20b40cb6246e3701095a
+SHA512: 9a4e6a556c61ea151e7177a62714146417d59b01b49a01b27350efc0f2c3a8da38002b8b41642bd7169722fce89e3451488ee040d93f2624fb5ca5d1b741e91e
+Description: LLVM C++ Standard library (development files)
+Tag: purpose::console, role::developerInstalled-Size: 9824
+
+Package: libc++-dev
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 16
+Depends: libc++-10-dev
+Filename: pool/main/iphoneos-arm64/1500/libc++-dev_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 896
+MD5sum: c41d657b92ec96ceb0f48810598d3e98
+SHA1: 973b9c5d8a253f9409b059c4fd588db8443e6632
+SHA256: a35995a401a6cff8e07b9c32d1d65f9a24081ac4ab3bf2d253e9db214377053e
+SHA512: 6f64d0141c5ab7abf3305c4d51945324fe8f07d02dca5e673629cd90c5458305f38a3f61d820f20a8d93cc7a29e4e31f57f7132644693ee7b1cee63489042d9a
+Description: LLVM C++ Standard library (development files)
+Tag: purpose::console, role::developerInstalled-Size: 0
+
+Package: libclang-common-10-dev
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libllvm10
+Filename: pool/main/iphoneos-arm64/1500/libclang-common-10-dev_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 394668
+MD5sum: fb8539988b4db440bcc94e5985616659
+SHA1: 1cefbfd3d9c69975e385c46c1e66b7733fea5693
+SHA256: 5ed41d6d1c42cdf72fde20946d7fdde640c4e8bd62297d8e4071fc489eb83533
+SHA512: dcb156ceeebba30d5bc6671715b3edf1247f56ff98f08dc86bbce7361ae344585e203f71b3a78cb372ef1ba0d8a3bb2a2a3d78792851f3f29d425df49b679e2e
+Description: Clang library - Common development package
+Tag: purpose::console, role::developerInstalled-Size: 15432
+
+Package: libclang-cpp10
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libllvm10
+Filename: pool/main/iphoneos-arm64/1500/libclang-cpp10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 8528360
+MD5sum: f9b20c7c14bd2d53b4c04fcdff0f94eb
+SHA1: f0d06d13882b8ff4d226ecf1c0787d1fad4b622a
+SHA256: a3f39e5070994b6242e300eb6273ecac9040df39116bdbf7c338999e8eb612b0
+SHA512: 7a0f0523f346605f932d10915e5825caffefd4c9969e0a06364076833d69d0925e795552e73d1f8d9a12323414a5fcb01701fea68f7c44f17ba24a5cf691bd69
+Description: Modular compiler and toolchain technologies, runtime library
+Tag: purpose::console, role::developerInstalled-Size: 81416
 
 Package: libevent
 Architecture: iphoneos-arm
@@ -1280,6 +1471,55 @@ SHA512: 80bd1936c104f880741eb51705df0f929ffd546507e3632a4ba37f2a524c1b495aaac6ac
 Description: GnuPG's certification management library
 Name: KSBA
 
+Package: liblldb-10
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libllvm10, libclang-cpp10, xz-utils
+Filename: pool/main/iphoneos-arm64/1500/liblldb-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 22117340
+MD5sum: 1fc3bbd01a336f0303a6d77a68a2d19e
+SHA1: ad60ea68c71f1182048ec8f1159110e5a7ecfca7
+SHA256: fe81e0c17fb4e20f9496131a3be92adfa8b9e5a3b6dadc41914f27ee3f0fee42
+SHA512: cd52f64b9d279254093bcc7c11c76a934aa4781693dffb6d0c6e469b1c0c7ff7304307ac37e7fca6fe9122d0aea78c27dd1aca3f902a1ea57c6d7f43ec5eb219
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger, library
+Tag: purpose::console, role::developerInstalled-Size: 225448
+
+Package: libllvm10
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: ncurses (>= 6.0), libffi
+Filename: pool/main/iphoneos-arm64/1500/libllvm10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 10623352
+MD5sum: a14129533ab4f3c55d2101a24c15989c
+SHA1: 3b6ed6c7f06a1df2621d3930f03c7d7452d7e64e
+SHA256: 95a2306130b984b501a8b88948bafbb80312f643e0b6f7f002c732c0493a5a1e
+SHA512: 6f200ea476391a4ba328737f2a423b65f219c3dc911f27a52ed0b8dee3cf0b1e166b920b74bcc38199727fd3e6ce93e18c7facdc6ef234af3fdf2b7c2ed6ffc0
+Description: Modular compiler and toolchain technologies, runtime library
+Tag: purpose::console, role::developerInstalled-Size: 94632
+
+Package: liblto10
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libllvm10
+Filename: pool/main/iphoneos-arm64/1500/liblto10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 35472
+MD5sum: 94bd39ae283ab56c52048ae975997eee
+SHA1: e4535d06920a78c15edf757d786b5d34736c53d2
+SHA256: f1335ae5b49cd9bdfefac76a1bdc4c93fca9a8399827a2a9378a74266d330aeb
+SHA512: db5c759662e5adea09018d84d7fa7ba6bd07719dffb6be5b2f6735a418ae4d58b3f172224c3d603fa17cdec36e84638bcd1996b6fb0b86a9303700382e707027
+Description: Modular compiler and toolchain technologies, runtime library
+Tag: purpose::console, role::developerInstalled-Size: 432
+
 Package: libnghttp2-14
 Architecture: iphoneos-arm
 Version: 1.40.0
@@ -1464,6 +1704,24 @@ Description: OpenSSL Libraries for version 1.1.x
 Tag: purpose::library, role::developer
 Name: OpenSSL 1.1.x Libraries
 
+Package: libtapi
+Architecture: iphoneos-arm
+Version: 1000.10.8
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: ncurses (>= 6.0)
+Conflicts: libtapi10
+Replaces: libtapi10
+Filename: pool/main/iphoneos-arm64/1500/libtapi_1000.10.8_iphoneos-arm.deb
+Size: 130076
+MD5sum: e5893b5d97ae92c604f038125bde11f7
+SHA1: 071b6bdb086715ca7c6597cd50ca07fbb4d6dbe9
+SHA256: 5da501a1454517e7d0ccbf6e33f456d5917860dcddec05cbc41f68f7adfadf3e
+SHA512: 0806ff26dc390e995b3ea5adb62fd470f6b03e4b8162f9cddac59c4e862a4f4d8eb5bce5ba205b13f4d48103fc599722d1bd2f3a37667ea45e1d7ee24b7901f4
+Description: Text-based Application Programming Interface (library)
+Tag: purpose::console, role::developerInstalled-Size: 936
+
 Package: libtasn1
 Architecture: iphoneos-arm
 Version: 4.16.0
@@ -1515,6 +1773,38 @@ SHA512: 6d5e4e99d6a4e757c13b719a7b5f96ea6b5c49ec068c94c8b8c1fcdc282be99373e0571d
 Homepage: http://juliastrings.github.io/utf8proc/
 Description: a small, clean C library that provides Unicode normalization, case-folding, and other operations for data in the UTF-8 encoding
 Tag: purpose::library, role::developer
+
+Package: lldb-10
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: liblldb-10, debugserver-10
+Filename: pool/main/iphoneos-arm64/1500/lldb-10_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 14812488
+MD5sum: 5587fa4f04aae6313dea318b1ea21458
+SHA1: c12fc3d49a1ef318711e9cb2aaceb78d8b701653
+SHA256: 794774ddd195cb429e43c1dc73746587ea5a81e85fef47566dd7c27d2eb87deb
+SHA512: 46cbc9fc6f3151809fec50fc9afabc3c02725ca428fc96dbe586b2e878520a32159233c4e7ca254944849b4a2a65b1d7193cc367153f4f2bbc4cfde35842d240
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger
+Tag: purpose::console, role::developerInstalled-Size: 127040
+
+Package: lldb
+Architecture: iphoneos-arm
+Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: lldb-10
+Filename: pool/main/iphoneos-arm64/1500/lldb_10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 940
+MD5sum: 4699899d8ada6af2792cc0abd16e52dc
+SHA1: ca024d0f03b3fa0088bd45e141ecbe48e141879a
+SHA256: 5a25c0cba31a3776af06b425af26e4c3e2e1f81ab1517e29e7ae7fb2018205b9
+SHA512: 800ec11987fc6f03c605ec0485ec6e9093c6615dcbb6a525b2b20308f2ad3fcdfbe28003dbc8f4e6872d969636c5b93692f0ab6027d3fc6c09f32a9906f5b0f2
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger
+Tag: purpose::console, role::developerInstalled-Size: 0
 
 Package: lsof
 Architecture: iphoneos-arm
@@ -1795,6 +2085,24 @@ SHA256: 455cd656ceda2995ac940788bfbe46b84e5948c82451a697275fa65f28d57a3e
 SHA512: 6e45b2a4d080f0889c300e2d3ec54d762b9f709d1436145a68852dbb2934a5b8efb7f1ae4691f2f6513cf144229af7a792ffb4e9e890a56dd89311a87d750c0b
 Description: portable threading library used by X
 Name: New GNU Portable Threads
+
+Package: odcctools
+Architecture: iphoneos-arm
+Version: 949.0.1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: uuid, xar, liblto10, libtapi
+Filename: pool/main/iphoneos-arm64/1500/odcctools_949.0.1_iphoneos-arm.deb
+Size: 868052
+MD5sum: 89ea372d638431feb55531f10d052974
+SHA1: d9dbec5257176a679e2e13adadcba04f4ea74254
+SHA256: d6824b9fd40b90fa54c35869194a6746c0601115266967c590fb3ad6389c3e4e
+SHA512: 05480ce0cf63cc2d68993efa816e3323a628768e60f4a0d3a681bc7ca7b875cdc37515fbc42e8d2abb762988a2b8c12681d4f8362d2945813606652534e60f4d
+Homepage: https://github.com/tpoechtrager/cctools-port
+Description: linker and assembler for the iPhone
+Tag: purpose::console, role::developerInstalled-Size: 14360
+Name: Darwin CC Tools
 
 Package: openssh
 Architecture: iphoneos-arm
@@ -2229,6 +2537,44 @@ SHA512: 4e28ed04d0114c136dbcb9c3c8b82cd2ca84743bea17023a44dcd27a04615a3bab8267c1
 Description: temporarily assume root priviledges
 Tag: purpose::console, role::hacker
 Name: Sudo
+
+Package: swift-5.3
+Architecture: iphoneos-arm
+Version: 5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 538640
+Depends: libllvm10
+Filename: pool/main/iphoneos-arm64/1500/swift-5.3_5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 51628732
+MD5sum: 8df9401679e276a46d96eb4fde888dff
+SHA1: 249f715dcbf1f2d424d54124f1039ac2e8b6799f
+SHA256: ceb39945f6a259266c8395a5aa7d4326d72a088a6475b389971d941d945adf14
+SHA512: 08c9027331ae3f59d846efe2d99f8391c3654d274e3354cde6636a2dd677157984aa22f459a5f780d2b89202a915ac4223bae6286a30de2ace33246da9a73f41
+Homepage: https://swift.org/
+Description: Swift developer package
+Tag: purpose::console, role::developer
+
+Package: swift
+Architecture: iphoneos-arm
+Version: 5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: swift-5.3
+Conflicts: com.kabiroberai.swift-toolchain
+Replaces: com.kabiroberai.swift-toolchain
+Filename: pool/main/iphoneos-arm64/1500/swift_5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a_iphoneos-arm.deb
+Size: 924
+MD5sum: 29f7906c05ede8c19dadd7a8e36b7c89
+SHA1: b40b6fe6c97bbfca4e153cbd1b46fa7985183290
+SHA256: 555b2465b1d5bb486c86995c6627045beb00c7b6fc07ab48d9da51174f386e58
+SHA512: 1d361ffcaf33c473f303940aaad902ab0f1be74897fb0d51564f96dff2e53a1d8fe37b12a3ffe507c508cb1cebcfc0b1aa56ad8b199426cecc2d20f9e121be51
+Homepage: https://swift.org/
+Description: Swift developer package
+Tag: purpose::console, role::developer
 
 Package: system-cmds
 Architecture: iphoneos-arm
