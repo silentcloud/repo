@@ -2819,6 +2819,25 @@ SHA512: 8ca640b3e698b5cdb13a6ca5ba57557fff33425e9cd02f50495bcc6aefc9ee3c458c8812
 Description: simple HTTP file transfer client
 Tag: purpose::console, role::hacker
 
+Package: xar
+Architecture: iphoneos-arm
+Version: 1.6.1
+Priority: optional
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 528
+Depends: libssl1.1, xz-utils
+Filename: pool/main/iphoneos-arm64/1500/xar_1.6.1_iphoneos-arm.deb
+Size: 61488
+MD5sum: 6935cfdce856c37f79f8762c4d9e9e7e
+SHA1: 33dd1bc744cd770c9041a14acb6a2970a6b3a4fd
+SHA256: 5762423e2036977d6e063d5deb06eca86d5ae5062be10684c7ae49add77e3f02
+SHA512: 624834b4d390653687fad1ce645ac1643e5227c215622711cc885ace6bea2dba68f71ff2b952fcde09efb2ff74d5706f5a09d2e7c9c74dae3b5621f9c322eb7a
+Homepage: https://mackyle.github.io/xar/
+Description: eXtensible ARchive format
+Tag: purpose::console, role::hacker
+Name: XAR
+
 Package: xxd
 Architecture: iphoneos-arm
 Version: 8.2.0700
