@@ -2306,6 +2306,22 @@ SHA512: d754c8235f66f60cc5f8edd0efa21daeb7b741530ce38b9a46931f6b1338900fb1417b17
 Description: awesome combination of sed and awk
 Name: Perl
 
+Package: perl
+Architecture: iphoneos-arm
+Version: 5.30.3
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 103120
+Filename: pool/main/iphoneos-arm64/1600/perl_5.30.3_iphoneos-arm.deb
+Size: 7634384
+MD5sum: 0a2426b819c6a2010fdfb163bde81380
+SHA1: 565c3c7543b723cebae9ccf959beb7f179f6dfa2
+SHA256: ee57f397f0bddd7840f34b03ebbebd32abfa016e1cd2a4e94475df50ed7dd623
+SHA512: 7ef6b8bb13e8aea2274440fd9e3d553d088b29df9a5b580075453fe31dd0877cd5e13c491f679af2d69ac27dad5033557dff5cb4bbaa6d98c037c14afdf5f09a
+Description: awesome combination of sed and awk
+Name: Perl
+
 Package: pincrush
 Architecture: iphoneos-arm
 Version: 0.9.2
