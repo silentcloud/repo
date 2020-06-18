@@ -329,6 +329,23 @@ Tag: purpose::console, role::developer
 
 Package: coreutils-locale
 Architecture: iphoneos-arm
+Version: 8.32-1
+Priority: optional
+Section: Locales
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 19856
+Depends: coreutils (= 8.32-1)
+Filename: pool/main/iphoneos-arm64/1500/coreutils-locale_8.32-1_iphoneos-arm.deb
+Size: 1395316
+MD5sum: b612a871f2da2b2c6a6425c0b727321e
+SHA1: ed86c71f53105cb79044f1ca4855022e5857a5d3
+SHA256: 8298c1cbfc725bb034307f9214c2c27a146ba6d5f0ad4fcab0d349c2992a37fc
+SHA512: c4770007d6aa030405387d7f356b2266134dce256b79ca758b0304b483d4244d7014eb904741b255e5fdbeaedb76e1acebc28c9d10ac6f0295c9e6abdfccc919
+Homepage: http://www.gnu.org/software/coreutils/
+Description: Locale files for coreutils.
+
+Package: coreutils-locale
+Architecture: iphoneos-arm
 Version: 8.32
 Priority: optional
 Section: Locales
@@ -343,6 +360,27 @@ SHA256: d0a55fbcb1fb37abeb5f745021dae0edd6523d13085e5d80c9ff2d8ed057b723
 SHA512: 4ac62bce87c3e8884180ced0ec5240fd0f2cf9f73827bbf9c1d9a465fa27bd412e5760c8d64e86d6fd785c88128229700d92c9d61e9ae7b2f2fabf5c617eb840
 Homepage: http://www.gnu.org/software/coreutils/
 Description: Locale files for coreutils.
+
+Package: coreutils
+Architecture: iphoneos-arm
+Version: 8.32-1
+Priority: standard
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 26752
+Provides: md5sum, sha1sum, coreutils-bin (=8.32-1), dirname, kill, mktemp, su
+Depends: bash, profile.d, gettext (>= 0.20.0)
+Conflicts: coreutils-bin (<<1:0), shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1)
+Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1)
+Filename: pool/main/iphoneos-arm64/1500/coreutils_8.32-1_iphoneos-arm.deb
+Size: 1074124
+MD5sum: 7a9b59f8e4d97dd9895b16d1ece6f551
+SHA1: ad1b740bd6e6d62cbfc969dad97e70680d41364c
+SHA256: e2270e2e649efe9b6255f457ed630900f27abbce0b058af4d08a98a919d8c65c
+SHA512: 21e32f190cfb35a3f676ed4c11d7370d0c6ee176f845aa022e302d6559e75142607557fa6623fb470da7d99db0535b93e4d109367caa990c1ea15bd1bd060922
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
 
 Package: coreutils
 Architecture: iphoneos-arm
