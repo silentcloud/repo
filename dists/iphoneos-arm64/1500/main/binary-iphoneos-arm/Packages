@@ -2650,6 +2650,23 @@ SHA512: bc34a42c274d9865be7e334bbd0329fb124fe4c752a3e4dc8377dd3f95d53dc2dc8b72de
 Description: multiplexes a terminal into many
 Tag: purpose::console, role::hacker
 
+Package: tmux
+Architecture: iphoneos-arm
+Version: 3.1b
+Priority: important
+Section: Terminal_Support
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1592
+Depends: libevent, libutf8proc, ncurses
+Filename: pool/main/iphoneos-arm64/1500/tmux_3.1b_iphoneos-arm.deb
+Size: 255144
+MD5sum: 3dd6fe99a94aa7e9a413817bc57bcadc
+SHA1: 28058acce2ac90238b7714202eaa710f79cfa7a9
+SHA256: 07bd111ab2bfd0e588f4f4c7ade1eed4e40b56832ce3b90a39d698d17c12bc01
+SHA512: a2eac3de2c71ddde56ac349fc89c44fefcba3184f097a613b3702fec7d3e48f43c912e62450d8cc49252b63a268f37fc7bff7f533d7fba706b7bdbd154c28f68
+Description: multiplexes a terminal into many
+Tag: purpose::console, role::hacker
+
 Package: top
 Architecture: iphoneos-arm
 Version: 125
