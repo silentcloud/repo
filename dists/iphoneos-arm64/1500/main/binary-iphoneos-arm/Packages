@@ -2723,6 +2723,21 @@ SHA512: 6aae604b4ca7c26ae0ad5128341b9f25752375aacd270d2f914dea3710e62ff35e00b074
 Description: at-a-glance process watching tool
 Tag: purpose::console, role::hacker
 
+Package: transmission
+Architecture: iphoneos-arm
+Version: 3.00
+Priority: optional
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: curl, libevent
+Filename: pool/main/iphoneos-arm64/1500/transmission_3.00_iphoneos-arm.deb
+Size: 688436
+MD5sum: 621367ee0166ad7e4946cfc367f1508f
+SHA1: 4bb99db866a20ce50346ab36b361be98c546f3a1
+SHA256: a45797eb5018a525b3c8693840708cbbead58efb93399595bcf1fcb8e1b20b57
+SHA512: 70904702c0dad36a45bc9c5199e717e4956f0fe6752a76001a93914af99f0a8b3fdf0cb62f6e9296e1b27c426f94a464ce9b1caff9a23ef1f1087130a965518e
+Description: lightweight BitTorrent clientInstalled-Size: 10464
+
 Package: uikittools
 Architecture: iphoneos-arm
 Version: 2.0.2
