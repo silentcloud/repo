@@ -552,6 +552,27 @@ Tag: purpose::console, role::sysadmn
 
 Package: dpkg-dev
 Architecture: iphoneos-arm
+Version: 1.20.0-1
+Priority: optional
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2016
+Provides: dpkg-perl (=1.20.0-1)
+Depends: dpkg, perl
+Conflicts: dpkg-perl (<<1:0)
+Replaces: dpkg-perl
+Filename: pool/main/iphoneos-arm64/1500/dpkg-dev_1.20.0-1_iphoneos-arm.deb
+Size: 158236
+MD5sum: c03f6eb4fb1c0c0f0b8fd9f865e6d22f
+SHA1: 5f5d834cfeb72e9282e18788780506b63051eca4
+SHA256: ce70c553772bda4e94ab6b95c42403a7eb3589e1226e198921c2a4d2deaa29f1
+SHA512: e350ff642bd84f4d3e217028878ecfbd0932b22f8b3ba52a3251848072aa10bb52b73fdd152ec95e869f60f4c8696338315754eafd9423ae4f5ff44b47482851
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages.
+Name: Debian Packager (Devel)
+
+Package: dpkg-dev
+Architecture: iphoneos-arm
 Version: 1.20.0
 Priority: optional
 Section: Packaging
