@@ -1096,6 +1096,26 @@ Name: Launch Daemon Controller
 
 Package: ld64
 Architecture: iphoneos-arm
+Version: 530-1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Provides: org.coolstar.ld64
+Depends: uuid, xar, liblto10, libtapi
+Conflicts: org.coolstar.ld64
+Replaces: org.coolstar.ld64
+Filename: pool/main/iphoneos-arm64/1500/ld64_530-1_iphoneos-arm.deb
+Size: 677120
+MD5sum: 4a76227f5b90c596d49efd1d3f61a88f
+SHA1: 8b3ed587b75deb11a9c474bd6684c684d18eb114
+SHA256: 725b3d090508c8b3f95b83a1f0add15086e5f07a56a0ebf36e2f3128b77c3f4b
+SHA512: 9c97c21dda755fb620857e6e5cb1c8e151a1155d78cfcaeed9e09fcd8e192525fb65ad1a333801d3be40918f70edb63865661971958245fa7eb0d61aba759491
+Homepage: https://www.llvm.org/
+Description: 64-bit iOS linker
+Tag: purpose::console, role::developerInstalled-Size: 7928
+
+Package: ld64
+Architecture: iphoneos-arm
 Version: 530
 Priority: optional
 Section: Development
@@ -2106,6 +2126,24 @@ SHA256: 455cd656ceda2995ac940788bfbe46b84e5948c82451a697275fa65f28d57a3e
 SHA512: 6e45b2a4d080f0889c300e2d3ec54d762b9f709d1436145a68852dbb2934a5b8efb7f1ae4691f2f6513cf144229af7a792ffb4e9e890a56dd89311a87d750c0b
 Description: portable threading library used by X
 Name: New GNU Portable Threads
+
+Package: odcctools
+Architecture: iphoneos-arm
+Version: 949.0.1-1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: uuid, xar, liblto10, libtapi
+Filename: pool/main/iphoneos-arm64/1500/odcctools_949.0.1-1_iphoneos-arm.deb
+Size: 868428
+MD5sum: c5bd7f89d6cf0b861dbcd0b9a35e4133
+SHA1: 521d7c7ba9dc8545cd45c20238fdfca65978696a
+SHA256: 3f48130e546aa94961878635024ae63ce96ddf570a8b44ce0702f6faa8954e53
+SHA512: c1901cf2e46a6ec2d6abad7cbca615d4f768ad82885c2ba964f7f2d3f2932445373fa38dde79dd1579f3bea2b0da833a4a84bab2d59fd87a20f39cf4d5793044
+Homepage: https://github.com/tpoechtrager/cctools-port
+Description: linker and assembler for the iPhone
+Tag: purpose::console, role::developerInstalled-Size: 14360
+Name: Darwin CC Tools
 
 Package: odcctools
 Architecture: iphoneos-arm
