@@ -2162,6 +2162,22 @@ Description: arp, ndp, traceroute, mnc, mtest, traceroute6, ifconfig, ip6addrctl
 Tag: purpose::console, role::hacker
 Name: Network Commands
 
+Package: ninja
+Architecture: iphoneos-arm
+Version: 1.10.0
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 292
+Filename: pool/main/iphoneos-arm64/1600/ninja_1.10.0_iphoneos-arm.deb
+Size: 84964
+MD5sum: f3c0bcbb323a1697c45e2c958217816f
+SHA1: 021150b8e6f09e321e8ec87cdf8c2314f1ba9650
+SHA256: a341ebe9b715ba75ec31b2a3afca80d71e492eba0d35ed4fcfc843e4c911510d
+SHA512: 5ba45d23521c8655b739de38f13a66afdbd45ebef43e46ef9a9cbacd178d86bba14e5cda74648d0c6c1f30aa9c85748ef450725872e45c645557fb9a8d00734c
+Description: Small build system for use with gyp or CMake
+Tag: purpose::console, role::hacker
+
 Package: npth
 Architecture: iphoneos-arm
 Version: 1.6
