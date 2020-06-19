@@ -3159,6 +3159,23 @@ Tag: purpose::console, role::hacker
 
 Package: zsh
 Architecture: iphoneos-arm
+Version: 5.8-1
+Priority: required
+Section: Terminal_Support
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 25488
+Depends: ncurses, libpcre
+Filename: pool/main/iphoneos-arm64/1600/zsh_5.8-1_iphoneos-arm.deb
+Size: 1971340
+MD5sum: 74da1912afa2a41d0930becb811f3a43
+SHA1: ce4636439c4c5f7b72078a1dc08ada315cc8c1e8
+SHA256: 640ae6c45be5ee0e32472aa6c14da2fa2c20592af78b23b054bd4a01852a1b7c
+SHA512: 9bd4301831eb06fb421826c54de09667b52e6c2944650cf56f49735a81a28ccca8343967a03afdf06a1cb5fec6f67a2ca8f1b4dec0b89b2699dd6c0745dc6d1c
+Description: a shell with interactive features
+Name: Z Shell
+
+Package: zsh
+Architecture: iphoneos-arm
 Version: 5.8
 Priority: required
 Section: Terminal_Support

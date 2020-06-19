@@ -1,33 +1,33 @@
 Architectures: appletvos-arm64
 Codename: appletvos-arm64
 Components: main
-Date: Fri, 19 Jun 2020 03:56:46 +0000
+Date: Fri, 19 Jun 2020 06:25:18 +0000
 Description: Distribution of essential tools for tvOS
 Label: Procursus
 Origin: Procursus
 Suite: stable
 Version: 1.0a1
 MD5Sum:
- 1a1ae1172a45835fc7d01ce429359b59              230 Release
+ 8de50b8cb3f6ec3641350a853f17a9e6              230 Release
  661fd721273f32e2ff84e540eff78862            72613 main/binary-appletvos-arm64/Packages
  9c2eeaf6bf9f6442101e977a7538b3f3            23616 main/binary-appletvos-arm64/Packages.xz
  2302d39f6e1c295775559da9fb26db5f            24078 main/binary-appletvos-arm64/Packages.zst
- 66e421bc0ba37a9ac59919cd50e8d351             1662 main/binary-appletvos-arm64/Release
+ 8536028e6004c2dd8f176b5778621a6e             1662 main/binary-appletvos-arm64/Release
 SHA1:
- 9d7f3a26bcdf29ce238d2df86bccf0129a00ec26              230 Release
+ cfe33905d535bbf23e01740626b19e4119fe835e              230 Release
  d54c166d81f09d2f609bf23cb0ff256800a63e60            72613 main/binary-appletvos-arm64/Packages
  de46e1feb299a45177953b91c943544b51760dbb            23616 main/binary-appletvos-arm64/Packages.xz
  0bdde73ed105a9b3c7f0972880de1d622c528293            24078 main/binary-appletvos-arm64/Packages.zst
- 00f8f00d4a073a8c075db92ea20cead99f191a30             1662 main/binary-appletvos-arm64/Release
+ 8ffe19070e022552cc119b79d6791d649c3a819f             1662 main/binary-appletvos-arm64/Release
 SHA256:
- b8a841a0db94089f52a0edb79a303f7eb7923f6fdea6ff1b2800af65c318bb70              230 Release
+ 0b71b171693c20e006284267f494d9428a0f408e46a39264b13383499fd628cb              230 Release
  f54b27d0f4f67f3f558ce8970344eaaaf5c72f06da8befbf0b6c72bc956bdf29            72613 main/binary-appletvos-arm64/Packages
  6c0636b5e050eec1ee6580dfc68dbff39f800eb3efaa9c93e149574a70b8042b            23616 main/binary-appletvos-arm64/Packages.xz
  6456310e6f5ae0704b5b7cb4769c53ba323fc320abdb09200e88c27de1afb29a            24078 main/binary-appletvos-arm64/Packages.zst
- 02609d36ecd2dbc776819bfc361b58760598957c96fb73eb9fc435d38b3080d0             1662 main/binary-appletvos-arm64/Release
+ 3f492bf018ef495a8e269b3e8adb782be0eb608257ccb43f2047df2ae2bf8aa8             1662 main/binary-appletvos-arm64/Release
 SHA512:
- 0fde01c6d513ab50bf5f639dca9356cd715917ac5763a146a4e5a8de684ef2ce5dedd116fdde6c672fc83db449c71b744c3f73e615fb287a577003033352e72f              230 Release
+ 731672d343c39a5dd66a9d6fdf48c9664dd828aad07842f344dd5a0afe71661021efbd999b11feac7694899eba536d26fc91d3ae1e95122d6eb84b3c9155d831              230 Release
  c4d79fe6166e054152a0e3f69a246e3b7e607a0a9f1c8b6c0272d99be496784cf5124d19be8847a06e53ff5a8eb9d24e55b988c8a6f3e8534d27fbea7468ba9d            72613 main/binary-appletvos-arm64/Packages
  df001e9335e420a68bf7cec32ff56d03c77bb54a7428ccb3570e53eb6891547e080b6043e018789feb7bae0d5cfaba7190a3fcc3a8bfc6301e6195134cd9bc3f            23616 main/binary-appletvos-arm64/Packages.xz
  a03334769347d71da4c9b568ad79ed7283d749e55c57cf07f56eaccad4a256e0c8f4ffb97bdc7b34b1b6a309b3e3e0070512147250c31789e12d9d1eab8b742e            24078 main/binary-appletvos-arm64/Packages.zst
- 37771e2bdaaa8ec1360fcc2ee4e375d2ae022496faa60b91b32a2d53859b4bc037e2be1b7c854d6549e7c80cb2cc4b19126e760714843d8acf0387873417f427             1662 main/binary-appletvos-arm64/Release
+ bf12d09520e6e2864943b61ef99d2576253e79efcdc05901c79afdb6cfde8fb6110f19b34d555aacf603ff409d7b30524b6946b352a29da24433f2d6f37ebc50             1662 main/binary-appletvos-arm64/Release
