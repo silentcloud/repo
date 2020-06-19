@@ -2488,6 +2488,24 @@ Description: Interpreted, interactive, object-oriendted programming language.
 Tag: purpose::console, role::hacker
 Name: Python 3.8
 
+Package: python3.8
+Architecture: iphoneos-arm
+Version: 3.8.3
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 113104
+Depends: ncurses (>= 6.0), readline (>= 8.0), libssl1.1, libffi, xz-utils, libgdbm, gettext
+Filename: pool/main/iphoneos-arm64/1600/python3.8_3.8.3_iphoneos-arm.deb
+Size: 9915068
+MD5sum: ae1569c77b22edc84ac55c077eee603c
+SHA1: 4cae518a093893f3e119024c54c06c26183db353
+SHA256: b18c947e3dd6ee45cb24e2b937409d3c5d44d1ac83f8d374b62cb833fb95b743
+SHA512: 15d20444aed70066f0be65b901de86a004493fa33ae6e8d7a40ccc97e7833ee2b5a10e2c825dab64d40833db7ca582d52b44763a4966a58e2ffc0f911f1d456f
+Description: Interpreted, interactive, object-oriented programming language.
+Tag: purpose::console, role::hacker
+Name: Python 3.8
+
 Package: python3
 Architecture: iphoneos-arm
 Version: 3.8.2
@@ -2503,6 +2521,24 @@ SHA1: b1ce230109d09d5a43092f73289916972b7244b1
 SHA256: 3f15cde56fd545f2db7ceed0264d1603245058db5485ff87d7db4293ef250eef
 SHA512: 5350018b5891dea2314f4bbf2945f8ea8013c9ea9296f3bda6af428d7f5aa61f63e287ba63e86620262ebea480e8088dbcafc52b20b0f17a673df86e0433f109
 Description: Interpreted, interactive, object-oriendted programming language.
+Tag: purpose::console, role::hacker
+Name: Python 3
+
+Package: python3
+Architecture: iphoneos-arm
+Version: 3.8.3
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: python3.8
+Filename: pool/main/iphoneos-arm64/1600/python3_3.8.3_iphoneos-arm.deb
+Size: 812
+MD5sum: 3a0200d2b04d2741f0627404c5671528
+SHA1: 925cd95bf21c9b5eaef0e8d0e9fa752d1c3b279e
+SHA256: f8684bb8e1750dd5bc2d81a63860c2e6bce1a6ef5198517693f8dbed6a4ced7a
+SHA512: a1bc2c0da65ea3ee03797f33c4d994dc69f5e1a1f449fee5fdc74c725df573f43644f88513740c67efe01fae3fa313f214fe2ac9714752b65826c62cefd0bb6a
+Description: Interpreted, interactive, object-oriented programming language.
 Tag: purpose::console, role::hacker
 Name: Python 3
 
