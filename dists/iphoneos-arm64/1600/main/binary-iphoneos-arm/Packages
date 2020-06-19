@@ -186,6 +186,25 @@ Name: Bourne-Again SHell
 
 Package: bash
 Architecture: iphoneos-arm
+Version: 5.0.17-2
+Priority: optional
+Section: Terminal_Support
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2712
+Pre-Depends: readline (>= 8.0), profile.d (>= 0-5)
+Depends: grep, ncurses, readline, sed
+Filename: pool/main/iphoneos-arm64/1600/bash_5.0.17-2_iphoneos-arm.deb
+Size: 399944
+MD5sum: e8c63e53f3675da40e9b5ceb90bb9116
+SHA1: d363544522ddbb17530b428bd6717dd3f334cac7
+SHA256: d4d0b21f1e0e6473d2e4c4f017e9b46d405d5d015cee558c4784b86a0dd67960
+SHA512: 528768bfd1cde3c03b5b4725dfc336c8bfa149cd5ffc96ea7ee2dbb4fb3314c9a0970863a6355b15cc87ae3b0f883e93ed31b196598fa4c86711c0fb06f24a94
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox
+Name: Bourne-Again SHell
+
+Package: bash
+Architecture: iphoneos-arm
 Version: 5.0.17
 Priority: optional
 Section: Terminal_Support
