@@ -2269,6 +2269,25 @@ Description: secure remote access between machines
 Depiction: http://cydia.saurik.com/info/openssh/
 Name: OpenSSH
 
+Package: openssh
+Architecture: iphoneos-arm
+Version: 8.3p1
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 11104
+Depends: libssl1.1
+Conflicts: com.midnightchips.localhostssh
+Filename: pool/main/iphoneos-arm64/1600/openssh_8.3p1_iphoneos-arm.deb
+Size: 668076
+MD5sum: b0c74dabbdb9c26934fa8d90e80c8490
+SHA1: 40bcd8370d5787dc1d00609d1cdd8a1a76f36435
+SHA256: 7583cf3bf176435b9ae98d28cf8037901c62e85aeadea40cf8c6f00e4259e81c
+SHA512: f7919ed00d1cc419a99208f497be9aefe460a6498ac6f1a7dec9ecd6e045ffe67323df6413445b1f7f0b5c2e035a819fc8714be7f5a8befb6346c72139b6e270
+Description: secure remote access between machines
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH
+
 Package: openssl
 Architecture: iphoneos-arm
 Version: 1.1.1g
