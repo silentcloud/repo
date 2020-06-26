@@ -1429,6 +1429,23 @@ SHA512: ea5126ed69d41c87b5e8b21c1f17532ec53b681991bf9bdbe2686b375d67f40330819721
 Description: dynamic generation of function calls
 Tag: purpose::library, role::developer
 
+Package: libfragmentzip
+Architecture: iphoneos-arm
+Version: 60
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 168
+Depends: libzip, curl, libgeneral
+Filename: pool/main/iphoneos-arm64/1600/libfragmentzip_60_iphoneos-arm.deb
+Size: 8320
+MD5sum: 3970582a491c896682c1e6996ffe197c
+SHA1: 048060b14b7598e99f0487fafebac2993cde8889
+SHA256: 07af81772ecfaf2d2b37f776cdaa6d21adece25f786ff123b31af6bc88b16b7f
+SHA512: 156c7f4ce1c3e31691f29906219b632e0c0211f2a484b617ec2b791bd0616f78af70c5902b1ff20f23779ad1a02297683f33e6e6d0f52f8f12c33b255bcc4e0f
+Description: A library allowing to download single files from a remote zip archive
+Tag: purpose::console, role::developer
+
 Package: libgcrypt
 Architecture: iphoneos-arm
 Version: 1.8.5
@@ -1484,6 +1501,22 @@ SHA512: 5b1ae5797958137cfbd1e3d155409e3d76b6012ed80868b1d43a7cf9f8d3b9949bde9d8a
 Homepage: https://www.gnu.org.ua/software/gdbm
 Description: GNU dbm (or GDBM, for short) is a library of database functions that use extensible hashing and work similar to the standard UNIX dbm. These routines are provided to a programmer needing to create and manipulate a hashed database.
 Tag: purpose::library, role::developer
+
+Package: libgeneral
+Architecture: iphoneos-arm
+Version: 31
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 168
+Filename: pool/main/iphoneos-arm64/1600/libgeneral_31_iphoneos-arm.deb
+Size: 5944
+MD5sum: 6406ccf801a72e4cc25da4e5e38be46e
+SHA1: d9dbc62f83bb974c6c9ba3ad14b9011a33e3d242
+SHA256: 37ab46644541235234772566527d05bedb02f1faa04a5e5d39f127c15bf80c03
+SHA512: c600cedde4887f8911ee23a2091e8d714ee4bb12c1204abcda5e753518816b39ebc3c5303e524847f82feb4573b2ffb08e1113c165446e7aac12af921fc0bcb0
+Description: Common library for tihmstar tools
+Tag: purpose::console, role::developer
 
 Package: libgmp10
 Architecture: iphoneos-arm
@@ -1946,6 +1979,22 @@ SHA512: 73754e69d558b1c497ae5b7dea4ae3e6093019202b0faf4e3bd85345d04702e6d612288b
 Homepage: http://juliastrings.github.io/utf8proc/
 Description: a small, clean C library that provides Unicode normalization, case-folding, and other operations for data in the UTF-8 encoding
 Tag: purpose::library, role::developer
+
+Package: libzip
+Architecture: iphoneos-arm
+Version: 1.7.1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2008
+Filename: pool/main/iphoneos-arm64/1600/libzip_1.7.1_iphoneos-arm.deb
+Size: 88440
+MD5sum: 06e82c60df0df2df50588e774cf7cc9c
+SHA1: 58188dee9f58151e07f1ada8f17739f56b7b6d3d
+SHA256: 49aded50d52df66dade8a4b7ec51f2314f779180715de1dd9405ec7fc733a67a
+SHA512: eef73de23bbb678ba5ebd1951c820ff00690faefa001b4e2bed3a5c9564c3778c11799153237620c912ed9aa34bab9e37b35f8ecef1c43543cbdcfae319e16a8
+Description: a C library for reading, creating, and modifying zip archives.
+Tag: purpose::console, role::developer
 
 Package: lldb-10
 Architecture: iphoneos-arm
