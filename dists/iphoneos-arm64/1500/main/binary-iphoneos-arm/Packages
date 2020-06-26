@@ -1923,6 +1923,21 @@ Homepage: https://www.llvm.org/
 Description: Next generation, high-performance debugger
 Tag: purpose::console, role::developerInstalled-Size: 0
 
+Package: lolcat
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 208
+Filename: pool/main/iphoneos-arm64/1500/lolcat_1.0_iphoneos-arm.deb
+Size: 5504
+MD5sum: c38aa3adfaa019f0584dea6afc3cbca4
+SHA1: 3fb3eeeb5bfa0c7531d5b606cf3c570fcce4a69a
+SHA256: 6994a8fee42568c55d4eb094765e4399d772db9e428eba8daa9289d615ef3392
+SHA512: 5e469e5f5e4964b78a1b761abb27adc879d205b1057bd9f7b7499b81d5c306df294b2a2da271a3d99b35d6db8664285e6a7f46c3c0f8f7024f10d3ca105a893c
+Description: High-performance implementation of lolcat
+
 Package: lsof
 Architecture: iphoneos-arm
 Version: 62
@@ -2633,6 +2648,23 @@ Homepage: http://www.samba.org/rsync/
 Description: synchronize files between computers
 Tag: purpose::console, role::hacker
 
+Package: rsync
+Architecture: iphoneos-arm
+Version: 3.2.1
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1656
+Filename: pool/main/iphoneos-arm64/1500/rsync_3.2.1_iphoneos-arm.deb
+Size: 284548
+MD5sum: 02a054c2dfb37847c0026a5b6f375e29
+SHA1: 8c71b6179cd75ceb88c7161a0a4e45b9a8b8839d
+SHA256: 5e5f2277d650607203f123e125e3858b9f343fecf9b0f6e8ba1949d3a939a81d
+SHA512: 2d3bb0d5f88368658a812ac177d16942ea5d4e4ec23c34fe4b72867ce259f60ee5a3a360177dcd2da9c20da89c1477c1f4362af191e0d3052eec5f5c6a4e6e57
+Homepage: http://www.samba.org/rsync/
+Description: synchronize files between computers
+Tag: purpose::console, role::hacker
+
 Package: sed-locale
 Architecture: iphoneos-arm
 Version: 4.8
@@ -2687,6 +2719,22 @@ SHA256: a836c918bb8b1df970d65a1780fe49860298ccbdedf2e724dd0455228ed28fcb
 SHA512: 112231816bcf19094ea50882493cff8f556bc81a0a51abd36b27084bb8dff0d03699ad6852191d8f9165d86ac3c66c0e68023e5af3c25dc673723be3c7c4792c
 Description: killall, renice, script, time, which, getopt, what, hexdump
 Tag: purpose::console, role::hacker
+
+Package: sl
+Architecture: iphoneos-arm
+Version: 5.02
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 104
+Depends: ncurses
+Filename: pool/main/iphoneos-arm64/1500/sl_5.02_iphoneos-arm.deb
+Size: 5648
+MD5sum: d0d7fd0109029d5bbb49ececdb3b3ffc
+SHA1: fcd962615c3fce5f07ae5623f5de4058bbd6d93a
+SHA256: ee95b0e5712a7be6f675016e282312575bed7547b222e2cdfb8294887df54f10
+SHA512: b5b32fc78c0422c8d6c1120a67f6a93a850422a71fef5332c0754d9c1047466a1f9746153d1bcefd1f02aacea59fd61df344b21f0b3ddb8d7970ffe3c9b2748c
+Description: cure your bad habit of mistyping
 
 Package: snaputil
 Architecture: iphoneos-arm
@@ -2885,6 +2933,23 @@ SHA256: 98d70ebc3e9f8fc668ba7c0c1af268c1d3f43047ba59938912ef6a22bddac654
 SHA512: 6aae604b4ca7c26ae0ad5128341b9f25752375aacd270d2f914dea3710e62ff35e00b07495ac4267ce6286c9946817b03e4a9e6cd756c53663c8ed2d1bfda261
 Description: at-a-glance process watching tool
 Tag: purpose::console, role::hacker
+
+Package: tor
+Architecture: iphoneos-arm
+Version: 0.4.3.5
+Priority: optional
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 23320
+Depends: xz, libevent, openssl, zstd
+Filename: pool/main/iphoneos-arm64/1500/tor_0.4.3.5_iphoneos-arm.deb
+Size: 2036596
+MD5sum: b52714c8ccb1379458995a59ec721930
+SHA1: 44ec34d62f6d18dc3f1acc43ef40de90dcd42012
+SHA256: e916cf2fca9a35c99e441050b357196e94f6504f4fb1d17a5df942eb0d83cdac
+SHA512: b5d73c8bec56aa05963bd4e301a6ab23c979b170e43b2b69b6e7985327bdb4233d2af30081a920ad20b997ced252a2dc6d09460dc696b6db4fd1604a5a561ccc
+Homepage: https://www.torproject.org/
+Description: Anonymzing overlay network for TCP
 
 Package: transmission
 Architecture: iphoneos-arm
