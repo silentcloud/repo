@@ -2696,6 +2696,24 @@ Name: Python 3.8
 
 Package: python3.8
 Architecture: iphoneos-arm
+Version: 3.8.3-1
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 111328
+Depends: ncurses (>= 6.0), readline (>= 8.0), libssl1.1, libffi, xz-utils, libgdbm, gettext
+Filename: pool/main/iphoneos-arm64/1600/python3.8_3.8.3-1_iphoneos-arm.deb
+Size: 9773856
+MD5sum: 3c45b733c5f69ca42d7eca9b89736e2c
+SHA1: b96338a3ae6d071efd9cdc295e160b4e51caa769
+SHA256: 14ac0e3bba1f88feb3060aa1016fdff13a4099d6e23138fd1b067ffe0ed7b1d0
+SHA512: bd222268cd376335c072f9f071eeb81c5e44731c330e37747b27cc7114c38946aaefd2fdfc8cc1b44a8e32d2ce54c3ecbc18ce17e9d7826d3f1a573d577b6454
+Description: Interpreted, interactive, object-oriented programming language.
+Tag: purpose::console, role::hacker
+Name: Python 3.8
+
+Package: python3.8
+Architecture: iphoneos-arm
 Version: 3.8.3
 Priority: optional
 Section: Scripting
@@ -2727,6 +2745,24 @@ SHA1: b1ce230109d09d5a43092f73289916972b7244b1
 SHA256: 3f15cde56fd545f2db7ceed0264d1603245058db5485ff87d7db4293ef250eef
 SHA512: 5350018b5891dea2314f4bbf2945f8ea8013c9ea9296f3bda6af428d7f5aa61f63e287ba63e86620262ebea480e8088dbcafc52b20b0f17a673df86e0433f109
 Description: Interpreted, interactive, object-oriendted programming language.
+Tag: purpose::console, role::hacker
+Name: Python 3
+
+Package: python3
+Architecture: iphoneos-arm
+Version: 3.8.3-1
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: python3.8
+Filename: pool/main/iphoneos-arm64/1600/python3_3.8.3-1_iphoneos-arm.deb
+Size: 816
+MD5sum: 5e8bd5c7c7cfc71079db3d4a88923ca3
+SHA1: 201bc30603f290c8b1938ea1e3f21d8334affbf3
+SHA256: 5d2a871f65e8c7af33afb610e1c2e2261ffc95a19707dad27c809d62b24929a8
+SHA512: 87e78d9fc2358b3867c3da366e6a4d225f5d4664299a9b770dcec348a6ee7cab756a1a4ce428a6516ea6543148f143610dd97653768279d4335f451d435d2b18
+Description: Interpreted, interactive, object-oriented programming language.
 Tag: purpose::console, role::hacker
 Name: Python 3
 
