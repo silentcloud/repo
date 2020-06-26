@@ -2957,6 +2957,23 @@ Tag: purpose::console, role::hacker
 
 Package: tor
 Architecture: iphoneos-arm
+Version: 0.4.3.5-1
+Priority: optional
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 23320
+Depends: xz-utils, libevent, libssl1.1, zstd
+Filename: pool/main/iphoneos-arm64/1500/tor_0.4.3.5-1_iphoneos-arm.deb
+Size: 2036736
+MD5sum: fc40fa4ef3be44cc10fb226b4d527ea4
+SHA1: 681c8e97eacf76aae5fcac37d00f2519fe5eb40a
+SHA256: 5adadf3915a2a26f17bd8c252c18ddef2661a01348d5277be8bbda3ac8082218
+SHA512: bd105f417dbe82ac6934a534215b2b24fbdb2b69a5b7ca41a66316ffe2e3201ee124835ebf24113e6f1b5add931ac184706fd0ded993afee6e25012d46cc6a36
+Homepage: https://www.torproject.org/
+Description: Anonymzing overlay network for TCP
+
+Package: tor
+Architecture: iphoneos-arm
 Version: 0.4.3.5
 Priority: optional
 Section: Networking
