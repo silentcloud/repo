@@ -1212,6 +1212,25 @@ Tag: purpose::console, role::developerInstalled-Size: 7928
 
 Package: ldid
 Architecture: iphoneos-arm
+Version: 2.1.2-1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 440
+Depends: libssl1.1, libplist (>= 2.2.0)
+Filename: pool/main/iphoneos-arm64/1500/ldid_2.1.2-1_iphoneos-arm.deb
+Size: 52092
+MD5sum: c7102652df6d86e26f5f3bdf2296a79c
+SHA1: 02df5fb0891d64c045e748fa39fa1b80fae2842e
+SHA256: 3658a0ecfff204d516a97c59a26717a7239f7ac97355d2322e5e791be61a8d95
+SHA512: 033e21e0f3c9a6247a028f2f262860361f516fe68015fa010014a094b5a52319f191ed4be835f3768f777cf6882b49b76be705ef73678e461b0793b4677220b2
+Description: pseudo-codesign Mach-O files
+Tag: purpose::console, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
+Package: ldid
+Architecture: iphoneos-arm
 Version: 2.1.2
 Priority: optional
 Section: Development
@@ -1766,6 +1785,22 @@ MD5sum: 711386a324fa87e71dc6d5bef18d9d73
 SHA1: ee6d15af304eebd2d1df29b1ff0a904796f21d2b
 SHA256: 677727304eb2f075140a97fd0f03a1704631d9994bd052545eb4a15a013f1406
 SHA512: fa134408b6d8b8aafcad463b03d163f56aa8ee4634e49d0a1f7b6236c5b399eca7e06b99d36d40083683882546b7a676db26fcfbae3ba690ae2eea72ea73bbfb
+Description: plist library
+Tag: purpose::library, role::developer
+
+Package: libplist
+Architecture: iphoneos-arm
+Version: 2.2.0
+Priority: standard
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 760
+Filename: pool/main/iphoneos-arm64/1500/libplist_2.2.0_iphoneos-arm.deb
+Size: 51080
+MD5sum: 38296d292fabe41e0662d8b8850dc109
+SHA1: be0721a88b72b943e4c825bc9f84926aeeaf0bc7
+SHA256: ee4e99633df8717e81be900050dc9dbf1a7aa1edd0dd86c8d13b013b463e59e2
+SHA512: 38e8564a012c8beb306b9beb69f9b621c46a42199a2442884e7ccb1134cfb55637e2c3b67c533e258a8716f3f7e5e6a2697bbfa4b4bac43b5cd39452a005f75c
 Description: plist library
 Tag: purpose::library, role::developer
 
