@@ -1354,6 +1354,27 @@ SHA512: 7a0f0523f346605f932d10915e5825caffefd4c9969e0a06364076833d69d0925e795552
 Description: Modular compiler and toolchain technologies, runtime library
 Tag: purpose::console, role::developerInstalled-Size: 81416
 
+Package: libcrypt1
+Architecture: iphoneos-arm
+Version: 4.4.16
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 608
+Depends: gettext
+Filename: pool/main/iphoneos-arm64/1500/libcrypt1_4.4.16_iphoneos-arm.deb
+Size: 82876
+MD5sum: 772318fef8df8163a023cdc089163e06
+SHA1: 9d8249d1549e98672b44f1fdf695207c36dc62a9
+SHA256: 3a900c262ac0854dd3e2eedd30a0eb783a078a0cfd9f27618b0cbc0dee08b3e2
+SHA512: 3710551b45ab7423d5f6adb100dec6e0a9d2491dfe0a9cc3094205c70d039de4938973f802a80c86c538c71e2ce0c4f16844c71287317523f57ca0fa51f2de2f
+Description: 
+  libxcrypt is a modern library for one-way hashing of passwords.
+  It supports DES, MD5, NTHASH, SUNMD5, SHA-2-256, SHA-2-512,
+  and bcrypt-based password hashes It provides the traditional Unix 'crypt' and 'crypt_r' interfaces,
+  as well as a set of extended interfaces like 'crypt_gensalt'.
+Tag: role::developer
+
 Package: libevent
 Architecture: iphoneos-arm
 Version: 2.1.11
@@ -3136,6 +3157,45 @@ SHA1: 245c078de50e28c9c723a427ac5109d7280e0a52
 SHA256: 3c10d8de6096a7b912a44048d24cf9fecac2fddca4d0985cf106e666426975a3
 SHA512: 8ca640b3e698b5cdb13a6ca5ba57557fff33425e9cd02f50495bcc6aefc9ee3c458c88127c031bf158df4537614bcd0ac804a4d64047c9672bd64feb12e83477
 Description: simple HTTP file transfer client
+Tag: purpose::console, role::hacker
+
+Package: whois-locale
+Architecture: iphoneos-arm
+Version: 5.5.6
+Priority: optional
+Section: Locales
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 264
+Depends: whois (= 5.5.6)
+Filename: pool/main/iphoneos-arm64/1500/whois-locale_5.5.6_iphoneos-arm.deb
+Size: 22540
+MD5sum: 0acda261cba123c386649419298b125d
+SHA1: c17772864305ec24c56171b2037982a03542ad5e
+SHA256: d0734e4c7fff918da4392ba4d2ae989aeab71bfdfee7ecf322f209da2448c6d0
+SHA512: 18cab841db4124f95f0f538ed3cf80ad76b76a980462d6d24f590b55a4f878786e98be4945e69908da0cad2092ecd11af03946c7c138ebe7c70f30a344fd0df6
+Description: Locale files for whois.
+  This package provides a commandline client for the WHOIS (RFC 3912) protocol,
+  which queries online servers for information such as contact details for domains and IP address assignments.
+  It can intelligently select the appropriate WHOIS server for most queries.
+
+Package: whois
+Architecture: iphoneos-arm
+Version: 5.5.6
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 392
+Depends: libidn2, libcrypt1
+Filename: pool/main/iphoneos-arm64/1500/whois_5.5.6_iphoneos-arm.deb
+Size: 35092
+MD5sum: 9c497b88b9c3e94c8ad30f32f81def7d
+SHA1: 6f0682b7c420f0ed4b92424a717864ed07dddae0
+SHA256: c278dee8f95173f809e6a79161e1f5b7c8031bedd45651add02c919bfa2807bb
+SHA512: f29aa873679a12474c6e3b67337d6082d9dc91e28fa4417fce997ea9c50ec31465e34a555ee84d60d023a0d827dddd8162753f52c34bc12a919fb92c31fc56a9
+Description:
+  This package provides a commandline client for the WHOIS (RFC 3912) protocol,
+  which queries online servers for information such as contact details for domains and IP address assignments.
+  It can intelligently select the appropriate WHOIS server for most queries.
 Tag: purpose::console, role::hacker
 
 Package: xar
