@@ -1625,6 +1625,22 @@ Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Libidn2 is an implementation of the IDNA2008 + TR46 specifications
 Requires: gettext, libunistring
 
+Package: libirecovery
+Architecture: iphoneos-arm
+Version: 1.0.0
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 360
+Depends: readline
+Filename: pool/main/iphoneos-arm64/1600/libirecovery_1.0.0_iphoneos-arm.deb
+Size: 26196
+MD5sum: 6862dad21e5b54771b6d221b02111b53
+SHA1: c77a45c9ffb33c6abe68dacfdddbabd9e333522c
+SHA256: bff4d9e2dbcc3981add3872c7e3606044b182cce054eb7003cd4d4bbd8c2ea69
+SHA512: 8ecbb5e41e50e5773608c6d96ab323d6eb05471de84ba9961a43fb6eabdd83084117478eb6d0c86c4714b0bcd1d76b1719f626c9756274d6300794e0c47078df
+Description: Library and utility to talk to iBoot/iBSS via USB
+
 Package: libksba
 Architecture: iphoneos-arm
 Version: 1.3.5
