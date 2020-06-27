@@ -974,6 +974,22 @@ Name: Git
 
 Package: gnupg-locale
 Architecture: iphoneos-arm
+Version: 2.2.20-1
+Priority: optional
+Section: Locales
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 8080
+Depends: gnupg (= 2.2.20-1)
+Filename: pool/main/iphoneos-arm64/1500/gnupg-locale_2.2.20-1_iphoneos-arm.deb
+Size: 580496
+MD5sum: 42cce4ee2a9ade161cdae61d51bc7942
+SHA1: 870a759c13bacaff692f61b8c3f863cc6327cd2f
+SHA256: c51ce652a6dd01b56b828628f31a2cd2edfa006391c69110c225b0b0b260615b
+SHA512: ec363b61e78237d77217c72361f3d872d5c38cb9509b4f1db45c36f6660ecac1e14fedefda6dabf42aa0d960fcfa3e29a142972db9e36577a4aaf856e2f44653
+Description: Locale files for gnupg.
+
+Package: gnupg-locale
+Architecture: iphoneos-arm
 Version: 2.2.20
 Priority: optional
 Section: Locales
@@ -987,6 +1003,26 @@ SHA1: 6ab4012553cd1aa02c5f566121c3f92db6b44f41
 SHA256: d807e6995d649a275ddf9500ff7f487765eca742bf521498600567c39345b37d
 SHA512: 20bf9e87506e334da352ba5cc2accbc35c0d715997368dad86a58fbd255631a312fa7c0b91a6c3115b8df8b2afec54da278e873714ebc75b0801ed0db8e546df
 Description: Locale files for gnupg.
+
+Package: gnupg
+Architecture: iphoneos-arm
+Version: 2.2.20-1
+Priority: required
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 12152
+Provides: gnupg2 (=2.2.20-1)
+Depends: libgcrypt, libassuan, libksba, npth, libgpg-error, pinentry, gettext
+Conflicts: gnupg2
+Replaces: gnupg2
+Filename: pool/main/iphoneos-arm64/1500/gnupg_2.2.20-1_iphoneos-arm.deb
+Size: 1284520
+MD5sum: e6be6818a1305eaf79da1581c6da8603
+SHA1: 05c5897f8f8d4d7e090946a351486754f760ae46
+SHA256: 651f97da1f4004f85aec1fa6e782c7f81c8b52c0c93b63eaf579281bdab54fba
+SHA512: c955f51dc29d09f5f8d4882f44d8ce5c97e24f1ee3752e73f2aa28c7d972a8704ec2f513101a1aee35ac994d6b15999fe254f9bfc174c9cda54b99f65a0d3cde
+Description: GNU privacy guard - a free PGP replacement
+Name: GnuPG
 
 Package: gnupg
 Architecture: iphoneos-arm
@@ -2623,6 +2659,22 @@ Description: optimize PNGs just like Apple does
 Tag: purpose::console, role::hacker
 Author: Dustin Howett <dustin@howett.net>
 Name: pincrush
+
+Package: pinentry
+Architecture: iphoneos-arm
+Version: 1.1.0
+Priority: required
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 384
+Depends: libassuan, libgpg-error, ncurses
+Filename: pool/main/iphoneos-arm64/1500/pinentry_1.1.0_iphoneos-arm.deb
+Size: 33912
+MD5sum: 5aca59b36fac8f4ba3c01e0683326825
+SHA1: 4e7cb7d5e2966276aa89d47e8ebfb63e073ae3c8
+SHA256: c24632bb6e2e2c625da2cbec945462f9950fe95d2d106325f436ade5b3753924
+SHA512: b9c60337bbdc37284d3e606a5640b9d7d4764042aae76cd808687a1e5cb6bfc7788a733d47a9d3f755a90fbd7a4dad8322302ba25b2aa8bbd8c6c67a85aad817
+Description: Passphrase entry dialog utilizing the Assuan protocol
 
 Package: plutil
 Architecture: iphoneos-arm
