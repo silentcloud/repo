@@ -2714,6 +2714,24 @@ Name: Python 3.8
 
 Package: python3.8
 Architecture: iphoneos-arm
+Version: 3.8.3-2
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 111312
+Depends: ncurses (>= 6.0), readline (>= 8.0), libssl1.1, libffi, xz-utils, libgdbm, gettext
+Filename: pool/main/iphoneos-arm64/1600/python3.8_3.8.3-2_iphoneos-arm.deb
+Size: 9773460
+MD5sum: 785e0a5fa04131e5e3db05d2054dbf62
+SHA1: aa0651d8e0b2a12ff82f4078f61128852067b508
+SHA256: 9b7da13e6b88ff41a78e836fff7f99c8be4b9b0f2e769e2db74bf91d85207c5c
+SHA512: e2e5996cc79fe94671c09e06d7451d4e084da7b0ad1fe2501b8cde5eff80aec4d9f5d43da359b36490a6f9f94cdf8fcb1617259ca7dd0aed98f3861046cab981
+Description: Interpreted, interactive, object-oriented programming language.
+Tag: purpose::console, role::hacker
+Name: Python 3.8
+
+Package: python3.8
+Architecture: iphoneos-arm
 Version: 3.8.3
 Priority: optional
 Section: Scripting
@@ -2763,6 +2781,26 @@ SHA1: 201bc30603f290c8b1938ea1e3f21d8334affbf3
 SHA256: 5d2a871f65e8c7af33afb610e1c2e2261ffc95a19707dad27c809d62b24929a8
 SHA512: 87e78d9fc2358b3867c3da366e6a4d225f5d4664299a9b770dcec348a6ee7cab756a1a4ce428a6516ea6543148f143610dd97653768279d4335f451d435d2b18
 Description: Interpreted, interactive, object-oriented programming language.
+Tag: purpose::console, role::hacker
+Name: Python 3
+
+Package: python3
+Architecture: iphoneos-arm
+Version: 3.8.3-2
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: python3.8
+Filename: pool/main/iphoneos-arm64/1600/python3_3.8.3-2_iphoneos-arm.deb
+Size: 932
+MD5sum: 30a53df23e0e100829922e9d98d89a3b
+SHA1: 33ed50f2e379acf53af6779f093254ec2e8ea906
+SHA256: d310d1154bbe7bc0d1f4cdd7545245a0626b335194989fca576586e5b2e2ccc8
+SHA512: 98e759ef535bae55e102ec92329fc81b4fc27df8695f8accee5b9135656cd232b0ffdcd2c90d6d1db23d05496725e858c925a3e181133b63ec8114cd1f4ce90f
+Description: Interpreted, interactive, object-oriented programming language.
+ Installing pip from the command line can be done with the `sudo python -m ensurepip` command.
+ After installing pip, place an SDK for your platform in /usr/share/SDKs. (e.g. /usr/share/iPhoneOS.sdk)
 Tag: purpose::console, role::hacker
 Name: Python 3
 
