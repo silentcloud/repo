@@ -2095,6 +2095,21 @@ Homepage: http://tukaani.org/lzma/
 Description: Extremely Fast Compression algorithm
 Name: LZ4
 
+Package: lzfse
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 328
+Filename: pool/main/iphoneos-arm64/1600/lzfse_1.0_iphoneos-arm.deb
+Size: 18512
+MD5sum: 2c929afc9831987b701a256d0dab9bd0
+SHA1: c370b7fe099b2af31f99022839d0db2a3aece668
+SHA256: b503545acb830906a68301bf8372b874d2c8aff4f91b43b6b5c32e6c60d38bd9
+SHA512: 3e863abff6b9bcd0db2b3cf6ae3ca2d8692668f3eafd7c2ed918a19effea52d45557d3aa3edab0fa6a61f832b3af93cc0f0f0e3a6ee433b847af20426f03c764
+Description: LZFSE compression library and command line tool
+
 Package: lzma
 Architecture: iphoneos-arm
 Version: 3:0
@@ -2821,6 +2836,24 @@ SHA512: a1bc2c0da65ea3ee03797f33c4d994dc69f5e1a1f449fee5fdc74c725df573f43644f885
 Description: Interpreted, interactive, object-oriented programming language.
 Tag: purpose::console, role::hacker
 Name: Python 3
+
+Package: pzb
+Architecture: iphoneos-arm
+Version: 36
+Priority: optional
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 232
+Depends: libfragmentzip
+Filename: pool/main/iphoneos-arm64/1600/pzb_36_iphoneos-arm.deb
+Size: 22240
+MD5sum: ecb994e3defecf037e1ecc421b9b9cca
+SHA1: 43cfe8656adc5f9d7f8364d6fd5e6386bc8cd02f
+SHA256: 6fcff2bcb1e345ddef3e4e2c0ec75715f13d76d8d06b824a21dc21909e032db1
+SHA512: 3638b212e898b4e72a18cb3b605515b5c0bb55fffc65ce89315c36334a3f1d837d707cd011c384dbc1c71cd13fb370e2ee8848256c86ddbd19a6a23ef2e9ae16
+Description: partialZipBrowser is a commandline tool for browsing and downloading files from zip files on remote webserver
+Tag: purpose::console, role::hacker
+Name: partialZipBrowser
 
 Package: readline
 Architecture: iphoneos-arm
