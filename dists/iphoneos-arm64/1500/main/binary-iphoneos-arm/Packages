@@ -443,6 +443,26 @@ Name: cURL
 
 Package: cycript
 Architecture: iphoneos-arm
+Version: 0.9.594-procursus1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: readline, adv-cmds, mobilesubstrate (>= 0.9.6300)
+Breaks: cydget (<< 0.9.4008)
+Filename: pool/main/iphoneos-arm64/1500/cycript_0.9.594-procursus1_iphoneos-arm.deb
+Size: 1329892
+MD5sum: 5195a56714b067dc7f696a021a1f1138
+SHA1: 3f39b32d92122583ee179cb2138a9b97c4416275
+SHA256: b312a360129faee472e4b7904b3b8ba4d85761a3904b043e796b23b5f3e7146f
+SHA512: fb28ae33e87f190a601ad551ad40c1e9d0ccb0e589327c4b56e6034021404e7d731a9ba015a44780459876479a03c5dd7a4781894d142b9f17224d71a3e10579
+Description: runtime execution server and disassembler
+Tag: purpose::daemon, role::developer
+Name: Cycript
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+
+Package: cycript
+Architecture: iphoneos-arm
 Version: 0.9.594
 Priority: optional
 Section: Development
