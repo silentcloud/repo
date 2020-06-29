@@ -688,6 +688,27 @@ Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages.
 Name: Debian Packager (Devel)
 
+Package: dpkg-dev
+Architecture: iphoneos-arm
+Version: 1.20.3-1
+Priority: optional
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2472
+Provides: dpkg-perl (=1.20.3-1)
+Depends: dpkg, perl
+Conflicts: dpkg-perl (<<1:0)
+Replaces: dpkg-perl
+Filename: pool/main/iphoneos-arm64/1600/dpkg-dev_1.20.3-1_iphoneos-arm.deb
+Size: 179148
+MD5sum: c9630cf3812ba1a2ac2a0172d19df2a2
+SHA1: 0b5387eb16be779d014dff55de0ec225b041c116
+SHA256: 3855567c691887b6f69ca0900a4d2b5ff29d2e956e00ba5f31c89663c2699ab3
+SHA512: 9eabbfe2d9c4ca024c06269cbaad3362a2ed76ea897683c4b8d8c3314da60a6673b89e783eed1f60b25cf49dfaac39d8097b50d933d5dc56c1c4cf067dc6c630
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages.
+Name: Debian Packager (Devel)
+
 Package: dpkg
 Architecture: iphoneos-arm
 Version: 1.20.0
@@ -704,6 +725,26 @@ MD5sum: 12654895ca940a386147d1e778f53615
 SHA1: 2727e130a0e159aed8be5ebdcb270d80e908194e
 SHA256: bb1c7a21978372f110fcffe7b425c00b6449206b6685388f599e2de9d95ca551
 SHA512: 7408754dcf4b0c2d015409c09f73cf85066276f216e8b12a4bd5f3b4e6ad2d0d3db94a23107913a9935267e2d5eb92aa5a479218490b0d01cc6a3c48c4e03501
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
+
+Package: dpkg
+Architecture: iphoneos-arm
+Version: 1.20.3-1
+Priority: required
+Essential: yes
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 9968
+Pre-Depends: tar (>= 1.23), gettext (>= 0.20)
+Depends: bash, coreutils, diffutils, tar, xz-utils (>= 5.2.5), bzip2, gzip, gettext, zstd
+Filename: pool/main/iphoneos-arm64/1600/dpkg_1.20.3-1_iphoneos-arm.deb
+Size: 700644
+MD5sum: 8c19df5c928a64386f34eac11fdf32c1
+SHA1: b6bcafc0b3f6dc72115fa4ae2d5f708278e3d510
+SHA256: 33b2d8e20b534568a6c189603eaad0d398cd76e6bd61e18a7eb4249e2c0d4414
+SHA512: 77b24679cf59b60807f1e0f6f3a534eca60f31930b6ddfdc9adc23a4db30241ddd6609eff1f5f949aaad2fc52c5ddbc977add3bd98f28b61183ba7ae3b618dab
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintainance tools from Debian
 Name: Debian Packager
