@@ -1,33 +1,33 @@
 Architectures: watchos-arm
 Codename: watchos-arm
 Components: main
-Date: Mon, 29 Jun 2020 16:20:54 +0000
+Date: Wed, 01 Jul 2020 08:28:34 +0000
 Description: Distribution of essential tools for tvOS
 Label: Procursus
 Origin: Procursus
 Suite: stable
 Version: 1.0a1
 MD5Sum:
- f7f2d10a1be719e18d9732d60a0859af              222 Release
+ 8d2b811972a1ddc571bca957be48e86d              222 Release
  83027fbd537e1b2b23bba068d5a673b1            71372 main/binary-watchos-arm/Packages
  a5af91809917aac363d472f69393ef4c            23572 main/binary-watchos-arm/Packages.xz
  fe680de8d504a781ac9e6d1b006362f8            23998 main/binary-watchos-arm/Packages.zst
- f5753f0e79d62cc263af9f55e6b7283d             1658 main/binary-watchos-arm/Release
+ a5175f851a8d2b78577b89b0321e0cc7             1658 main/binary-watchos-arm/Release
 SHA1:
- 107ecf87ca99a2ed71cbe362c63e75364f6cc0a0              222 Release
+ 1b7b3758bd26137a46fb515cdc8cac40e2168315              222 Release
  7551f278082d52cc9f054e8f7ce2c84bdd25c14b            71372 main/binary-watchos-arm/Packages
  aeb4c28de50a41da21d8ee45df935adcea88e56b            23572 main/binary-watchos-arm/Packages.xz
  4f9185be7076d79603488c7b2e556e71542c7029            23998 main/binary-watchos-arm/Packages.zst
- 25c9d751250ba917b37bfd9da0f9967738fb78af             1658 main/binary-watchos-arm/Release
+ c6cf12085abe421bfaa3186c960f79c01664ff2d             1658 main/binary-watchos-arm/Release
 SHA256:
- 08d4df2b4007daceaa47f37fd28a8282accf40a282ce396ef07daead5d61eba1              222 Release
+ e2e04d5521001239eb6082cc5d8e9a12b9a7fc4858e12a564881ac939e55d980              222 Release
  eca7cdf38d6a86763f84704833a3e143574c1c136045d96031add0f0df1fa259            71372 main/binary-watchos-arm/Packages
  2cc337e632c52b1c08bb7feec8891f1587111379317c82e1d92769c08d6ca019            23572 main/binary-watchos-arm/Packages.xz
  98841803a7ca7b40a47f044c8c6c0a085ac422eeb17d89705ea4b5c838a26220            23998 main/binary-watchos-arm/Packages.zst
- 915c5f06af2c855de58965976fcbc85d8e9dcb66c42e0e68b8bbb529be7f25b2             1658 main/binary-watchos-arm/Release
+ 8e00bfc6c9072ebacfa97e5676807fafa1b929461a9311700b1f3d1fbe765746             1658 main/binary-watchos-arm/Release
 SHA512:
- 97c2b8435971e7d9b7778fc28fd4521e181528842d2faa460528d3cabf3d24b8c2d00115bfb5a8334f6fb339aa6b1b96e0fd3d03221dbf3f37c59e5323b87e6c              222 Release
+ 8e666d587c1f8bafe3eeee9e1fa08837fb088ee343a252fc426ba6d5ac6e94b5c13a5879d4297ed564d422e9cb62c1f79ef7528635d8a7e1190ac12796bf8ef9              222 Release
  1fc4449f63d6439a1d918f1e0ad285783bf6bae2922a8a468af23f2f4e501a4df21f9630dcfbd634418dbc0d383fd0bf9c0fb6fb459e9e8231d1f8d6a69bfc1d            71372 main/binary-watchos-arm/Packages
  218ff09460abcbd8a0a2bd52aba1ea14ed80b17703e8e98986a0f6adcfbcbd46674543ceb9f8bfb83da3a6faab71df699b123b20cefd8afee291cdaf659ce0c5            23572 main/binary-watchos-arm/Packages.xz
  cec0233b684d88cc3ad48e03f01a1d02a611124de490d88839c00f730d0234ffa602cdea92fd47bc1e70ea0afda1bb964fbe5c4c437f72efd19e7a1987cf634d            23998 main/binary-watchos-arm/Packages.zst
- 6b9a329ae2646a32e0277a4585f24576f72e2a3fd0b0bf1c66d09a3c2e7816d0aa4139152bcad8ff5595f77e8a7d026ba58fbbd8e1947a0a4d0e17751800c605             1658 main/binary-watchos-arm/Release
+ 81dedde424a63797d13d9c6754cc1369ec97f459e076265bfd3d70958bb1eddde33cfe808c8b6eb6ae1e725d5da4b9465a2faedb3f46789877a01f80951858a7             1658 main/binary-watchos-arm/Release

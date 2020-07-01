@@ -1,24 +1,24 @@
 Architectures: watchos-arm
-Date: Mon, 29 Jun 2020 16:20:54 +0000
+Date: Wed, 01 Jul 2020 08:28:34 +0000
 Label: Procursus
 Origin: Procursus
 MD5Sum:
  83027fbd537e1b2b23bba068d5a673b1            71372 Packages
  a5af91809917aac363d472f69393ef4c            23572 Packages.xz
  fe680de8d504a781ac9e6d1b006362f8            23998 Packages.zst
- 80b7517da096d91f31c89d2eaa980576              100 Release
+ 78777c0f32998a749aefc7545ea2e085              100 Release
 SHA1:
  7551f278082d52cc9f054e8f7ce2c84bdd25c14b            71372 Packages
  aeb4c28de50a41da21d8ee45df935adcea88e56b            23572 Packages.xz
  4f9185be7076d79603488c7b2e556e71542c7029            23998 Packages.zst
- 556e8f55b3ddfb7eb1107512034b825f0cd62986              100 Release
+ 0f4af9fc2bd3fd947998932c3fb0d8127a7f938f              100 Release
 SHA256:
  eca7cdf38d6a86763f84704833a3e143574c1c136045d96031add0f0df1fa259            71372 Packages
  2cc337e632c52b1c08bb7feec8891f1587111379317c82e1d92769c08d6ca019            23572 Packages.xz
  98841803a7ca7b40a47f044c8c6c0a085ac422eeb17d89705ea4b5c838a26220            23998 Packages.zst
- 55384d09ac7a8515837d432eb9113cb4b662e301c299b7c543edc7d663715d75              100 Release
+ 245e16aa250a91a8e96be0261dec86bf7a05d5d7e933ea669146bbc97775fa5b              100 Release
 SHA512:
  1fc4449f63d6439a1d918f1e0ad285783bf6bae2922a8a468af23f2f4e501a4df21f9630dcfbd634418dbc0d383fd0bf9c0fb6fb459e9e8231d1f8d6a69bfc1d            71372 Packages
  218ff09460abcbd8a0a2bd52aba1ea14ed80b17703e8e98986a0f6adcfbcbd46674543ceb9f8bfb83da3a6faab71df699b123b20cefd8afee291cdaf659ce0c5            23572 Packages.xz
  cec0233b684d88cc3ad48e03f01a1d02a611124de490d88839c00f730d0234ffa602cdea92fd47bc1e70ea0afda1bb964fbe5c4c437f72efd19e7a1987cf634d            23998 Packages.zst
- d2e26e3528ca690699dd6a8ba9b17f421190adf661ff8bef57855bae04315c69feeff8b6c6c11ef74a0228fe255b33c55b87a22684ffc7ddfbe4e0d16ea0c00f              100 Release
+ 18172983081149766c0d821493ec9414b7123b6850ce2dcb05f720bd1eacd9781ce99fb2dd6c2c312311aeb09c42d99f96679cb32b99d10c54ecc30373900f86              100 Release

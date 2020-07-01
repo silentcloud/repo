@@ -1289,6 +1289,27 @@ Tag: purpose::console, role::developerInstalled-Size: 7928
 
 Package: ld64
 Architecture: iphoneos-arm
+Version: 530-2
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 8040
+Provides: org.coolstar.ld64
+Depends: ldid, uuid, xar, liblto10, libtapi
+Conflicts: org.coolstar.ld64
+Replaces: org.coolstar.ld64
+Filename: pool/main/iphoneos-arm64/1600/ld64_530-2_iphoneos-arm.deb
+Size: 678228
+MD5sum: 7c347daa21d8abd2d96664e79c5f4b19
+SHA1: e1d5cbf60d40407f0e47196a9ce62e32ab6dabab
+SHA256: 88542aa9dbd3a346fec86e4771cd4e51d01ba29aa687b66377e796a61cbe3a0c
+SHA512: e1a255dc83bad9abc305212071ae998a6f68cb315276fb10ee6c874ea771b1a881343933f1dff00be219111f39d0d5f5e27511ff8fb81bddab8febc663978938
+Homepage: https://www.llvm.org/
+Description: 64-bit iOS linker
+Tag: purpose::console, role::developer
+
+Package: ld64
+Architecture: iphoneos-arm
 Version: 530
 Priority: optional
 Section: Development
