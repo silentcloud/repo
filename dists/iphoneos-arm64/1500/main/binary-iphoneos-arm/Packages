@@ -342,6 +342,24 @@ SHA512: 72b84285eb0b10129907b451ed77c95577f86edae8eb0d9afc0094f3b6f5d36e761af2bd
 Description: CA certs for curl, wget, git.
 Name: CA Certs
 
+Package: cargo
+Architecture: iphoneos-arm
+Version: 1.44.1+nightly
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 23056
+Depends: rust (=1.44.1+nightly), libssl1.1, curl
+Filename: pool/main/iphoneos-arm64/1500/cargo_1.44.1+nightly_iphoneos-arm.deb
+Size: 2788512
+MD5sum: b1d86528049a6e4904b2db77c6290fc5
+SHA1: 76ae2e3fdd6714dae4bd67e9e91e8d50631360fe
+SHA256: 2731efa6778ef89e29c97339a56bc0122aeb45ff2b5c712e691cd7eede716c47
+SHA512: d62dab624cd773291f01e116e5eebff03f4d22567fbda0b1d31e0901853b3b88231e006fe16e7fdf67e0db4e8410d0827752221288c42b1093b6bbe17dd8c236
+Homepage: https://www.rust-lang.org/
+Description: Rust package compiler. For Cargo to work properly on modern jailbreaks, set the TEMPDIR environment variable to something in the root partition before using.
+Tag: purpose::console, role::developer
+
 Package: clang-10
 Architecture: iphoneos-arm
 Version: 10.0.0~5.3~DEVELOPMENT-SNAPSHOT-2020-06-10-a
@@ -3194,6 +3212,39 @@ SHA512: 2d3bb0d5f88368658a812ac177d16942ea5d4e4ec23c34fe4b72867ce259f60ee5a3a360
 Homepage: http://www.samba.org/rsync/
 Description: synchronize files between computers
 Tag: purpose::console, role::hacker
+
+Package: rust-toolchain
+Architecture: iphoneos-arm
+Version: 1.44.1+nightly
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 420040
+Filename: pool/main/iphoneos-arm64/1500/rust-toolchain_1.44.1+nightly_iphoneos-arm.deb
+Size: 41317052
+MD5sum: 237cf5cc5b0bf6a1d47d8ca8caf81370
+SHA1: 27e676d2898e4c2fb6d64a7cc4e5f9333fee97eb
+SHA256: c28dc5ebe33e4a2c2410c1876ce6ca64fbaa63b0c46a5738ec954ee917062a07
+SHA512: 8e7e7d2dc724ea45d46ab19d3f98984fc83275ec56bc710294b4e75b96c1766c8c617735c886759f021c8c523bb03ba232d6f1d8409778f8ed11451b26d9a4ec
+Homepage: https://www.rust-lang.org/
+Description: aarch64-darwin-apple and x86_64-darwin-apple Rust toolchains
+Tag: purpose::console, role::developer
+
+Package: rust
+Architecture: iphoneos-arm
+Version: 1.44.1+nightly
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 23040
+Depends: rust-toolchain (=1.44.1+nightly), clang
+Filename: pool/main/iphoneos-arm64/1500/rust_1.44.1+nightly_iphoneos-arm.deb
+Size: 2919644
+MD5sum: 7ae0c30bda17559abf9fdf90f6e43dfa
+SHA1: eb52306bd550e4e8dcb51301433873f18cd58729
+SHA256: f14e495c7e9f805e433fb2414c57a7811a1d5b37921830b6701cd5b3658887b6
+SHA512: 3a2a85709f4ae686e4ee7189ed9653a760b8bb0c4dc3be493df4d077c7952c567cb4c00d784ebe2007673494ce1e063b8180fab7127be001c9163299b1402617
+Description: Systems programming language focused on safety, speed and concurrency.
 
 Package: sed-locale
 Architecture: iphoneos-arm
