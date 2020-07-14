@@ -1595,6 +1595,22 @@ SHA256: 12a71cfd254432907ec8f07a7ce74283ea0eaab5629ecee598ac8f0061140017
 SHA512: 7a7e5d48347a980a24209d365fbf109bebc5e7cd1af9012922714074a47bb526cc0a4fc0c28e7126d54633e6c322a9e7750c816ef3d77a641041d6570cf7b2da
 Description: Dummy package to help migration from other bootstraps. Safe to remove.
 
+Package: libarchive
+Architecture: iphoneos-arm
+Version: 3.4.3
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 6152
+Depends: lz4, xz-utils, zstd
+Filename: pool/main/iphoneos-arm64/1500/libarchive_3.4.3_iphoneos-arm.deb
+Size: 533816
+MD5sum: b4f71fcdf5c3fa61e7f6ccee4fd9eed3
+SHA1: 1b0bcf07a2bf72eaeb55c4d1448445fbba09a041
+SHA256: 53d0041eee791a43da882ba74d3c23e88f714fd1fd261db0978b6d3707112e37
+SHA512: eb8157a1981444c9d20bf7dfcee455fdc4cbee5d3eb5ca40d4aa6b3b52aa995131513f4d4b07e67ef9d68a57610c5d1dc8eca3e322bc0eca6e280025454cde8f
+Description: Multi-format archive and compression library
+
 Package: libassuan
 Architecture: iphoneos-arm
 Version: 2.5.3
