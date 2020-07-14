@@ -55,6 +55,26 @@ SHA512: aa4a263de3207c4cbe72a516d4d701eb506abcf2bec48677f2e561802b9375898fdc678f
 Description: Advanced Packaging Tool (APT) Development Files
 Name: APT (Devel)
 
+Package: apt-dev
+Architecture: iphoneos-arm
+Version: 2.1.7
+Priority: standard
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1176
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt (=2.1.7)
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0), libapt-pkg-dev (<<1:0)
+Replaces: libapt-pkg-dev
+Filename: pool/main/iphoneos-arm64/1500/apt-dev_2.1.7_iphoneos-arm.deb
+Size: 93892
+MD5sum: c598fdb80f7dc8a4d4ec98f0b909b73f
+SHA1: 2ffd78e34de2f98f375c50308a8b4417c8054195
+SHA256: e6714de55f58c5c7b54e16aa6b32128e027fb2fdcb1a5fe5e6f4791357bad6ef
+SHA512: ec00560b3a01fab1d85a49936961d0708bfef61d5576ba9969a1a25ef87fd5f5e68f3a3652faf4cd915f0f8bb03276be0b530be62d46c97d262d3172ad89dcf7
+Description: Advanced Packaging Tool (APT) Development Files
+Name: APT (Devel)
+
 Package: apt-lib
 Architecture: iphoneos-arm
 Version: 1:0
@@ -105,6 +125,25 @@ SHA512: 3b4626c49e9c285284f2154f0fd564fb34c29dcb2b52fc591c328ab23ae4a488dc1bcfb4
 Description: Advanced Packaging Tool (APT) Extra Utilities
 Name: APT (Utilities)
 
+Package: apt-utils
+Architecture: iphoneos-arm
+Version: 2.1.7
+Priority: standard
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1144
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt (=2.1.7), berkeleydb
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
+Filename: pool/main/iphoneos-arm64/1500/apt-utils_2.1.7_iphoneos-arm.deb
+Size: 111004
+MD5sum: 42c1c015901a519ff715e72f294c5907
+SHA1: 72d267e6cb214a0bc386ef15209d032248c8ad96
+SHA256: a80f8ac5cb24bd5390ad8da5843c2df2e60bad4e3cca01beefa32f2bf931dc18
+SHA512: 163ceedc8a07cca282b651ac0de172b4019e4fadc22fafcb5b9f59529afa1479596af74cfa830e7011cc41e7aeaf5e94be1a29f1ce32147a2e49c10b014391d7
+Description: Advanced Packaging Tool (APT) Extra Utilities
+Name: APT (Utilities)
+
 Package: apt
 Architecture: iphoneos-arm
 Version: 2.1.1
@@ -144,6 +183,27 @@ MD5sum: 00f1902d7d77ae77cf97eb4fce7ffb79
 SHA1: 2d5551414186d37e5f74cc28e28835cc5d0643ee
 SHA256: 284aa5ce6d01d214be083cee7479cfce13cdfeb5b556d0df84fc99bd49d15342
 SHA512: 608aecffbd687d86837564e17a718f2739843a9b5c231ef44d9db8069d33fb56584916db81d1e3ffbcf42dce25ae3b7455947256c45716b94decbc5303ce27b7
+Description: Advanced Packaging Tool (APT)
+Name: APT
+
+Package: apt
+Architecture: iphoneos-arm
+Version: 2.1.7
+Priority: required
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 7416
+Provides: apt1.8 (=2.1.7), apt-lib (=2.1.7), libapt (=2.1.7), apt-key (=2.1.7)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gnupg, libgcrypt, dpkg (>= 1.19.0), lz4, xz-utils (>= 5.2.5), zstd
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
+Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
+Filename: pool/main/iphoneos-arm64/1500/apt_2.1.7_iphoneos-arm.deb
+Size: 840616
+MD5sum: e3cb1917d6a9a81c778b31247cf24d31
+SHA1: 5379d5664ee2a62d7424d0fe965160a3b0c5bf46
+SHA256: bf349da909696f8f4005fc2f120151d4f3e5ca4a323e43ca8b2c88ae46e98c28
+SHA512: 2def5d21d2335be75d2dce16db6c05888b28aac09ead4717440d80caa91769d2a14c5c9e40ffd689a25a30f528b4bc09a12ece7d58c0fc0fd6940a2db376ea92
 Description: Advanced Packaging Tool (APT)
 Name: APT
 
@@ -778,6 +838,27 @@ Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages.
 Name: Debian Packager (Devel)
 
+Package: dpkg-dev
+Architecture: iphoneos-arm
+Version: 1.20.5-1
+Priority: optional
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2480
+Provides: dpkg-perl (=1.20.5-1)
+Depends: dpkg, perl
+Conflicts: dpkg-perl (<<1:0)
+Replaces: dpkg-perl
+Filename: pool/main/iphoneos-arm64/1500/dpkg-dev_1.20.5-1_iphoneos-arm.deb
+Size: 179308
+MD5sum: 0d6af4ffb6db48f25d650634566da82c
+SHA1: 37d10b706c3a0b4f3b64b063a5541cd6b41a2746
+SHA256: a32db836648cfcaae80b2b4f91ed132cefe6d20f6543e70baf5f28336e0f33a8
+SHA512: 12f89e6e968b71a2f8b5bcdb9ab8715ab9189ecadfc8853e21c2d264a9e2438216a78b6923e20445c58c0e401bbfad2e36984e385b6722d4a56ce3efa8b57f99
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: This package provides the development tools (including dpkg-source) required to unpack, build and upload Debian source packages.
+Name: Debian Packager (Devel)
+
 Package: dpkg
 Architecture: iphoneos-arm
 Version: 1.20.0
@@ -814,6 +895,26 @@ MD5sum: e131e2e4d76ead1bb0e14e7605500589
 SHA1: f0bf6605d1ce6e25ec9fa2190650036dd3f4df45
 SHA256: d56e263cab4829eca7a9a54b29644ae388e8ae7eb57e98e7e811f9c1aa7948a4
 SHA512: 3e8f0b8657463d0c2164ffc9a662345e5b523f23524ca634e65d9468c128ce6fee1d75286356157b5564c2ad1173cc80ddb74e67048f54cd5d436b0347dd2dbc
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
+
+Package: dpkg
+Architecture: iphoneos-arm
+Version: 1.20.5-1
+Priority: required
+Essential: yes
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 9712
+Pre-Depends: tar (>= 1.23), gettext (>= 0.20)
+Depends: bash, coreutils, diffutils, tar, xz-utils (>= 5.2.5), bzip2, gzip, gettext, zstd
+Filename: pool/main/iphoneos-arm64/1500/dpkg_1.20.5-1_iphoneos-arm.deb
+Size: 700044
+MD5sum: e75e1fa29c136138c5e62af232148c59
+SHA1: 5fab3f993c0092359312ad5fb13c74b81040e3fb
+SHA256: e071ee265cff22889849d5114cb82371fec02b3564ee49c11371dfb91e1b477a
+SHA512: 8328c8042400e2ecb77cdce3024f388b1dad39eb0cd94e366cfab53f66c5f0fe5a9e72897bc9d8756b1eb7a8c1c0c8824614ec134e3ce088e05a5c929036e3b8
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintainance tools from Debian
 Name: Debian Packager
