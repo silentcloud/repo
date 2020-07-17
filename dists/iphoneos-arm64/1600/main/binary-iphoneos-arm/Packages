@@ -758,6 +758,22 @@ Homepage: http://www.gnu.org/software/diffutils/
 Description: compare two files for differences
 Name: Diff Utilities
 
+Package: dimentio
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 144
+Filename: pool/main/iphoneos-arm64/1600/dimentio_1.0_iphoneos-arm.deb
+Size: 9976
+MD5sum: 2544019cd0e3bc92ccf715db79640d9e
+SHA1: b636c45a39ca2f03df5ae461797240ddc5ab37cd
+SHA256: 705bf7de39c8914dc30de16e66ff8e2fb5511c7ea45f984c6712f559f3cad848
+SHA512: 71180fb3bca826d372d9df06bb7db1b75c21e0b1a336762600310d79573aa54c8977c816e459a332b8b0d099cc8a8345202854d0d481cfbb49c6e4d8540bae6f
+Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
+Tag: purpose::console, role::hacker
+
 Package: diskdev-cmds
 Architecture: iphoneos-arm
 Version: 593.230.1
@@ -1292,6 +1308,22 @@ SHA512: fbfd90c5f460801bd30daf4e729fd87922e9fec3e8aaabe6b26619026bfd40474e0bea97
 Homepage: http://www.gnu.org/software/gnutls/
 Description: free sofware alternative to OpenSSL
 Name: GnuTLS
+
+Package: golb
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 320
+Filename: pool/main/iphoneos-arm64/1600/golb_1.0_iphoneos-arm.deb
+Size: 18112
+MD5sum: 6f61c85ab06beb77f3113688ce166d6c
+SHA1: 9b8e032d8da34bc944e7fd554ec5f665b86aa312
+SHA256: 33f5fd755b96f2238a96b6d5d57b462f9f4a4fc2cfdffefae314359a5b14c747
+SHA512: d53cfd5b9cf5bc826b382a47adef890def7fa42603a3e4b2e388a1fbd28892423891d584c3c8fcaef3e910a287524f8ef0a2d90f7c2b3c92e87c128960450f29
+Description: Mapping physical memory to user space (EL0) on iOS. (+ AES PoC)
+Tag: purpose::console, role::hacker
 
 Package: grep
 Architecture: iphoneos-arm
@@ -2614,6 +2646,22 @@ Description: Locale files for nano.
 
 Package: nano-locale
 Architecture: iphoneos-arm
+Version: 4.9.3-1
+Priority: optional
+Section: Locales
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3400
+Depends: nano (= 4.9.3-1)
+Filename: pool/main/iphoneos-arm64/1600/nano-locale_4.9.3-1_iphoneos-arm.deb
+Size: 271616
+MD5sum: d5359bf3ba5fae2e6053a7e016c243e1
+SHA1: ac1c905036025cd446b4ced08ca7d03c16583de0
+SHA256: edcd09869aa23a2926d8dfe1f80cd7e8ac798a49ca4cd781edd63353f91d8734
+SHA512: 1dda30afdd92d7d8a4f6b47eaacaefe92ccfb53641d94e4fd726d3716808611d2c0fb71485c63a22048b6b95659e278246fecc14138a1c86c1ca576dd3972b71
+Description: Locale files for nano.
+
+Package: nano-locale
+Architecture: iphoneos-arm
 Version: 4.9.3
 Priority: optional
 Section: Locales
@@ -2642,6 +2690,22 @@ MD5sum: 75c419820d086cafb3ccf74697d16678
 SHA1: 5c8e53ae67f0ccdbbc879066c1e2e938a3601c5e
 SHA256: 39cbe011bfd383ca5675d6677040331d4993fb5e462c0724040a9bdb7931d786
 SHA512: 361506877cbb188b7697dc5d1080ea766b0bad5c6598bbfd4fbb743504a0e4cfaf54a3b8be879fc1c020330236e236d5abdfbec09d043037a7808ef16128d626
+Description: completely free, modern clone of Pico
+
+Package: nano
+Architecture: iphoneos-arm
+Version: 4.9.3-1
+Priority: standard
+Section: Text_Editors
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1352
+Depends: ncurses, gettext
+Filename: pool/main/iphoneos-arm64/1600/nano_4.9.3-1_iphoneos-arm.deb
+Size: 186624
+MD5sum: a1d1b306f876829dc775c8abc90338ba
+SHA1: c5467de350d0f452ffc323b54b713fc7fe44a891
+SHA256: 4f1360e6433a3cf3490d393da98ca245fa7dec922349f002300d6c2664a7ada7
+SHA512: c0e80c754b6df9fbf9bd25cf33fa6e04d7362d349068c6754363a5e0f5b4febb0c39de066b7b3b12b0fea7ac108af1f3a2ec6c94369ccba19dbea806b9125938
 Description: completely free, modern clone of Pico
 
 Package: nano
@@ -3575,6 +3639,22 @@ SHA512: d1e769516ec4a61fd212a79ad6e3a3d170822f34b4270823302f51c64ade877d7f5422da
 Homepage: http://www.gnu.org/software/tar/
 Description: tool for making tape archives
 Name: Tape Archive
+
+Package: texinfo
+Architecture: iphoneos-arm
+Version: 6.7
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 13512
+Depends: perl
+Filename: pool/main/iphoneos-arm64/1600/texinfo_6.7_iphoneos-arm.deb
+Size: 596540
+MD5sum: debd24507b36a9f0fb34c589d237c625
+SHA1: be7b3cd642e6aa91aabb394f7dd799fd378ea85b
+SHA256: 06ad0616d8d6b4b3aa9beb48dbd4ea430384aa59427a7161d61b8c85c385f0c8
+SHA512: 72aab7cfb4017cc5edd6de5692a1db883fdbeb609de3439a3c01d01588727c65ab03a761c4a3690cd8942d2020be28d055155c1b377df28642eb3bc2e05c4d01
+Description: Documentation system for on-line information and printed output
 
 Package: tmux
 Architecture: iphoneos-arm
