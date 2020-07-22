@@ -2365,6 +2365,43 @@ SHA512: 2b8743caf9bc5b6570bd7320409de30fc2d7930020e9ba041ee803e30d2c67d9d4938cb0
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Unicode string library for C
 
+Package: libusb-1.0-0-dev
+Architecture: iphoneos-arm
+Version: 1.0.23
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 320
+Depends: libusb-1.0-0 (= 1.0.23)
+Filename: pool/main/iphoneos-arm64/1500/libusb-1.0-0-dev_1.0.23_iphoneos-arm.deb
+Size: 38612
+MD5sum: 90589c5ac2669ac3edc8137a0d0da24e
+SHA1: 33e2fe1bdf96464ad5b0470492a0134e1fb61c59
+SHA256: cb2db0c31aa06c6d73df53ce4aace2f585dece44f406d10481586dcf1ab29734
+SHA512: ec829277a62fe74d5378efd1e59ad61bf49f9237b14efe88b6c810aaed006a448bf6d14dd235c05ec0a92a2e6f511386ee1ca3c80be8f20c28941d19f07710b5
+Description: userspace USB programming library development files
+ Library for programming USB applications.
+ .
+ This package contains what you need for compiling sources that
+ use this library in your own code.
+
+Package: libusb-1.0-0
+Architecture: iphoneos-arm
+Version: 1.0.23
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 720
+Filename: pool/main/iphoneos-arm64/1500/libusb-1.0-0_1.0.23_iphoneos-arm.deb
+Size: 57900
+MD5sum: 68822e5d1297ccc692982460cffdd958
+SHA1: 3c83f25ed20bf8b82eef12ed00b5958b3c1a9761
+SHA256: 85e1859a793bf0f329ddb369e3a649b3cf14e5136cc7e1566c0cbb997c470edd
+SHA512: ee6ba42b391c2ef8a563439681ffc488e67d8a2d0636064a707ee116045ac38e35ced557cfa721bb860d1c86e66924f7c06a54a28c328ab39d32894d3bc43db5
+Description: userspace USB programming library
+ Library for programming USB applications.
+ .
+ This package contains what you need to run programs that use this
+ library.
+
 Package: libutf8proc
 Architecture: iphoneos-arm
 Version: 2.5.0-1
