@@ -2765,6 +2765,41 @@ Description: Shows System Information with Distribution Logo
  distributions logo or any ascii art of your choice.
 Author: Dylan Araps <dylan.araps@gmail.com>
 
+Package: netcat-locale
+Architecture: iphoneos-arm
+Version: 0.7.1
+Multi-Arch: foreign
+Priority: optional
+Section: Locales
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 40
+Depends: netcat (= 0.7.1)
+Filename: pool/main/iphoneos-arm64/1600/netcat-locale_0.7.1_iphoneos-arm.deb
+Size: 5880
+MD5sum: cebec0989173df6b0aa25e88ae7764cd
+SHA1: cccf22aa5824cb95d2d61c48c80f5da18f7c576c
+SHA256: 6fbe2e8312408157d033717b0fe296a82da9559bac6fe3c3f865d47c6622d0d0
+SHA512: 842bffe2078e47db5ecbfa4daac93cfa2a2147cd5f42a78190b479809d59702acd83ee6e3a90ff1409f26339c259d873d6c117c6c5c9eb47198199d6eb3b7fc3
+Description: Locale files for netcat.
+
+Package: netcat
+Architecture: iphoneos-arm
+Version: 0.7.1
+Multi-Arch: foreign
+Priority: important
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 208
+Depends: gettext
+Filename: pool/main/iphoneos-arm64/1600/netcat_0.7.1_iphoneos-arm.deb
+Size: 21504
+MD5sum: b3976d4cd287d62c22b0745f58f102f4
+SHA1: 5b341a9a13db5eac6eb43f52534fed67023edb05
+SHA256: 223f6d8d9a10219491efee76b3134f909d2a7b3657a17e1729d7e68cdb42604a
+SHA512: 86e0340f92831b4a0b94cab10727bac5580308c8e4b96652242ba3c77f8949cd2df1f41019fd9c952081eef0d0f7acf69992db014e895665c186cf862492e40c
+Description: simple socket manipulation tool
+Tag: purpose::console, role::hacker
+
 Package: nettle
 Architecture: iphoneos-arm
 Version: 3.5.1
